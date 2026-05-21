@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-gray-800 antialiased;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-3xl font-bold tracking-tight text-gray-900 md:text-4xl;
+  }
+
+  .section-subtitle {
+    @apply mt-4 max-w-2xl text-lg text-gray-600;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-brand-500 px-6 py-3 text-base font-semibold text-white shadow-lg shadow-brand-500/25 transition hover:bg-brand-600 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border-2 border-white/30 bg-white/10 px-6 py-3 text-base font-semibold text-white backdrop-blur-sm transition hover:border-white/50 hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-transparent;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border-2 border-brand-500 px-6 py-3 text-base font-semibold text-brand-600 transition hover:bg-brand-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2;
+  }
+
+  .card {
+    @apply rounded-xl border border-gray-100 bg-white p-6 shadow-sm transition hover:shadow-md;
+  }
+
+  .social-card {
+    @apply group flex items-center gap-4 rounded-2xl p-6 text-white shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .social-card--instagram {
+    @apply bg-gradient-to-br from-[#833AB4] via-[#E1306C] to-[#F77737] focus:ring-pink-500;
+  }
+
+  .social-card--youtube {
+    @apply bg-[#FF0000] hover:bg-[#cc0000] focus:ring-red-500;
+  }
+
+  .social-card__icon {
+    @apply flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-white/20;
+  }
+
+  .social-card__label {
+    @apply block text-lg font-bold;
+  }
+
+  .social-card__handle {
+    @apply block text-sm text-white/90;
+  }
+
+  .social-card__cta {
+    @apply ml-auto shrink-0 rounded-full bg-white/20 px-4 py-2 text-sm font-semibold transition group-hover:bg-white/30;
+  }
+
+  .social-btn-icon {
+    @apply flex h-10 w-10 items-center justify-center rounded-full text-white shadow-md transition hover:scale-110 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .social-btn-icon--instagram {
+    @apply bg-gradient-to-br from-[#833AB4] to-[#E1306C] focus:ring-pink-500;
+  }
+
+  .social-btn-icon--youtube {
+    @apply bg-[#FF0000] focus:ring-red-500;
+  }
+
+  .trust-badge {
+    @apply inline-flex items-center gap-2 rounded-full border px-4 py-1.5 text-sm font-semibold;
+  }
+
+  .trust-badge--hero {
+    @apply border-emerald-400/40 bg-emerald-500/15 text-emerald-300;
+  }
+
+  .trust-badge--light {
+    @apply border-emerald-200 bg-emerald-50 text-emerald-800;
+  }
+
+  .trust-badge--cta {
+    @apply border-white/40 bg-white/15 text-white;
+  }
+
+  .trust-banner {
+    @apply flex flex-col items-center gap-4 rounded-2xl border-2 border-emerald-200 bg-gradient-to-br from-emerald-50 to-white p-6 text-center shadow-sm sm:flex-row sm:text-left lg:p-8;
+  }
+
+  .trust-banner__icon {
+    @apply flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-emerald-500 text-white shadow-sm;
+  }
+
+  .trust-banner__title {
+    @apply text-lg font-bold text-gray-900 md:text-xl;
+  }
+
+  .trust-banner__text {
+    @apply mt-1 text-sm text-gray-600 md:text-base;
+  }
+}
+
+/* Design de conversão — ver assets/css/theme.css */

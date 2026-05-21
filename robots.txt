@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://techdrone360.com.br/sitemap.xml

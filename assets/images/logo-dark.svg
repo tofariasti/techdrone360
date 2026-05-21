@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 44" fill="none" role="img" aria-label="TechDrone360">
+  <title>TechDrone360</title>
+  <g fill="#D97B4A">
+    <rect x="14" y="18" width="12" height="7" rx="1.5"/>
+    <line x1="8" y1="22" x2="4" y2="18" stroke="#D97B4A" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="34" y1="22" x2="38" y2="18" stroke="#D97B4A" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="8" y1="22" x2="4" y2="26" stroke="#D97B4A" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="34" y1="22" x2="38" y2="26" stroke="#D97B4A" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="4" cy="18" r="2.5"/><circle cx="38" cy="18" r="2.5"/>
+    <circle cx="4" cy="26" r="2.5"/><circle cx="38" cy="26" r="2.5"/>
+    <path d="M2 14c2-2 4-2 4-2M6 12c1-2 3-2 3-2" stroke="#D97B4A" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+    <path d="M36 14c-2-2-4-2-4-2M32 12c-1-2-3-2-3-2" stroke="#D97B4A" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+    <path d="M2 30c2 2 4 2 4 2M6 32c1 2 3 2 3 2" stroke="#D97B4A" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+    <path d="M36 30c-2 2-4 2-4 2M32 32c-1 2-3 2-3 2" stroke="#D97B4A" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+    <path d="M17 32h6v2h-6z"/>
+  </g>
+  <text x="48" y="29" font-family="Inter, system-ui, sans-serif" font-size="19" font-weight="800" letter-spacing="-0.03em" fill="#0a0f14">TechDrone360</text>
+</svg>
