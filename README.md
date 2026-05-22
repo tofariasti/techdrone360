@@ -156,12 +156,15 @@ O site usa `assets/css/output.css` — já incluído para funcionar sem build.
 
 ## Publicar
 
-Opções simples (arrastar pasta ou conectar repositório):
+### Hostinger (recomendado para este projeto)
+
+Plano **Single** ou **Premium** — guia completo: **[DEPLOY-HOSTINGER.md](DEPLOY-HOSTINGER.md)** (hPanel, SSL, FTP, `public_html`, testes e Search Console).
+
+### Outras opções
 
 - **Netlify** — arraste a pasta ou conecte o Git
 - **Vercel** — idem
 - **GitHub Pages** — publique a raiz do repositório
-- **Hostinger / cPanel** — envie todos os arquivos para `public_html`
 
 Após publicar, teste os botões de WhatsApp no celular.
 
