@@ -61,7 +61,6 @@
     applySeoMeta(cidade);
     applyEmailLink();
     renderSobre();
-    renderDepoimentos();
     renderRestricoesVoo();
     renderComoFunciona();
     renderFaq();
@@ -118,7 +117,6 @@
     renderDronePhotos();
     renderInstagramEmbeds();
     renderYoutubeVideos();
-    initPortfolioFilters();
   }
 
   function applySeoMeta(cidade) {
@@ -185,30 +183,6 @@
       </div>
       <div class="mt-10 lg:mt-0 flex justify-center">${foto}</div>
     `;
-  }
-
-  function renderDepoimentos() {
-    const grid = document.getElementById('depoimentos-grid');
-    const items = config.depoimentos || [];
-    if (!grid) return;
-
-    if (!items.length) {
-      grid.closest('section')?.classList.add('hidden');
-      return;
-    }
-
-    grid.innerHTML = items
-      .map(
-        (d) => `
-      <article class="testimonial-card reveal">
-        <p class="testimonial-card__text">${escapeHtml(d.texto || '')}</p>
-        <div class="testimonial-card__meta">
-          <p class="testimonial-card__author">${escapeHtml(d.autor || '')}</p>
-          ${d.servico ? `<p class="testimonial-card__servico">${escapeHtml(d.servico)}</p>` : ''}
-        </div>
-      </article>`
-      )
-      .join('');
   }
 
   function renderFaq() {
@@ -396,37 +370,6 @@
         },
       })),
     });
-  }
-
-  function initPortfolioFilters() {
-    const filters = document.getElementById('portfolio-filters');
-    const gallery = document.getElementById('portfolio-gallery');
-    if (!filters || !gallery) return;
-
-    const getItems = () =>
-      gallery.querySelectorAll('[data-portfolio-item], [data-portfolio-photo], [data-portfolio-video]');
-
-    const applyFilter = (cat) => {
-      getItems().forEach((el) => {
-        const itemCat = el.getAttribute('data-category') || 'imoveis';
-        const show = cat === 'all' || itemCat === cat;
-        el.classList.toggle('is-filtered-out', !show);
-      });
-
-      filters.querySelectorAll('[data-filter]').forEach((btn) => {
-        const active = btn.getAttribute('data-filter') === cat;
-        btn.classList.toggle('is-active', active);
-        btn.setAttribute('aria-selected', String(active));
-      });
-    };
-
-    filters.addEventListener('click', (e) => {
-      const btn = e.target.closest('[data-filter]');
-      if (!btn) return;
-      applyFilter(btn.getAttribute('data-filter') || 'all');
-    });
-
-    applyFilter('all');
   }
 
   function initAnalytics() {

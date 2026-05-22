@@ -491,6 +491,55 @@ video.hero__media,
   margin-right: auto;
 }
 
+/* —— Clientes —— */
+.clientes-logos {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  max-width: 52rem;
+  margin: 3rem auto 0;
+  padding: 0;
+  list-style: none;
+}
+
+.clientes-logos__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 5.75rem;
+  padding: 1.35rem 1.25rem;
+  border-radius: 1rem;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+}
+
+.clientes-logos__card--blend {
+  background: #ececec;
+}
+
+.clientes-logos__card--dark {
+  background: #111827;
+  border-color: #111827;
+}
+
+.clientes-logos__img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 3.25rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+.clientes-logos__card--blend .clientes-logos__img {
+  max-height: 3.5rem;
+}
+
+.clientes-logos__card--dark .clientes-logos__img {
+  max-height: 2.85rem;
+}
+
 /* —— Cards interativos —— */
 .card-interactive {
   position: relative;
@@ -1035,41 +1084,6 @@ video.hero__media,
 @keyframes float-wa {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-4px); }
-}
-
-/* —— Portfólio: filtros —— */
-.portfolio-filters {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-top: 2.5rem;
-}
-
-.portfolio-filters__btn {
-  border: 1px solid #e5e7eb;
-  border-radius: 9999px;
-  background: #fff;
-  padding: 0.45rem 1rem;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  color: #4b5563;
-  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
-}
-
-.portfolio-filters__btn:hover {
-  border-color: var(--brand-300);
-  color: var(--brand-600);
-}
-
-.portfolio-filters__btn.is-active {
-  border-color: var(--brand-500);
-  background: var(--brand-500);
-  color: #fff;
-}
-
-#portfolio-gallery [data-portfolio-item].is-filtered-out {
-  display: none;
 }
 
 /* —— Como funciona (timeline) —— */
@@ -1757,25 +1771,27 @@ video.hero__media,
     font-size: 0.6875rem;
   }
 
-  .portfolio-filters {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    overflow-x: auto;
-    overscroll-behavior-x: contain;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x proximity;
-    margin-top: 1.75rem;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 0.35rem;
+  .clientes-logos {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 18rem;
   }
 
-  .portfolio-filters__btn {
-    flex-shrink: 0;
-    min-height: 2.75rem;
-    scroll-snap-align: start;
+  .clientes-logos__card {
+    min-height: 5rem;
+    padding: 1.15rem 1rem;
+  }
+
+  .clientes-logos__img {
+    max-height: 2.75rem;
+  }
+
+  .clientes-logos__card--blend .clientes-logos__img {
+    max-height: 3rem;
+  }
+
+  .clientes-logos__card--dark .clientes-logos__img {
+    max-height: 2.5rem;
   }
 
   .faq-item {
