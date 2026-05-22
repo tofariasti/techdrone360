@@ -107,13 +107,13 @@ Obrigado!`,
       },
       {
         tipo: 'decea',
-        titulo: 'Autorização de voo (DECEA)',
+        titulo: 'Autorização de voo (SARPAS / DECEA)',
         texto:
-          'Quando o endereço exige, solicito a autorização no sistema da DECEA. O serviço só é confirmado após aprovação.',
+          'Toda captação a céu aberto é analisada no mapa e, quando a legislação exige, solicito autorização no SARPAS (sistema do DECEA). Em alguns locais isso leva dias de antecedência — por isso a data só é confirmada após aprovação.',
         destaque: true,
         link: {
-          label: 'Site DECEA',
-          url: 'https://www.decea.gov.br/',
+          label: 'SARPAS — DECEA',
+          url: 'https://servicos.decea.mil.br/sarpas',
         },
       },
       {
@@ -139,13 +139,52 @@ Obrigado!`,
     eyebrow: 'Segurança e legislação',
     titulo: 'Onde é proibido ou restrito voar com drone?',
     intro:
-      'Nem todo endereço permite captação aérea. Antes de agendar, verifico o local no mapa, as regras da ANAC/DECEA e se há necessidade de autorização. Assim você evita surpresas no dia da filmagem.',
+      'Nem todo endereço permite captação aérea. Antes de agendar, verifico o local no mapa, as regras da ANAC e do DECEA (incluindo autorização no SARPAS quando necessário). Assim você evita surpresas no dia da filmagem.',
+    avisoLegislacao: {
+      titulo: 'Planejamento obrigatório (regras em vigor)',
+      texto:
+        'A partir de 1º de julho de 2026, a ICA 100-40 do DECEA reforça que o acesso ao espaço aéreo — inclusive com drones leves em áreas urbanas — exige análise e, na maioria dos casos, solicitação prévia no SARPAS. Captações “de última hora” podem não ser possíveis no local desejado.',
+    },
     aviso:
       'Se o seu imóvel, obra ou evento estiver em zona restrita, busco ângulos permitidos, outro horário ou indico a melhor alternativa — sempre com segurança e dentro da lei.',
     destaqueCorresponsabilidade: {
       titulo: 'Corresponsabilidade de cliente e operador',
       texto:
-        'O cliente é corresponsável pela captação: deve informar o endereço com precisão, alinhar autorizações no condomínio, obra ou evento e colaborar quando o clima ou a legislação impedirem o voo. Devem ser respeitados os limites de altitude e a área de voo conforme a legislação vigente ou a aprovação da DECEA. O cumprimento das normas da ANAC, da DECEA e do espaço aéreo é obrigação de ambas as partes — não apenas do operador do drone.',
+        'O cliente é corresponsável pela captação: deve informar o endereço com precisão, alinhar autorizações no condomínio, obra ou evento e colaborar quando o clima ou a legislação impedirem o voo. Devem ser respeitados os limites de altitude, a distância de pessoas não envolvidas no projeto e a área de voo conforme a legislação vigente ou a aprovação da DECEA. Cumprir as normas da ANAC, do DECEA e do espaço aéreo é obrigação de ambas as partes.',
+    },
+    checklistCliente: {
+      titulo: 'O que você, como cliente, deve providenciar',
+      itens: [
+        'Endereço completo ou coordenadas do local da captação',
+        'Autorização do condomínio, construtora ou organizador do evento, quando aplicável',
+        'Informar se haverá público, vizinhos próximos ou operações sensíveis no entorno (heliponto, hospital, etc.)',
+        'Flexibilidade de data se o SARPAS ou o clima exigirem remarcação',
+      ],
+    },
+    consequencias: {
+      titulo: 'Consequências práticas para o seu projeto',
+      itens: [
+        {
+          titulo: 'Sem autorização, sem voo',
+          texto:
+            'Se o local não for aprovado no SARPAS ou não atender à legislação, a captação não é realizada naquele endereço/data — evitamos multas, apreensão do equipamento e risco para terceiros.',
+        },
+        {
+          titulo: 'Prazo e remarcação',
+          texto:
+            'Quando a autorização demora ou o clima impede o voo, reagendamos em comum acordo. Pedidos com pouca antecedência podem não caber no cronograma regulatório.',
+        },
+        {
+          titulo: 'Escopo do material',
+          texto:
+            'As imagens cobrem apenas o imóvel, obra ou área combinados. Uso em anúncios é conforme o orçamento; captação que exponha vizinhos ou áreas privadas alheias sem necessidade do projeto não faz parte do serviço.',
+        },
+        {
+          titulo: 'Operação irregular',
+          texto:
+            'Voar sem autorização quando ela é exigida, ou descumprir regras da ANAC/DECEA, pode gerar autuação, apreensão do drone e responsabilização civil — por isso o serviço profissional prioriza conformidade antes da câmera ligar.',
+        },
+      ],
     },
     itens: [
       {
@@ -164,7 +203,7 @@ Obrigado!`,
         tipo: 'pessoas',
         titulo: 'Sobre pessoas e multidões',
         texto:
-          'Voar diretamente sobre público em eventos, shows ou aglomerações exige planejamento e, em muitos casos, autorização e distâncias de segurança definidas em norma.',
+          'Em eventos e áreas residenciais densas, a legislação exige distância de segurança em relação a pessoas que não fazem parte do projeto (em geral, cerca de 30 m). Sobrevoo de plateia ou festa em condomínio exige planejamento e, muitas vezes, autorização específica.',
       },
       {
         tipo: 'noite',
@@ -176,7 +215,7 @@ Obrigado!`,
         tipo: 'altura',
         titulo: 'Acima do limite de altitude',
         texto:
-          'Há teto máximo de voo conforme categoria do drone e do tipo de operação. Altitudes maiores podem exigir habilitação e autorização adicionais.',
+          'Há teto máximo conforme o tipo de operação (em regra, até cerca de 120 m, ou menos se a autorização do DECEA definir outro limite). Altitudes maiores exigem categoria e documentação adicionais.',
       },
       {
         tipo: 'urbano',
@@ -186,9 +225,9 @@ Obrigado!`,
       },
       {
         tipo: 'privacidade',
-        titulo: 'Privacidade de vizinhos',
+        titulo: 'Privacidade e uso das imagens',
         texto:
-          'Não sobrevoamos quintais e janelas de forma invasiva. O foco é o seu empreendimento, fachada, terreno ou obra acordados no orçamento.',
+          'Não sobrevoamos quintais e janelas de forma invasiva. O foco é o seu empreendimento, fachada, terreno ou obra acordados. Para publicar fotos em que apareçam vizinhos ou terceiros identificáveis, o ideal é que o contratante também respeite LGPD e direito de imagem.',
       },
       {
         tipo: 'natureza',
@@ -211,8 +250,12 @@ Obrigado!`,
         url: 'https://www.gov.br/anac/pt-br/assuntos/drones',
       },
       {
-        label: 'DECEA — espaço aéreo',
-        url: 'https://www.decea.gov.br/',
+        label: 'SARPAS (DECEA)',
+        url: 'https://servicos.decea.mil.br/sarpas',
+      },
+      {
+        label: 'DECEA — portal UAS',
+        url: 'https://www.decea.mil.br/drone/',
       },
     ],
   },
@@ -227,7 +270,7 @@ Obrigado!`,
     {
       pergunta: 'O que vocês levam em consideração para fazer o orçamento?',
       resposta:
-        'Analiso o endereço e o tipo de serviço (imóvel, obra, evento ou empresa), a quantidade de fotos e/ou vídeos, se haverá edição, o tamanho da área a captar, deslocamento, restrições de voo no local, prazo de entrega e se precisa de nota fiscal. Com essas informações monto uma proposta clara pelo WhatsApp, sem compromisso.',
+        'Analiso o endereço e o tipo de serviço (imóvel, obra, evento ou empresa), a quantidade de fotos e/ou vídeos, se haverá edição, o tamanho da área a captar, deslocamento, necessidade de autorização SARPAS/DECEA no local, prazo de entrega e se precisa de nota fiscal. Com essas informações monto uma proposta clara pelo WhatsApp, sem compromisso.',
     },
     {
       pergunta: 'Em quanto tempo recebo as fotos e vídeos?',
@@ -247,7 +290,17 @@ Obrigado!`,
     {
       pergunta: 'Quem é responsável por cumprir a legislação do drone?',
       resposta:
-        'Cliente e operador são corresponsáveis. Você colabora com informações corretas do local, autorizações na propriedade ou no evento e com remarcações quando necessário; eu planejo e executo o voo conforme ANAC, DECEA e regras do espaço aéreo, respeitando limites de altitude e área de voo previstos na legislação ou na aprovação da DECEA. Cumprir essas regras é obrigação de ambas as partes.',
+        'Cliente e operador são corresponsáveis. Você colabora com informações corretas do local, autorizações na propriedade ou no evento e com remarcações quando necessário; eu planejo e executo o voo conforme ANAC, DECEA (SARPAS quando aplicável) e regras do espaço aéreo, respeitando limites de altitude, distância de pessoas e área de voo previstos na legislação ou na aprovação emitida. Cumprir essas regras é obrigação de ambas as partes.',
+    },
+    {
+      pergunta: 'Posso pedir a captação para amanhã ou no mesmo dia?',
+      resposta:
+        'Em muitos locais não. Quando o endereço exige autorização no SARPAS, o processo pode levar dias. Por isso, quanto antes você enviar o endereço e o tipo de serviço, maior a chance de confirmar data e horário sem imprevisto.',
+    },
+    {
+      pergunta: 'E se o DECEA não autorizar o voo no meu endereço?',
+      resposta:
+        'A captação não é feita sem autorização quando ela é obrigatória. Busco alternativas: outro dia, outro ângulo permitido ou indicação honesta de que o local não permite voo naquele momento. O combinado financeiro segue o que foi acordado no orçamento (remarcação ou cancelamento conforme o caso).',
     },
     {
       pergunta: 'E se chover ou ventar muito no dia agendado?',

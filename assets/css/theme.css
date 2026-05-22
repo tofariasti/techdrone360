@@ -1356,6 +1356,127 @@ video.hero__media,
   color: #374151;
 }
 
+.restricao-legislacao {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  max-width: 48rem;
+  margin: 2rem auto 0;
+  padding: 1.15rem 1.35rem;
+  border-radius: 0.75rem;
+  border: 1px solid #bfdbfe;
+  background: linear-gradient(135deg, #eff6ff, #fff);
+  color: #1e3a5f;
+}
+
+.restricao-legislacao__icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.restricao-legislacao__title {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1e3a8a;
+}
+
+.restricao-legislacao__text {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: #334155;
+}
+
+.restricao-checklist {
+  max-width: 42rem;
+  margin: 2rem auto 0;
+  padding: 1.25rem 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.restricao-checklist__title {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.restricao-checklist__list {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+.restricao-checklist__list li {
+  margin-top: 0.45rem;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: #4b5563;
+}
+
+.restricao-checklist__list li:first-child {
+  margin-top: 0;
+}
+
+.restricao-consequencias {
+  max-width: 52rem;
+  margin: 2.5rem auto 0;
+}
+
+.restricao-consequencias__title {
+  margin: 0 0 1rem;
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.restricao-consequencias__grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .restricao-consequencias__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.restricao-consequencias__item {
+  padding: 1.15rem 1.25rem;
+  border-radius: 0.875rem;
+  border: 1px solid #fecaca;
+  background: linear-gradient(135deg, #fff5f5, #fff);
+}
+
+.restricao-consequencias__item-title {
+  margin: 0 0 0.4rem;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #991b1b;
+}
+
+.restricao-consequencias__item-text {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.55;
+  color: #4b5563;
+}
+
 .restricao-aviso {
   display: flex;
   gap: 1rem;
@@ -1870,6 +1991,20 @@ video.hero__media,
     text-align: center;
     align-items: center;
     padding: 1.15rem 1.1rem;
+  }
+
+  .restricao-legislacao {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .restricao-checklist {
+    padding: 1.1rem 1.15rem;
+  }
+
+  .restricao-consequencias__title {
+    font-size: 1.125rem;
   }
 
   .restricao-aviso {

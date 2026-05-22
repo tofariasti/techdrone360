@@ -342,12 +342,62 @@
       </aside>`
         : '';
 
+    const avisoLeg = data.avisoLegislacao;
+    const avisoLegHtml =
+      avisoLeg?.texto
+        ? `
+      <aside class="restricao-legislacao reveal" role="note">
+        <span class="restricao-legislacao__icon" aria-hidden="true">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        </span>
+        <div>
+          ${avisoLeg.titulo ? `<p class="restricao-legislacao__title">${escapeHtml(avisoLeg.titulo)}</p>` : ''}
+          <p class="restricao-legislacao__text">${escapeHtml(avisoLeg.texto)}</p>
+        </div>
+      </aside>`
+        : '';
+
+    const checklist = data.checklistCliente;
+    const checklistHtml =
+      checklist?.itens?.length
+        ? `
+      <div class="restricao-checklist reveal">
+        <h3 class="restricao-checklist__title">${escapeHtml(checklist.titulo || '')}</h3>
+        <ul class="restricao-checklist__list">
+          ${checklist.itens
+            .map((item) => `<li>${escapeHtml(item)}</li>`)
+            .join('')}
+        </ul>
+      </div>`
+        : '';
+
+    const consequencias = data.consequencias;
+    const consequenciasHtml =
+      consequencias?.itens?.length
+        ? `
+      <div class="restricao-consequencias reveal">
+        <h3 class="restricao-consequencias__title">${escapeHtml(consequencias.titulo || '')}</h3>
+        <div class="restricao-consequencias__grid">
+          ${consequencias.itens
+            .map(
+              (item) => `
+            <article class="restricao-consequencias__item">
+              <h4 class="restricao-consequencias__item-title">${escapeHtml(item.titulo || '')}</h4>
+              <p class="restricao-consequencias__item-text">${escapeHtml(item.texto || '')}</p>
+            </article>`
+            )
+            .join('')}
+        </div>
+      </div>`
+        : '';
+
     container.innerHTML = `
       <div class="section-header reveal">
         <p class="section-eyebrow">${escapeHtml(data.eyebrow || 'Legislação')}</p>
         <h2 class="section-title mt-2">${escapeHtml(data.titulo || '')}</h2>
         <p class="section-hook mx-auto">${escapeHtml(data.intro || '')}</p>
       </div>
+      ${avisoLegHtml}
       ${destaqueHtml}
       <div class="restricao-aviso reveal">
         <span class="restricao-aviso__icon" aria-hidden="true">
@@ -355,7 +405,9 @@
         </span>
         <p>${escapeHtml(data.aviso || '')}</p>
       </div>
+      ${checklistHtml}
       <div class="restricao-grid mt-10">${cards}</div>
+      ${consequenciasHtml}
       ${
         data.notaLegal
           ? `<p class="restricao-nota reveal">${escapeHtml(data.notaLegal)}</p>`
