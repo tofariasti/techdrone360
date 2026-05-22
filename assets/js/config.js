@@ -90,6 +90,128 @@ Obrigado!`,
     },
   ],
 
+  // Como funciona — etapas do processo (ordem exibida no site)
+  comoFunciona: {
+    titulo: 'Como funciona',
+    subtitulo: 'Processo simples, do primeiro contato à entrega do material',
+    passos: [
+      {
+        tipo: 'contato',
+        titulo: 'Você entra em contato',
+        texto: 'Me chama pelo WhatsApp e conta o que precisa',
+      },
+      {
+        tipo: 'alinhamento',
+        titulo: 'Alinhamos o objetivo',
+        texto: 'Definimos local, tipo de captação, duração e formato',
+      },
+      {
+        tipo: 'decea',
+        titulo: 'Autorização de voo (DECEA)',
+        texto:
+          'Quando o endereço exige, solicito a autorização no sistema da DECEA. O serviço só é confirmado após aprovação.',
+        destaque: true,
+        link: {
+          label: 'Site DECEA',
+          url: 'https://www.decea.gov.br/',
+        },
+      },
+      {
+        tipo: 'captura',
+        titulo: 'Realizo as imagens',
+        texto: 'Fotos e vídeos aéreos com segurança e planejamento',
+      },
+      {
+        tipo: 'edicao',
+        titulo: 'Edição',
+        texto: 'Conforme combinado: material editado ou bruto',
+      },
+      {
+        tipo: 'entrega',
+        titulo: 'Entrego o material',
+        texto: 'Você recebe os arquivos no formato acordado',
+      },
+    ],
+  },
+
+  // Onde é proibido ou restrito voar — transparência para o cliente
+  restricoesVoo: {
+    eyebrow: 'Segurança e legislação',
+    titulo: 'Onde é proibido ou restrito voar com drone?',
+    intro:
+      'Nem todo endereço permite captação aérea. Antes de agendar, verifico o local no mapa, as regras da ANAC/DECEA e se há necessidade de autorização. Assim você evita surpresas no dia da filmagem.',
+    aviso:
+      'Se o seu imóvel, obra ou evento estiver em zona restrita, busco ângulos permitidos, outro horário ou indico a melhor alternativa — sempre com segurança e dentro da lei.',
+    itens: [
+      {
+        tipo: 'aeroporto',
+        titulo: 'Perto de aeroportos e helipontos',
+        texto:
+          'Proximidade de aeródromos, pistas e rotas de aproximação — zonas de restrição (NFZ) definidas pelo controle de tráfego aéreo. Distâncias mínimas variam conforme o local.',
+      },
+      {
+        tipo: 'militar',
+        titulo: 'Áreas militares e de segurança',
+        texto:
+          'Bases, quartéis, presídios, tribunais, palácios governamentais e instalações críticas costumam ter voo proibido ou sujeito a autorização específica.',
+      },
+      {
+        tipo: 'pessoas',
+        titulo: 'Sobre pessoas e multidões',
+        texto:
+          'Voar diretamente sobre público em eventos, shows ou aglomerações exige planejamento e, em muitos casos, autorização e distâncias de segurança definidas em norma.',
+      },
+      {
+        tipo: 'noite',
+        titulo: 'À noite e com baixa visibilidade',
+        texto:
+          'Voos noturnos e com neblina, chuva forte ou vento intenso são restritos ou inviáveis. A captação é remarcada quando o clima não oferece segurança.',
+      },
+      {
+        tipo: 'altura',
+        titulo: 'Acima do limite de altitude',
+        texto:
+          'Há teto máximo de voo conforme categoria do drone e do tipo de operação. Altitudes maiores podem exigir habilitação e autorização adicionais.',
+      },
+      {
+        tipo: 'urbano',
+        titulo: 'Centros urbanos densos',
+        texto:
+          'Em áreas muito povoadas o voo pode ser limitado ou exigir análise de risco, seguro e eventual comunicação às autoridades, conforme a operação.',
+      },
+      {
+        tipo: 'privacidade',
+        titulo: 'Privacidade de vizinhos',
+        texto:
+          'Não sobrevoamos quintais e janelas de forma invasiva. O foco é o seu empreendimento, fachada, terreno ou obra acordados no orçamento.',
+      },
+      {
+        tipo: 'natureza',
+        titulo: 'Unidades de conservação e fauna',
+        texto:
+          'Parques, reservas e regiões com proteção ambiental ou de animais podem exigir consulta prévia ou proibir sobrevoo — cada caso é analisado.',
+      },
+      {
+        tipo: 'autorizacao',
+        titulo: 'Propriedade privada sem alinhamento',
+        texto:
+          'Mesmo com seu pedido, respeitamos limites do condomínio, incorporadora ou espaço aéreo de terceiros. Captamos apenas o que estiver autorizado para o projeto.',
+      },
+    ],
+    notaLegal:
+      'Resumo informativo para clientes. Regras detalhadas estão na regulamentação da ANAC (RBAC-E e normas de drones) e no espaço aéreo controlado pela DECEA. A operação concreta depende do local, do equipamento e do tipo de serviço.',
+    links: [
+      {
+        label: 'ANAC — drones',
+        url: 'https://www.gov.br/anac/pt-br/assuntos/drones',
+      },
+      {
+        label: 'DECEA — espaço aéreo',
+        url: 'https://www.decea.gov.br/',
+      },
+    ],
+  },
+
   // FAQ — edite perguntas e respostas conforme seu negócio
   faq: [
     {
@@ -108,9 +230,9 @@ Obrigado!`,
         'O foco é Porto Alegre e toda a região metropolitana (Canoas, Gravataí, Viamão, Novo Hamburgo, entre outras). Para outras cidades do RS, consulte disponibilidade pelo WhatsApp.',
     },
     {
-      pergunta: 'O voo com drone é legal? Vocês têm registro na ANAC?',
+      pergunta: 'O voo com drone é legal? Onde não pode voar?',
       resposta:
-        'As captações seguem a legislação vigente, com planejamento prévio, respeito às restrições do local e às condições climáticas. Operações são realizadas com responsabilidade e equipamento homologado. Para voos em áreas especiais ou empresas que exigem documentação, informe no orçamento.',
+        'Sim, quando planejado conforme a legislação. Há locais proibidos ou restritos (aeroportos, áreas militares, sobre multidões, condições climáticas ruins, etc.). Veja a seção “Onde é proibido voar” nesta página e, no orçamento, informe o endereço exato para eu validar o local antes do agendamento.',
     },
     {
       pergunta: 'E se chover ou ventar muito no dia agendado?',

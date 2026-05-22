@@ -62,6 +62,8 @@
     applyEmailLink();
     renderSobre();
     renderDepoimentos();
+    renderRestricoesVoo();
+    renderComoFunciona();
     renderFaq();
     applyFaqSchema();
 
@@ -228,6 +230,153 @@
       </details>`
       )
       .join('');
+  }
+
+  function getComoPassoIcon(tipo) {
+    const icons = {
+      contato:
+        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>',
+      alinhamento:
+        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>',
+      decea:
+        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>',
+      captura:
+        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/>',
+      edicao:
+        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/>',
+      entrega:
+        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>',
+    };
+    const path = icons[tipo] || icons.alinhamento;
+    return `<svg class="como-passo__icon-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">${path}</svg>`;
+  }
+
+  function renderComoFunciona() {
+    const container = document.getElementById('como-funciona-content');
+    const data = config.comoFunciona;
+    if (!container || !data) return;
+
+    const passos = data.passos || [];
+    if (!passos.length) return;
+
+    const steps = passos
+      .map((passo, index) => {
+        const n = index + 1;
+        const link = passo.link
+          ? `<a href="${escapeHtml(passo.link.url)}" target="_blank" rel="noopener noreferrer" class="como-passo__link">${escapeHtml(passo.link.label)}</a>`
+          : '';
+        const destaque = passo.destaque ? ' como-passo--destaque' : '';
+        const isLast = index === passos.length - 1;
+
+        return `
+      <li class="como-passo reveal${destaque}${isLast ? ' como-passo--last' : ''}">
+        <div class="como-passo__rail" aria-hidden="true">
+          <span class="como-passo__node">
+            <span class="como-passo__num">${n}</span>
+            <span class="como-passo__icon">${getComoPassoIcon(passo.tipo)}</span>
+          </span>
+        </div>
+        <div class="como-passo__card">
+          <h3 class="como-passo__title">${escapeHtml(passo.titulo || '')}</h3>
+          <p class="como-passo__text">${escapeHtml(passo.texto || '')}</p>
+          ${link}
+        </div>
+      </li>`;
+      })
+      .join('');
+
+    container.innerHTML = `
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Do pedido à entrega</p>
+        <h2 class="section-title mt-2">${escapeHtml(data.titulo || 'Como funciona')}</h2>
+        <p class="section-hook mx-auto">${escapeHtml(data.subtitulo || '')}</p>
+      </div>
+      <div class="como-process reveal">
+        <ol class="como-passos">${steps}</ol>
+      </div>
+    `;
+  }
+
+  function getRestricaoIcon(tipo) {
+    const icons = {
+      aeroporto:
+        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>',
+      militar:
+        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>',
+      pessoas:
+        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>',
+      noite:
+        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>',
+      altura:
+        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12"/>',
+      urbano:
+        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>',
+      privacidade:
+        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>',
+      natureza:
+        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>',
+      autorizacao:
+        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>',
+    };
+    const path = icons[tipo] || icons.autorizacao;
+    return `<svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">${path}</svg>`;
+  }
+
+  function renderRestricoesVoo() {
+    const container = document.getElementById('restricoes-voo-content');
+    const data = config.restricoesVoo;
+    if (!container || !data) return;
+
+    const itens = data.itens || [];
+    if (!itens.length) {
+      document.getElementById('restricoes-voo')?.classList.add('hidden');
+      return;
+    }
+
+    const cards = itens
+      .map(
+        (item) => `
+      <article class="restricao-card reveal">
+        <span class="restricao-card__icon" aria-hidden="true">
+          ${getRestricaoIcon(item.tipo)}
+        </span>
+        <h3 class="restricao-card__title">${escapeHtml(item.titulo || '')}</h3>
+        <p class="restricao-card__text">${escapeHtml(item.texto || '')}</p>
+      </article>`
+      )
+      .join('');
+
+    const links = (data.links || [])
+      .map(
+        (link) =>
+          `<a href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer" class="restricao-links__item">${escapeHtml(link.label)} →</a>`
+      )
+      .join('');
+
+    container.innerHTML = `
+      <div class="section-header reveal">
+        <p class="section-eyebrow">${escapeHtml(data.eyebrow || 'Legislação')}</p>
+        <h2 class="section-title mt-2">${escapeHtml(data.titulo || '')}</h2>
+        <p class="section-hook mx-auto">${escapeHtml(data.intro || '')}</p>
+      </div>
+      <div class="restricao-aviso reveal">
+        <span class="restricao-aviso__icon" aria-hidden="true">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </span>
+        <p>${escapeHtml(data.aviso || '')}</p>
+      </div>
+      <div class="restricao-grid mt-10">${cards}</div>
+      ${
+        data.notaLegal
+          ? `<p class="restricao-nota reveal">${escapeHtml(data.notaLegal)}</p>`
+          : ''
+      }
+      ${links ? `<div class="restricao-links reveal">${links}</div>` : ''}
+      <div class="mt-10 text-center reveal">
+        <p class="text-gray-600 mb-4">Envie o endereço da captação e eu verifico se o local permite voo.</p>
+        <a href="#orcamento" data-whatsapp data-whatsapp-source="restricoes_voo" class="btn-primary btn-glow">Consultar meu endereço</a>
+      </div>
+    `;
   }
 
   function applyFaqSchema() {

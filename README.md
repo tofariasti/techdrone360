@@ -41,7 +41,7 @@ Edite **[`assets/js/config.js`](assets/js/config.js)** antes de publicar:
 | `googleAnalyticsId` | ID GA4 (ex: `G-XXXXXXXX`) — vazio = desativado |
 | `cidadeRegiao` | Cidade/região de atendimento |
 | `ogImage` | Imagem para redes sociais (recomendado 1200×630) |
-| `sobre` / `depoimentos` / `faq` | Conteúdo das seções de confiança e SEO |
+| `sobre` / `depoimentos` / `faq` / `restricoesVoo` | Conteúdo das seções de confiança, legislação e SEO |
 | `instagram` / `instagramUrl` | @ e link do perfil |
 | `youtube` / `youtubeUrl` | Canal YouTube (ex: `https://www.youtube.com/@techdrone360`) |
 | `modeloDji` | Modelo do drone (ex: DJI Mini 4 Pro) |
