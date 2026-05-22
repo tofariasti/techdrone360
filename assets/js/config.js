@@ -11,7 +11,7 @@ const TechDroneConfig = {
 
 Para agilizar o atendimento, poderia me informar:
 
-1. Tipo de serviço: (imóvel / obra / evento / empresa / turismo / inspeção / outro)
+1. Tipo de serviço: (imóvel / Airbnb / parque ou destino / hotel / obra / evento / empresa / inspeção / outro)
 2. O que precisa: (fotos / vídeo / fotos + vídeo)
 3. Local da captação (cidade e endereço ou referência):
 4. Data ou período desejado:
@@ -30,6 +30,65 @@ Obrigado!`,
 
   // Versão curta para título do hero (evita quebras estranhas)
   cidadeHero: 'Porto Alegre e região',
+
+  // Destaque no topo — drone x Google Street View (dúvida frequente)
+  destaqueStreetView: {
+    eyebrow: 'Dúvida frequente',
+    titulo: 'Por que contratar captação com drone em vez do Google Street View?',
+    intro:
+      'O Street View ajuda a localizar um endereço na rua. Quem vai reservar, comprar ou visitar quer sentir o lugar de verdade — e isso vale para imóvel, Airbnb, parque, hotel, evento ou destino turístico.',
+    segmentosTitulo: 'O drone vai muito além do mapa',
+    segmentosIntro:
+      'Sempre que você precisa vender uma experiência, um espaço ou um lugar — não só “achar a rua” — a captação aérea profissional faz diferença:',
+    segmentos: [
+      {
+        titulo: 'Imóveis e loteamentos',
+        texto: 'Terreno, fachada, vizinhança e potencial da área — o que o comprador não vê na foto da fachada.',
+      },
+      {
+        titulo: 'Airbnb e temporada',
+        texto: 'Casa, chalé ou apartamento com entorno, acesso e “clima” do bairro; anúncio que reduz dúvida e aumenta reservas.',
+      },
+      {
+        titulo: 'Parques, resorts e destinos',
+        texto: 'Trilhas, áreas de lazer, estrutura do empreendimento e escala do local para campanhas e redes sociais.',
+      },
+      {
+        titulo: 'Hotéis, pousadas e turismo',
+        texto: 'Convide o visitante a “estar lá” antes da viagem — vídeo e fotos para site, Booking e Instagram.',
+      },
+      {
+        titulo: 'Eventos e empresas',
+        texto: 'Festas, shows, lançamentos e sedes com ângulos que transmitem tamanho, público e profissionalismo.',
+      },
+      {
+        titulo: 'Obras e incorporações',
+        texto: 'Evolução da construção e visão do empreendimento para investidor e comprador.',
+      },
+    ],
+    streetView: {
+      titulo: 'Google Street View',
+      itens: [
+        'Fotos antigas, na altura de um carro',
+        'Ângulo fixo da rua — igual para todo mundo',
+        'Não transmite “quero ficar aqui” nem “quero ir lá”',
+        'Sem vídeo, sem campanha e sem material exclusivo',
+      ],
+    },
+    drone: {
+      titulo: 'Captação com drone',
+      itens: [
+        'Lugar como está hoje — clima, entorno e diferenciais reais',
+        'Fotos e vídeo em alta resolução para anúncio e redes',
+        'Ângulos pensados para reserva, venda ou divulgação',
+        'Conteúdo único do seu imóvel, negócio ou destino',
+      ],
+    },
+    conclusao:
+      'Resumo: o mapa mostra a rua; o drone mostra por que alguém escolhe o seu imóvel, a sua hospedagem, o seu parque ou o seu evento.',
+    ctaTexto: 'Quero orçamento de captação',
+    ctaSource: 'destaque_street_view',
+  },
 
   // SEO — imagem para compartilhamento (1200×630 recomendado; use foto aérea real)
   ogImage: 'assets/images/hero-poster.jpg',
@@ -308,9 +367,19 @@ Obrigado!`,
         'A segurança da operação vem primeiro. Se o clima não permitir voo, reagendamos sem custo adicional, em comum acordo com o cliente.',
     },
     {
+      pergunta: 'Por que contratar filmagem com drone se posso usar imagens do Google Street View?',
+      resposta:
+        'O Street View serve para localizar o endereço na rua — não para vender uma experiência. Com drone você mostra imóvel, Airbnb, parque, hotel ou evento como estão hoje: entorno, escala, clima do lugar, fotos e vídeo para anúncio e redes. O comparativo e exemplos de uso (hospedagem, turismo, parques etc.) estão em destaque no início da página.',
+    },
+    {
+      pergunta: 'Serve para anúncio de Airbnb, Booking ou promoção de parque e destino?',
+      resposta:
+        'Sim. Para hospedagem, o hóspede quer ver a propriedade e o entorno — rua, vista, acesso e “sensação” do bairro — não só fotos do interior. Para parques, resorts e atrativos, o vídeo aéreo mostra escala, áreas de lazer e diferenciais que uma foto no chão não comunica. Entregamos material em alta resolução para anúncio, site, redes e campanhas, conforme combinado no orçamento.',
+    },
+    {
       pergunta: 'Posso usar as imagens em portais imobiliários e anúncios?',
       resposta:
-        'Sim. O uso para divulgação do seu imóvel, obra ou empresa é combinado no orçamento. Para campanhas amplas ou licenciamento estendido, detalhamos na proposta.',
+        'Sim. O uso para divulgação do seu imóvel, Airbnb, hotel, parque, obra ou empresa é combinado no orçamento. Para campanhas amplas ou licenciamento estendido, detalhamos na proposta.',
     },
     {
       pergunta: 'Vocês emitem nota fiscal?',

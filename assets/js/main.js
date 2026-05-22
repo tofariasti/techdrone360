@@ -61,6 +61,7 @@
     applySeoMeta(cidade);
     applyEmailLink();
     renderSobre();
+    renderDestaqueStreetView();
     renderRestricoesVoo();
     renderComoFunciona();
     renderFaq();
@@ -183,6 +184,65 @@
       </div>
       <div class="mt-10 lg:mt-0 flex justify-center">${foto}</div>
     `;
+  }
+
+  function renderDestaqueStreetView() {
+    const container = document.getElementById('destaque-drone-content');
+    const data = config.destaqueStreetView;
+    const section = document.getElementById('destaque-drone');
+    if (!container || !data) return;
+
+    const renderCol = (col, mod) => {
+      if (!col?.itens?.length) return '';
+      return `
+        <div class="destaque-drone__col destaque-drone__col--${mod}">
+          <h3 class="destaque-drone__col-title">${escapeHtml(col.titulo || '')}</h3>
+          <ul class="destaque-drone__list">
+            ${col.itens.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}
+          </ul>
+        </div>`;
+    };
+
+    const segmentos = data.segmentos || [];
+    const segmentosHtml =
+      segmentos.length
+        ? `
+        <div class="destaque-drone__segmentos">
+          ${data.segmentosTitulo ? `<h3 class="destaque-drone__segmentos-title">${escapeHtml(data.segmentosTitulo)}</h3>` : ''}
+          ${data.segmentosIntro ? `<p class="destaque-drone__segmentos-intro">${escapeHtml(data.segmentosIntro)}</p>` : ''}
+          <div class="destaque-drone__segmentos-grid">
+            ${segmentos
+              .map(
+                (seg) => `
+              <article class="destaque-drone__segmento">
+                <h4 class="destaque-drone__segmento-title">${escapeHtml(seg.titulo || '')}</h4>
+                <p class="destaque-drone__segmento-text">${escapeHtml(seg.texto || '')}</p>
+              </article>`
+              )
+              .join('')}
+          </div>
+        </div>`
+        : '';
+
+    const ctaSource = data.ctaSource || 'destaque_street_view';
+    container.innerHTML = `
+      <div class="destaque-drone__inner reveal">
+        <p class="destaque-drone__eyebrow">${escapeHtml(data.eyebrow || 'Dúvida frequente')}</p>
+        <h2 id="destaque-drone-title" class="destaque-drone__title">${escapeHtml(data.titulo || '')}</h2>
+        <p class="destaque-drone__intro">${escapeHtml(data.intro || '')}</p>
+        ${segmentosHtml}
+        <div class="destaque-drone__compare">
+          ${renderCol(data.streetView, 'map')}
+          ${renderCol(data.drone, 'drone')}
+        </div>
+        <p class="destaque-drone__conclusao">${escapeHtml(data.conclusao || '')}</p>
+        <div class="destaque-drone__cta">
+          <a href="#orcamento" data-whatsapp data-whatsapp-source="${escapeHtml(ctaSource)}" class="btn-primary btn-glow">${escapeHtml(data.ctaTexto || 'Solicitar orçamento')}</a>
+        </div>
+      </div>
+    `;
+
+    if (section) section.classList.remove('hidden');
   }
 
   function renderFaq() {

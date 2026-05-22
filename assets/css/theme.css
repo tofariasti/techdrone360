@@ -403,12 +403,217 @@ video.hero__media,
   50% { transform: translateY(6px); }
 }
 
+/* —— Destaque drone x Street View (topo) —— */
+.destaque-drone {
+  position: relative;
+  z-index: 25;
+  padding: 2.5rem 0 2rem;
+  background: linear-gradient(180deg, #fff 0%, #f9fafb 100%);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.destaque-drone__eyebrow {
+  display: inline-block;
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brand-600);
+}
+
+.destaque-drone__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 4vw, 1.75rem);
+  font-weight: 800;
+  line-height: 1.25;
+  color: #111827;
+  text-wrap: balance;
+}
+
+.destaque-drone__intro {
+  margin: 0.85rem 0 0;
+  max-width: 42rem;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+.destaque-drone__segmentos {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.destaque-drone__segmentos-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.destaque-drone__segmentos-intro {
+  margin: 0.5rem 0 0;
+  max-width: 40rem;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: #6b7280;
+}
+
+.destaque-drone__segmentos-grid {
+  display: grid;
+  gap: 0.85rem;
+  margin-top: 1.25rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .destaque-drone__segmentos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .destaque-drone__segmentos-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.destaque-drone__segmento {
+  padding: 1rem 1.1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.destaque-drone__segmento:hover {
+  border-color: var(--brand-200, #f5d5c4);
+  box-shadow: 0 4px 14px rgba(232, 149, 106, 0.1);
+}
+
+.destaque-drone__segmento-title {
+  margin: 0 0 0.35rem;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--brand-700, #c45f2a);
+}
+
+.destaque-drone__segmento-text {
+  margin: 0;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #4b5563;
+}
+
+.destaque-drone__compare {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+@media (min-width: 768px) {
+  .destaque-drone__compare {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+  }
+}
+
+.destaque-drone__col {
+  padding: 1.25rem 1.35rem;
+  border-radius: 1rem;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.destaque-drone__col--map {
+  border-color: #d1d5db;
+  background: #f9fafb;
+}
+
+.destaque-drone__col--drone {
+  border-color: var(--brand-300, #f0c4a8);
+  background: linear-gradient(135deg, var(--brand-50), #fff);
+  box-shadow: 0 8px 24px rgba(232, 149, 106, 0.12);
+}
+
+.destaque-drone__col-title {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.destaque-drone__col--drone .destaque-drone__col-title {
+  color: var(--brand-700, #c45f2a);
+}
+
+.destaque-drone__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.destaque-drone__list li {
+  position: relative;
+  padding-left: 1.35rem;
+  margin-top: 0.5rem;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: #374151;
+}
+
+.destaque-drone__list li:first-child {
+  margin-top: 0;
+}
+
+.destaque-drone__col--map .destaque-drone__list li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+  color: #9ca3af;
+}
+
+.destaque-drone__col--drone .destaque-drone__list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+  color: var(--brand-600);
+}
+
+.destaque-drone__conclusao {
+  margin: 1.5rem 0 0;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  border-left: 4px solid var(--brand-500);
+  background: var(--brand-50);
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #1f2937;
+}
+
+.destaque-drone__cta {
+  margin-top: 1.35rem;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .destaque-drone__cta {
+    text-align: left;
+  }
+}
+
 /* —— Proof strip —— */
 .proof-strip {
   position: relative;
   z-index: 20;
-  margin-top: -2rem;
-  padding: 0 1rem 0;
+  margin-top: 0;
+  padding: 1.5rem 1rem 0;
 }
 
 .proof-strip__inner {
@@ -1916,8 +2121,16 @@ video.hero__media,
     display: none;
   }
 
+  .destaque-drone {
+    padding: 2rem 0 1.5rem;
+  }
+
+  .destaque-drone__compare {
+    margin-top: 1.25rem;
+  }
+
   .proof-strip {
-    margin-top: -0.75rem;
+    margin-top: 0;
     padding: 0 0.75rem;
   }
 
