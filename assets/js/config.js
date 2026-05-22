@@ -142,6 +142,11 @@ Obrigado!`,
       'Nem todo endereço permite captação aérea. Antes de agendar, verifico o local no mapa, as regras da ANAC/DECEA e se há necessidade de autorização. Assim você evita surpresas no dia da filmagem.',
     aviso:
       'Se o seu imóvel, obra ou evento estiver em zona restrita, busco ângulos permitidos, outro horário ou indico a melhor alternativa — sempre com segurança e dentro da lei.',
+    destaqueCorresponsabilidade: {
+      titulo: 'Corresponsabilidade de cliente e operador',
+      texto:
+        'O cliente é corresponsável pela captação: deve informar o endereço com precisão, alinhar autorizações no condomínio, obra ou evento e colaborar quando o clima ou a legislação impedirem o voo. Devem ser respeitados os limites de altitude e a área de voo conforme a legislação vigente ou a aprovação da DECEA. O cumprimento das normas da ANAC, da DECEA e do espaço aéreo é obrigação de ambas as partes — não apenas do operador do drone.',
+    },
     itens: [
       {
         tipo: 'aeroporto',
@@ -199,7 +204,7 @@ Obrigado!`,
       },
     ],
     notaLegal:
-      'Resumo informativo para clientes. Regras detalhadas estão na regulamentação da ANAC (RBAC-E e normas de drones) e no espaço aéreo controlado pela DECEA. A operação concreta depende do local, do equipamento e do tipo de serviço.',
+      'Resumo informativo para clientes. Regras detalhadas estão na regulamentação da ANAC (RBAC-E e normas de drones) e no espaço aéreo controlado pela DECEA, incluindo limites de altitude e área de voo definidos em lei ou em autorização emitida. A operação concreta depende do local, do equipamento e do tipo de serviço. A corresponsabilidade não substitui consulta jurídica em casos específicos.',
     links: [
       {
         label: 'ANAC — drones',
@@ -238,6 +243,11 @@ Obrigado!`,
       pergunta: 'O voo com drone é legal? Onde não pode voar?',
       resposta:
         'Sim, quando planejado conforme a legislação. Há locais proibidos ou restritos (aeroportos, áreas militares, sobre multidões, condições climáticas ruins, etc.). Veja a seção “Onde é proibido voar” nesta página e, no orçamento, informe o endereço exato para eu validar o local antes do agendamento.',
+    },
+    {
+      pergunta: 'Quem é responsável por cumprir a legislação do drone?',
+      resposta:
+        'Cliente e operador são corresponsáveis. Você colabora com informações corretas do local, autorizações na propriedade ou no evento e com remarcações quando necessário; eu planejo e executo o voo conforme ANAC, DECEA e regras do espaço aéreo, respeitando limites de altitude e área de voo previstos na legislação ou na aprovação da DECEA. Cumprir essas regras é obrigação de ambas as partes.',
     },
     {
       pergunta: 'E se chover ou ventar muito no dia agendado?',
