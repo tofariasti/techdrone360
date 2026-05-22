@@ -220,6 +220,11 @@ Obrigado!`,
         'O valor depende do local, do tipo de material (fotos, vídeo ou pacote), da complexidade e do prazo de entrega. Envie os detalhes pelo WhatsApp e receba um orçamento personalizado, sem compromisso.',
     },
     {
+      pergunta: 'O que vocês levam em consideração para fazer o orçamento?',
+      resposta:
+        'Analiso o endereço e o tipo de serviço (imóvel, obra, evento ou empresa), a quantidade de fotos e/ou vídeos, se haverá edição, o tamanho da área a captar, deslocamento, restrições de voo no local, prazo de entrega e se precisa de nota fiscal. Com essas informações monto uma proposta clara pelo WhatsApp, sem compromisso.',
+    },
+    {
       pergunta: 'Em quanto tempo recebo as fotos e vídeos?',
       resposta:
         'Fotos em alta resolução costumam ser entregues em poucos dias úteis após a captação. Vídeos editados seguem o prazo combinado no orçamento — geralmente entre 3 e 10 dias úteis, conforme a complexidade da edição.',
