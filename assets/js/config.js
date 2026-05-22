@@ -111,6 +111,64 @@ Obrigado!`,
   // Modelo do drone DJI utilizado
   modeloDji: 'DJI Mini 4 Pro',
 
+  // Seção #equipamento — características e benefícios para o cliente
+  equipamento: {
+    intro:
+      'Trabalho com o {{modelo}}: drone compacto da linha profissional DJI, pensado para imagem de alto nível em locais urbanos, condomínios, obras, eventos e destinos turísticos — sem abrir mão de segurança e estabilidade.',
+    caracteristicas: [
+      {
+        titulo: 'Vídeo 4K HDR e fotos de alta resolução',
+        spec: 'Gravação em 4K HDR (até 60 fps) e fotos em até 48 MP',
+        beneficio:
+          'Anúncios, portais e redes com imagem nítida — o comprador ou hóspede enxerga detalhes do imóvel, do entorno e do empreendimento com clareza profissional.',
+      },
+      {
+        titulo: 'Lente rápida e HDR',
+        spec: 'Abertura f/1.0 e gravação HDR / 10 bits (D-Log M)',
+        beneficio:
+          'Melhor desempenho no fim da tarde e em céu nublado: cores mais vivas e material que “chama clique” sem parecer amador.',
+      },
+      {
+        titulo: 'Gimbal de 3 eixos',
+        spec: 'Estabilização mecânica na câmera',
+        beneficio:
+          'Vídeos fluidos, sem tremor — sensação cinematográfica que passa confiança em imóveis, hotéis, parques e vídeos institucionais.',
+      },
+      {
+        titulo: 'Modo vertical para redes',
+        spec: 'Captação nativa em formato vertical',
+        beneficio:
+          'Conteúdo pronto para Instagram, Reels, Stories e anúncios mobile, sem perder qualidade cortando vídeo horizontal.',
+      },
+      {
+        titulo: 'Sensores omnidirecionais',
+        spec: 'Detecção de obstáculos em várias direções',
+        beneficio:
+          'Mais segurança perto de prédios, árvores e estruturas — essencial em condomínios, obras e eventos com público.',
+      },
+      {
+        titulo: 'Autonomia de voo',
+        spec: 'Até cerca de 34 minutos por bateria (condições ideais)',
+        beneficio:
+          'Mais ângulos e tomadas na mesma visita, com menos interrupção — você recebe variedade de imagens no pacote combinado.',
+      },
+      {
+        titulo: 'Compacto e ágil',
+        spec: 'Menos de 249 g — fácil de transportar e posicionar',
+        beneficio:
+          'Ideal para quintais, terrenos, áreas de lazer e locais com acesso limitado; setup rápido sem equipamento pesado no seu espaço.',
+      },
+      {
+        titulo: 'Homologado Anatel',
+        spec: 'Equipamento regularizado para uso no Brasil',
+        beneficio:
+          'Tranquilidade em contratação formal: operação alinhada à exigência de equipamento homologado, junto ao planejamento de voo e legislação aplicável.',
+      },
+    ],
+    nota:
+      'As entregas (resolução final, fotos, vídeo, edição) são definidas no orçamento. O equipamento garante a base técnica; o planejamento do voo e a pós-produção definem o resultado que você vai publicar.',
+  },
+
   // Sobre — personalize com seu nome e história
   sobre: {
     titulo: 'Quem faz as captações',

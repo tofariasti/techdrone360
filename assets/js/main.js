@@ -64,6 +64,7 @@
     renderDestaqueStreetView();
     renderRestricoesVoo();
     renderComoFunciona();
+    renderEquipamento();
     renderFaq();
     applyFaqSchema();
 
@@ -657,6 +658,43 @@
       .join('');
 
     gallery.insertAdjacentHTML('afterbegin', markup);
+  }
+
+  function renderEquipamento() {
+    const introEl = document.getElementById('equipamento-intro');
+    const specsEl = document.getElementById('equipamento-specs');
+    const data = config.equipamento;
+    if (!data || (!introEl && !specsEl)) return;
+
+    const modelo = config.modeloDji || 'DJI Mini 4 Pro';
+    if (introEl) {
+      const intro = (data.intro || '').replace(/\{\{modelo\}\}/g, modelo);
+      introEl.innerHTML = intro
+        ? escapeHtml(intro).replace(
+            escapeHtml(modelo),
+            `<span data-modelo-dji>${escapeHtml(modelo)}</span>`
+          )
+        : '';
+    }
+
+    const specs = data.caracteristicas || [];
+    if (specsEl && specs.length) {
+      specsEl.innerHTML = `
+        <div class="equipamento-specs__grid">
+          ${specs
+            .map(
+              (item) => `
+            <article class="equipamento-spec reveal">
+              <h3 class="equipamento-spec__title">${escapeHtml(item.titulo || '')}</h3>
+              ${item.spec ? `<p class="equipamento-spec__tech">${escapeHtml(item.spec)}</p>` : ''}
+              <p class="equipamento-spec__benefit">${escapeHtml(item.beneficio || '')}</p>
+            </article>`
+            )
+            .join('')}
+        </div>
+        ${data.nota ? `<p class="equipamento-specs__nota">${escapeHtml(data.nota)}</p>` : ''}`;
+    }
+
   }
 
   function renderDronePhotos() {
