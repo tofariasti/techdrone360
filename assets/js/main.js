@@ -174,6 +174,19 @@
       .map((d) => `<li>${escapeHtml(d)}</li>`)
       .join('');
 
+    const portfolio = sobre.portfolio;
+    const portfolioHtml =
+      portfolio?.url
+        ? `
+        <div class="sobre-portfolio reveal">
+          <p class="sobre-portfolio__text">${escapeHtml(portfolio.texto || '')}</p>
+          <a href="${escapeHtml(portfolio.url)}" class="sobre-portfolio__link" target="_blank" rel="noopener noreferrer">
+            <span class="sobre-portfolio__label">${escapeHtml(portfolio.linkTexto || portfolio.url)}</span>
+            <span class="sobre-portfolio__arrow" aria-hidden="true">→</span>
+          </a>
+        </div>`
+        : '';
+
     container.innerHTML = `
       <div class="text-center lg:text-left">
         <p class="section-eyebrow">${escapeHtml(sobre.titulo || 'Sobre')}</p>
@@ -181,6 +194,7 @@
         <p class="mt-2 text-lg font-medium text-brand-600">${escapeHtml(sobre.subtitulo || '')}</p>
         <p class="section-subtitle mt-4">${escapeHtml(sobre.texto || '')}</p>
         ${destaques ? `<ul class="sobre-destaques">${destaques}</ul>` : ''}
+        ${portfolioHtml}
         <a href="#orcamento" data-whatsapp data-whatsapp-source="sobre" class="btn-primary mt-8">Conversar sobre meu projeto</a>
       </div>
       <div class="mt-10 lg:mt-0 flex justify-center">${foto}</div>

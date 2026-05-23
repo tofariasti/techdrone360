@@ -181,6 +181,12 @@ Obrigado!`,
       'Portfólio com empreendimentos reais na região',
       'Atendimento direto pelo WhatsApp',
     ],
+    portfolio: {
+      url: 'https://tofariasti.github.io/',
+      texto:
+        'Também mantenho meu portfólio profissional com trajetória em tecnologia e na operação de drone — útil se você quiser conhecer mais sobre quem está por trás da TechDrone360.',
+      linkTexto: 'tofariasti.github.io',
+    },
     // Foto sua (opcional) — ex: assets/images/sobre.jpg
     foto: '',
   },
