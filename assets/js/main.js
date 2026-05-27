@@ -538,11 +538,35 @@
       (e) => {
         const link = e.target.closest('[data-whatsapp]');
         if (!link || typeof gtag !== 'function') return;
+        if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+
+        const href = link.href || '';
+        if (!/wa\.me/i.test(href)) return;
+
+        e.preventDefault();
+
         const source = link.getAttribute('data-whatsapp-source') || 'site';
+        const openInNewTab = link.getAttribute('target') === '_blank';
+        let opened = false;
+
+        const openWhatsApp = () => {
+          if (opened) return;
+          opened = true;
+          if (openInNewTab) {
+            window.open(href, '_blank', 'noopener,noreferrer');
+          } else {
+            window.location.href = href;
+          }
+        };
+
         gtag('event', 'click_whatsapp', {
           event_category: 'lead',
           event_label: source,
+          transport_type: 'beacon',
+          event_callback: openWhatsApp,
+          event_timeout: 2000,
         });
+        setTimeout(openWhatsApp, 2000);
       },
       true
     );
