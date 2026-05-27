@@ -53,6 +53,7 @@ Envie **apenas o que o site precisa** para `public_html` (raiz do domínio).
 
 ```
 index.html
+.htaccess               (bloqueia /leads/ e /scripts/ se forem parar no servidor)
 robots.txt
 sitemap.xml
 assets/          (css, js, images, video, data)
@@ -67,9 +68,12 @@ package.json
 tailwind.config.js
 assets/css/input.css    (só desenvolvimento; o site usa output.css)
 scripts/                (sync Instagram/YouTube — rodar no Mac, depois subir assets atualizados)
+leads/                  (prospecção interna — e-mails e contatos; NUNCA publicar)
 README.md
 DEPLOY-HOSTINGER.md
 ```
+
+**Importante:** a pasta `leads/` contém dados comerciais sensíveis. O ideal é **não enviá-la** ao servidor. Se usar deploy Git para `public_html` (clone do repositório inteiro), envie pelo menos o `.htaccess` da raiz — ele retorna **403** para `/leads/` e `/scripts/`.
 
 O site já usa `assets/css/output.css` compilado — **não precisa** rodar `npm` na Hostinger.
 
@@ -78,6 +82,7 @@ O site já usa `assets/css/output.css` compilado — **não precisa** rodar `npm
 ```
 public_html/
 ├── index.html
+├── .htaccess
 ├── robots.txt
 ├── sitemap.xml
 └── assets/
@@ -140,6 +145,7 @@ Abra no celular e no desktop:
 | Menu mobile | abre, fecha, links âncora | ☐ |
 | `robots.txt` | `https://techdrone360.com.br/robots.txt` | ☐ |
 | `sitemap.xml` | `https://techdrone360.com.br/sitemap.xml` | ☐ |
+| `/leads/` bloqueado | `https://techdrone360.com.br/leads/` → **403** (ou 404) | ☐ |
 
 ### Compartilhamento (Open Graph)
 
@@ -184,6 +190,7 @@ Não é obrigatório para o site funcionar.
 | YouTube não carrega | Normal em `file://`; em produção com HTTPS deve funcionar |
 | OG com imagem errada | Confirme `hero-poster.jpg` no servidor; use Sharing Debugger |
 | Domínio não abre | Aguarde DNS; confira nameservers ou registro A |
+| `/leads/` abre no navegador | Apague a pasta do servidor; suba `.htaccess` da raiz; confira se `mod_rewrite` está ativo |
 
 ---
 

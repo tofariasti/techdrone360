@@ -168,6 +168,8 @@ Plano **Single** ou **Premium** — guia completo: **[DEPLOY-HOSTINGER.md](DEPLO
 
 Após publicar, teste os botões de WhatsApp no celular.
 
+A pasta **`leads/`** é só para uso local (prospecção por e-mail). **Não publique** em produção; o `.htaccess` na raiz bloqueia `/leads/` no Apache caso a pasta seja enviada por engano.
+
 ## Checklist antes do ar
 
 - [ ] Número e mensagem do WhatsApp em `config.js`
@@ -179,6 +181,7 @@ Após publicar, teste os botões de WhatsApp no celular.
 - [ ] (Opcional) Preencher `googleAnalyticsId` em `config.js`
 - [ ] Personalizar `sobre`, `depoimentos` e `faq` em `config.js`
 - [ ] Imagem `assets/images/hero-poster.jpg` para hero e compartilhamento (OG)
+- [ ] `.htaccess` na raiz do servidor; pasta `leads/` fora de `public_html` (ou teste 403 em `/leads/`)
 
 ## Licença
 

@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /leads/
+Disallow: /scripts/
 
 Sitemap: https://techdrone360.com.br/sitemap.xml

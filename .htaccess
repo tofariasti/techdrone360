@@ -1,0 +1,14 @@
+# TechDrone360 — pastas e arquivos que não devem ser públicos em produção
+# (Apache / Hostinger; inclua este arquivo na raiz de public_html)
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^leads(/.*)?$ - [F,L]
+  RewriteRule ^scripts(/.*)?$ - [F,L]
+  RewriteRule ^node_modules(/.*)?$ - [F,L]
+</IfModule>
+
+# Bloqueia listagem de diretórios na raiz (se o servidor permitir Options)
+<IfModule mod_autoindex.c>
+  Options -Indexes
+</IfModule>
