@@ -23,7 +23,7 @@ Obrigado!`,
   whatsappRastrearOrigem: true,
 
   // Google Analytics 4 — preencha o ID (ex: G-XXXXXXXXXX) ou deixe vazio para desativar
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'G-P5H2B88DE0',
 
   // Cidade e região de atendimento (SEO, footer e textos longos)
   cidadeRegiao: 'Porto Alegre e toda a região metropolitana',
