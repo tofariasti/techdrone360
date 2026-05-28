@@ -4,6 +4,8 @@
   "description": "Landing page TechDrone360 - fotos e vídeos aéreos com drone",
   "scripts": {
     "build:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --minify",
+    "build:seo": "node scripts/build-seo.mjs",
+    "build": "npm run build:css && npm run build:seo",
     "watch:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch"
   },
   "devDependencies": {

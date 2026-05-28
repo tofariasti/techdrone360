@@ -67,6 +67,7 @@
     renderEquipamento();
     renderFaq();
     applyFaqSchema();
+    applyLocalBusinessSchema(cidade);
 
     document.querySelectorAll('[data-whatsapp]').forEach((el) => {
       const source = el.getAttribute('data-whatsapp-source') || 'site';
@@ -93,27 +94,6 @@
       ogTitle.setAttribute('content', `TechDrone360 | Fotos e vídeos aéreos em ${cidade}`);
     }
 
-    const schemaEl = document.getElementById('schema-local-business');
-    if (schemaEl && config.siteUrl) {
-      try {
-        const schema = JSON.parse(schemaEl.textContent);
-        schema.areaServed = cidade;
-        schema.description = metaDesc?.getAttribute('content') || schema.description;
-        if (config.whatsappNumero) {
-          schema.telephone = `+${config.whatsappNumero}`;
-        }
-        const sameAs = [];
-        if (config.instagramUrl) sameAs.push(config.instagramUrl);
-        if (config.youtubeUrl) sameAs.push(config.youtubeUrl);
-        if (sameAs.length) schema.sameAs = sameAs;
-        const ogImg = config.ogImage || config.heroPoster;
-        if (ogImg) schema.image = absoluteUrl(ogImg);
-        schemaEl.textContent = JSON.stringify(schema);
-      } catch (_) {
-        /* ignore */
-      }
-    }
-
     applyHeroMedia();
     renderPortfolioPhotos();
     renderDronePhotos();
@@ -123,7 +103,7 @@
 
   function applySeoMeta(cidade) {
     const site = (config.siteUrl || '').replace(/\/$/, '');
-    const ogImage = absoluteUrl(config.ogImage || config.heroPoster || 'assets/images/hero-poster.jpg');
+    const ogImage = absoluteUrl(config.ogImage || config.heroPoster || 'assets/images/og-social.jpg');
 
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical && site) canonical.href = `${site}/`;
@@ -131,6 +111,13 @@
     document.querySelectorAll('meta[property="og:image"], meta[name="twitter:image"]').forEach((el) => {
       el.setAttribute('content', ogImage);
     });
+
+    const ogW = config.ogImageWidth || 1200;
+    const ogH = config.ogImageHeight || 630;
+    const ogWidthEl = document.querySelector('meta[property="og:image:width"]');
+    const ogHeightEl = document.querySelector('meta[property="og:image:height"]');
+    if (ogWidthEl) ogWidthEl.setAttribute('content', String(ogW));
+    if (ogHeightEl) ogHeightEl.setAttribute('content', String(ogH));
 
     const ogDesc = document.querySelector('meta[property="og:description"]');
     if (ogDesc && cidade) {
@@ -260,6 +247,62 @@
     if (section) section.classList.remove('hidden');
   }
 
+  function applyLocalBusinessSchema(cidade) {
+    const schemaEl = document.getElementById('schema-local-business');
+    const local = config.seoLocal || {};
+    if (!schemaEl || !config.siteUrl) return;
+
+    try {
+      const schema = JSON.parse(schemaEl.textContent);
+      const metaDesc = document.querySelector('meta[name="description"]');
+      const site = (config.siteUrl || '').replace(/\/$/, '');
+
+      schema['@id'] = `${site}/#localbusiness`;
+      schema.description = metaDesc?.getAttribute('content') || schema.description;
+      if (config.whatsappNumero) {
+        schema.telephone = `+${config.whatsappNumero}`;
+      }
+
+      const sameAs = [];
+      if (config.instagramUrl) sameAs.push(config.instagramUrl);
+      if (config.youtubeUrl) sameAs.push(config.youtubeUrl);
+      if (sameAs.length) schema.sameAs = sameAs;
+
+      const ogImg = config.ogImage || config.heroPoster;
+      if (ogImg) schema.image = absoluteUrl(ogImg);
+
+      const locality = local.addressLocality || 'Porto Alegre';
+      const region = local.addressRegion || 'RS';
+      const country = local.addressCountry || 'BR';
+      schema.address = {
+        '@type': 'PostalAddress',
+        ...(local.streetAddress ? { streetAddress: local.streetAddress } : {}),
+        addressLocality: locality,
+        addressRegion: region,
+        addressCountry: country,
+        ...(local.postalCode ? { postalCode: local.postalCode } : {}),
+      };
+
+      const lat = local.geo?.latitude;
+      const lng = local.geo?.longitude;
+      if (lat != null && lng != null) {
+        schema.geo = { '@type': 'GeoCoordinates', latitude: lat, longitude: lng };
+        const radius = local.geoRadiusMeters || 50000;
+        schema.areaServed = {
+          '@type': 'GeoCircle',
+          geoMidpoint: { '@type': 'GeoCoordinates', latitude: lat, longitude: lng },
+          geoRadius: radius,
+        };
+      } else if (cidade) {
+        schema.areaServed = cidade;
+      }
+
+      schemaEl.textContent = JSON.stringify(schema);
+    } catch (_) {
+      /* ignore */
+    }
+  }
+
   function renderFaq() {
     const list = document.getElementById('faq-list');
     const items = config.faq || [];
@@ -267,6 +310,10 @@
 
     if (!items.length) {
       document.getElementById('faq')?.classList.add('hidden');
+      return;
+    }
+
+    if (list.dataset.seoPrerendered === 'true' && list.querySelector('[data-faq-item]')) {
       return;
     }
 
@@ -500,6 +547,9 @@
     const schemaEl = document.getElementById('schema-faq');
     const items = config.faq || [];
     if (!schemaEl || !items.length) return;
+    if (schemaEl.dataset.seoPrerendered === 'true' && schemaEl.textContent.trim().startsWith('{')) {
+      return;
+    }
 
     schemaEl.textContent = JSON.stringify({
       '@context': 'https://schema.org',

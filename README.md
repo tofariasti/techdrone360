@@ -150,6 +150,8 @@ Se tiver Node.js e npm instalados:
 npm install
 npm run watch:css   # desenvolvimento
 npm run build:css   # produção (minificado)
+npm run build:seo   # FAQ estático + JSON-LD + og-social.jpg (após editar faq em config.js)
+npm run build       # CSS + SEO
 ```
 
 O site usa `assets/css/output.css` — já incluído para funcionar sem build.
@@ -180,7 +182,8 @@ A pasta **`leads/`** é só para uso local (prospecção por e-mail). **Não pub
 - [ ] Atualizar `canonical` e `siteUrl` em `index.html` / `config.js` com seu domínio
 - [ ] (Opcional) Preencher `googleAnalyticsId` em `config.js`
 - [ ] Personalizar `sobre`, `depoimentos` e `faq` em `config.js`
-- [ ] Imagem `assets/images/hero-poster.jpg` para hero e compartilhamento (OG)
+- [ ] `npm run build:seo` após alterar FAQ em `config.js` (gera HTML + `og-social.jpg`)
+- [ ] Imagem `assets/images/hero-poster.jpg` (hero) e `og-social.jpg` (compartilhamento 1200×630)
 - [ ] `.htaccess` na raiz do servidor; pasta `leads/` fora de `public_html` (ou teste 403 em `/leads/`)
 
 ## Licença

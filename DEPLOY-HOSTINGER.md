@@ -12,6 +12,7 @@ Guia passo a passo para publicar a landing estática no plano **Single** ou **Pr
 | Plano **Single** ou **Premium** (não precisa VPS) | ☐ |
 | WhatsApp, cidade e links em `assets/js/config.js` revisados | ☐ |
 | `siteUrl` em `config.js` = `https://techdrone360.com.br` | ☐ |
+| `npm run build:seo` se alterou FAQ ou SEO local em `config.js` | ☐ |
 | Vídeo `assets/video/hero.mp4` otimizado (ideal &lt; 5 MB) | ☐ |
 | Imagem `assets/images/hero-poster.jpg` (1200×630) para hero e redes | ☐ |
 | Fotos reais no portfólio (`assets/images/instagram/` ou JSON) | ☐ |
@@ -53,10 +54,10 @@ Envie **apenas o que o site precisa** para `public_html` (raiz do domínio).
 
 ```
 index.html
-.htaccess               (bloqueia /leads/ e /scripts/ se forem parar no servidor)
+.htaccess               (HTTPS, www→apex, bloqueia /leads/ e /scripts/)
 robots.txt
 sitemap.xml
-assets/          (css, js, images, video, data)
+assets/          (css, js, images incl. og-social.jpg, video, data)
 ```
 
 ### Não enviar (não são necessários em produção)
@@ -126,7 +127,7 @@ public_html/
 
 No hPanel, defina o domínio principal (`techdrone360.com.br` ou `www`).
 
-Recomendação: **principal sem www** (`https://techdrone360.com.br/`) e redirecionar `www` → sem www (ou o contrário, desde que seja **um só** — já está assim no `canonical` do `index.html`).
+Recomendação: **principal sem www** (`https://techdrone360.com.br/`). O `.htaccess` do projeto já redireciona `www` → sem www (301). Confira também no hPanel que o domínio principal está sem `www`.
 
 ---
 
@@ -199,9 +200,11 @@ Não é obrigatório para o site funcionar.
 | Arquivo | Conteúdo |
 |---------|----------|
 | `assets/js/config.js` | `siteUrl`, WhatsApp, GA4, textos |
-| `index.html` | `canonical`, meta OG/Twitter |
-| `sitemap.xml` | URL principal |
+| `index.html` | `canonical`, meta OG/Twitter, FAQ estático |
+| `assets/images/og-social.jpg` | Imagem OG 1200×630 (`npm run build:seo`) |
+| `sitemap.xml` | URL principal + `lastmod` |
 | `robots.txt` | Aponta para o sitemap |
+| `.htaccess` | HTTPS, `www`→apex, bloqueio `/leads/` |
 
 Domínio já configurado no projeto: **https://techdrone360.com.br**
 

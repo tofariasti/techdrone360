@@ -90,8 +90,24 @@ Obrigado!`,
     ctaSource: 'destaque_street_view',
   },
 
-  // SEO — imagem para compartilhamento (1200×630 recomendado; use foto aérea real)
-  ogImage: 'assets/images/hero-poster.jpg',
+  // SEO — imagem para compartilhamento (1200×630; gerada por npm run build:seo)
+  ogImage: 'assets/images/og-social.jpg',
+  ogImageWidth: 1200,
+  ogImageHeight: 630,
+
+  // SEO local — área de atendimento (complementa Google Business Profile)
+  seoLocal: {
+    addressLocality: 'Porto Alegre',
+    addressRegion: 'RS',
+    addressCountry: 'BR',
+    postalCode: '',
+    streetAddress: '',
+    geo: {
+      latitude: -30.0346,
+      longitude: -51.2177,
+    },
+    geoRadiusMeters: 50000,
+  },
 
   // Credibilidade — emissão de nota fiscal (defina false para ocultar)
   emiteNotaFiscal: true,
