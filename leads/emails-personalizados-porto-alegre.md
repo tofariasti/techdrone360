@@ -45,7 +45,7 @@ O Street View ajuda a **localizar o endereço na rua** — fotos antigas, na alt
 
 Já realizei captações para **Auxiliadora Predial**, **Ápice Incorporadora** e **Clipes Imóveis** na região.
 
-Trabalho com DJI Mini 4 Pro, planejamento conforme ANAC/DECEA (SARPAS quando o endereço exige) e emissão de nota fiscal pelo serviço de captação contratado. Site e portfólio: [https://techdrone360.com.br/](https://techdrone360.com.br/) | Instagram e YouTube na assinatura.
+Trabalho com DJI Mini 3, planejamento conforme ANAC/DECEA (SARPAS quando o endereço exige) e emissão de nota fiscal pelo serviço de captação contratado. Site e portfólio: [https://techdrone360.com.br/](https://techdrone360.com.br/) | Instagram e YouTube na assinatura.
 
 **Responda SIM** a este e-mail (ou me chame no WhatsApp) informando o endereço ou link de 1 anúncio que vocês queiram priorizar — em até 2 dias úteis envio proposta fechada, sem compromisso.
 
@@ -83,7 +83,7 @@ O Street View ajuda a **localizar o endereço na rua** — fotos antigas, na alt
 
 Já realizei captações para **Auxiliadora Predial**, **Ápice Incorporadora** e **Clipes Imóveis** na região.
 
-Operação com DJI Mini 4 Pro, análise de voo/SARPAS quando necessário. Emito nota fiscal pelo serviço de captação contratado. Veja trabalhos em [https://techdrone360.com.br/](https://techdrone360.com.br/) e nas redes (assinatura).
+Operação com DJI Mini 3, análise de voo/SARPAS quando necessário. Emito nota fiscal pelo serviço de captação contratado. Veja trabalhos em [https://techdrone360.com.br/](https://techdrone360.com.br/) e nas redes (assinatura).
 
 **Responda SIM** com o link de 1 imóvel em carteira (ou o endereço) que vocês queiram testar — mando escopo e investimento fechados em até 2 dias úteis.
 
@@ -121,7 +121,7 @@ O Street View ajuda a **localizar o endereço na rua** — fotos antigas, na alt
 
 Já realizei captações para **Auxiliadora Predial**, **Ápice Incorporadora** e **Clipes Imóveis** na região.
 
-DJI Mini 4 Pro, conformidade ANAC/DECEA. Emito nota fiscal pelo serviço de captação contratado. Site: [https://techdrone360.com.br/](https://techdrone360.com.br/) — portfólio também no Instagram e YouTube (assinatura).
+DJI Mini 3, conformidade ANAC/DECEA. Emito nota fiscal pelo serviço de captação contratado. Site: [https://techdrone360.com.br/](https://techdrone360.com.br/) — portfólio também no Instagram e YouTube (assinatura).
 
 **Responda SIM** indicando qual imóvel priorizar (bairro ou link do anúncio) — envio proposta objetiva em até 2 dias úteis.
 
@@ -159,7 +159,7 @@ O Street View ajuda a **localizar o endereço na rua** — fotos antigas, na alt
 
 Já realizei captações para **Auxiliadora Predial**, **Ápice Incorporadora** e **Clipes Imóveis** na região.
 
-Captação com DJI Mini 4 Pro, SARPAS/DECEA quando o local exige. Emito nota fiscal pelo serviço de captação contratado. Entrega em até 5 dias úteis. Site e trabalhos: [https://techdrone360.com.br/](https://techdrone360.com.br/) (redes na assinatura).
+Captação com DJI Mini 3, SARPAS/DECEA quando o local exige. Emito nota fiscal pelo serviço de captação contratado. Entrega em até 5 dias úteis. Site e trabalhos: [https://techdrone360.com.br/](https://techdrone360.com.br/) (redes na assinatura).
 
 **Responda SIM** com endereço ou link de 1 imóvel — proposta com valor fechado em até 2 dias úteis, sem compromisso.
 
@@ -196,7 +196,7 @@ O Street View **não substitui** comunicação de obra: não mostra evolução d
 
 Já realizei captações para **Auxiliadora Predial**, **Ápice Incorporadora** e **Clipes Imóveis** na região.
 
-Entregáveis típicos: fotos em alta resolução, vídeo editado (30–90s), prazo conforme pacote (fotos em poucos dias; vídeo até ~10 dias úteis se edição mais elaborada). Operação com DJI Mini 4 Pro, planejamento SARPAS/DECEA no endereço da obra. Emito nota fiscal pelo serviço de captação contratado.
+Entregáveis típicos: fotos em alta resolução, vídeo editado (30–90s), prazo conforme pacote (fotos em poucos dias; vídeo até ~10 dias úteis se edição mais elaborada). Operação com DJI Mini 3, planejamento SARPAS/DECEA no endereço da obra. Emito nota fiscal pelo serviço de captação contratado.
 
 Site e portfólio: [https://techdrone360.com.br/](https://techdrone360.com.br/) | [https://www.instagram.com/techdrone360](https://www.instagram.com/techdrone360) | [https://www.youtube.com/@techdrone360](https://www.youtube.com/@techdrone360)
 
@@ -235,7 +235,7 @@ O Street View **não substitui** comunicação de obra: não mostra evolução d
 
 Já realizei captações para **Auxiliadora Predial**, **Ápice Incorporadora** e **Clipes Imóveis** na região.
 
-Incluo validação do endereço no SARPAS/DECEA quando obrigatório, DJI Mini 4 Pro. Emito nota fiscal pelo serviço de captação contratado. Exemplos em [https://techdrone360.com.br/](https://techdrone360.com.br/) e nas redes (assinatura).
+Incluo validação do endereço no SARPAS/DECEA quando obrigatório, DJI Mini 3. Emito nota fiscal pelo serviço de captação contratado. Exemplos em [https://techdrone360.com.br/](https://techdrone360.com.br/) e nas redes (assinatura).
 
 **Responda SIM** com a obra que querem priorizar — proposta pontual + mensal em até 2 dias úteis.
 
@@ -273,7 +273,7 @@ O Street View **não substitui** comunicação de obra: não mostra evolução d
 
 Já realizei captações para **Auxiliadora Predial**, **Ápice Incorporadora** e **Clipes Imóveis** na região.
 
-DJI Mini 4 Pro, SARPAS/DECEA quando aplicável. Emito nota fiscal pelo serviço de captação contratado. Site e portfólio: [https://techdrone360.com.br/](https://techdrone360.com.br/) (redes na assinatura).
+DJI Mini 3, SARPAS/DECEA quando aplicável. Emito nota fiscal pelo serviço de captação contratado. Site e portfólio: [https://techdrone360.com.br/](https://techdrone360.com.br/) (redes na assinatura).
 
 **Responda SIM** com endereço ou nome da obra — proposta sem compromisso em até 2 dias úteis.
 
@@ -311,7 +311,7 @@ O hóspede usa o mapa para **achar a rua** — mas reserva quem **se imagina no 
 
 Já realizei captações para **Auxiliadora Predial**, **Ápice Incorporadora** e **Clipes Imóveis** na região.
 
-DJI Mini 4 Pro, análise SARPAS/DECEA no endereço do hotel. Emito nota fiscal pelo serviço de captação contratado. Site e trabalhos: [https://techdrone360.com.br/](https://techdrone360.com.br/) | [https://www.instagram.com/techdrone360](https://www.instagram.com/techdrone360) | [https://www.youtube.com/@techdrone360](https://www.youtube.com/@techdrone360)
+DJI Mini 3, análise SARPAS/DECEA no endereço do hotel. Emito nota fiscal pelo serviço de captação contratado. Site e trabalhos: [https://techdrone360.com.br/](https://techdrone360.com.br/) | [https://www.instagram.com/techdrone360](https://www.instagram.com/techdrone360) | [https://www.youtube.com/@techdrone360](https://www.youtube.com/@techdrone360)
 
 Se o assunto for com marketing/comercial, podem encaminhar este e-mail internamente — estou à disposição.
 
@@ -343,7 +343,7 @@ Sei que reservas não costuma contratar fotografia — por isso este contato é 
 - **Drone x Street View:** o mapa localiza a rua; o drone mostra o hotel **hoje**, com fotos e vídeo **exclusivos** para vender a reserva (Street View é genérico e não substitui campanha).
 - **Referências na região:** Auxiliadora Predial, Ápice Incorporadora e Clipes Imóveis.
 - Entrega típica: fotos HD + vídeo vertical para Reels; prazo ~5–7 dias úteis após captação.
-- Operador local, DJI Mini 4 Pro, SARPAS/DECEA quando necessário. Emito nota fiscal pelo serviço de captação contratado.
+- Operador local, DJI Mini 3, SARPAS/DECEA quando necessário. Emito nota fiscal pelo serviço de captação contratado.
 - Site: [https://techdrone360.com.br/](https://techdrone360.com.br/) | Instagram: [https://www.instagram.com/techdrone360](https://www.instagram.com/techdrone360) | YouTube: [https://www.youtube.com/@techdrone360](https://www.youtube.com/@techdrone360) | [https://techdrone360.com.br/](https://techdrone360.com.br/)
 
 **Peço que encaminhem** este e-mail para quem cuida de marketing. Se preferirem, passem meu WhatsApp: (51) 98903-0405 — [https://wa.me/5551989030405](https://wa.me/5551989030405)
@@ -381,7 +381,7 @@ O hóspede usa o mapa para **achar a rua** — mas reserva quem **se imagina no 
 
 Já realizei captações para **Auxiliadora Predial**, **Ápice Incorporadora** e **Clipes Imóveis** na região.
 
-Conformidade ANAC/DECEA (SARPAS no endereço), DJI Mini 4 Pro. Emito nota fiscal pelo serviço de captação contratado. Site e portfólio: [https://techdrone360.com.br/](https://techdrone360.com.br/) (redes na assinatura).
+Conformidade ANAC/DECEA (SARPAS no endereço), DJI Mini 3. Emito nota fiscal pelo serviço de captação contratado. Site e portfólio: [https://techdrone360.com.br/](https://techdrone360.com.br/) (redes na assinatura).
 
 **Responda SIM** ou peça para marketing me chamar no WhatsApp — proposta fechada em até 2 dias úteis.
 
@@ -410,7 +410,7 @@ O diferencial do hotel na **Cidade Baixa** (vida noturna, acesso, entorno) apare
 - **Drone x Street View:** mapa localiza; drone vende o hotel com material **atual e exclusivo** (Street View não substitui Booking/redes).
 - **Referências na região:** Auxiliadora Predial, Ápice Incorporadora e Clipes Imóveis.
 - Entrega: fotos HD + vídeo ~45–60s (Reels/site);
-- Operador em POA, DJI Mini 4 Pro, SARPAS/DECEA quando necessário. Emissão de nota fiscal pelo serviço de captação contratado;
+- Operador em POA, DJI Mini 3, SARPAS/DECEA quando necessário. Emissão de nota fiscal pelo serviço de captação contratado;
 - Site: [https://techdrone360.com.br/](https://techdrone360.com.br/) | Instagram: [https://www.instagram.com/techdrone360](https://www.instagram.com/techdrone360) | YouTube: [https://www.youtube.com/@techdrone360](https://www.youtube.com/@techdrone360)
 
 Se a contratação for centralizada na matriz, fico à disposição para alinhar briefing e documentação (nota fiscal, escopo, prazos).
@@ -442,7 +442,7 @@ Entendo que reservas não contrata produção audiovisual — **peço encaminham
 - Serviço: fotos e vídeo com drone (fachada, entorno, acessos, áreas externas) para uso institucional/promocional;
 - **Drone x Street View:** hóspede acha a rua no mapa; reserva com conteúdo **atual e exclusivo** do empreendimento — Street View é genérico e não cobre campanha institucional.
 - **Referências na região:** Auxiliadora Predial, Ápice Incorporadora e Clipes Imóveis.
-- Equipamento: DJI Mini 4 Pro; operação conforme ANAC/DECEA (SARPAS quando aplicável);
+- Equipamento: DJI Mini 3; operação conforme ANAC/DECEA (SARPAS quando aplicável);
 - Documentação: emissão de nota fiscal pelo serviço de captação contratado; escopo, prazos e entregáveis definidos em proposta formal;
 - Portfólio regional: [https://www.instagram.com/techdrone360](https://www.instagram.com/techdrone360) | [https://www.youtube.com/@techdrone360](https://www.youtube.com/@techdrone360) | [https://techdrone360.com.br/](https://techdrone360.com.br/)
 
@@ -483,7 +483,7 @@ Quem fecha evento não decide pela **rua do mapa**: quer ver salão, área exter
 
 Já realizei captações para **Auxiliadora Predial**, **Ápice Incorporadora** e **Clipes Imóveis** na região.
 
-DJI Mini 4 Pro, SARPAS/DECEA no endereço. Emito nota fiscal pelo serviço de captação contratado. Veja exemplos em [https://techdrone360.com.br/](https://techdrone360.com.br/) e nas redes (assinatura).
+DJI Mini 3, SARPAS/DECEA no endereço. Emito nota fiscal pelo serviço de captação contratado. Veja exemplos em [https://techdrone360.com.br/](https://techdrone360.com.br/) e nas redes (assinatura).
 
 **Responda SIM** com melhor dia para uma visita técnica (sem compromisso) — proposta com valor em até 2 dias úteis.
 
@@ -521,7 +521,7 @@ Quem fecha evento não decide pela **rua do mapa**: quer ver salão, área exter
 
 Já realizei captações para **Auxiliadora Predial**, **Ápice Incorporadora** e **Clipes Imóveis** na região.
 
-Operação regularizada (ANAC/DECEA, SARPAS quando necessário), DJI Mini 4 Pro. Emito nota fiscal pelo serviço de captação contratado.
+Operação regularizada (ANAC/DECEA, SARPAS quando necessário), DJI Mini 3. Emito nota fiscal pelo serviço de captação contratado.
 
 Site e portfólio: [https://techdrone360.com.br/](https://techdrone360.com.br/) | [https://www.instagram.com/techdrone360](https://www.instagram.com/techdrone360) | [https://www.youtube.com/@techdrone360](https://www.youtube.com/@techdrone360)
 
@@ -559,7 +559,7 @@ Quem fecha evento não decide pela **rua do mapa**: quer ver salão, área exter
 
 Já realizei captações para **Auxiliadora Predial**, **Ápice Incorporadora** e **Clipes Imóveis** na região.
 
-DJI Mini 4 Pro, SARPAS/DECEA. Emito nota fiscal pelo serviço de captação contratado. Site e trabalhos: [https://techdrone360.com.br/](https://techdrone360.com.br/) (redes na assinatura).
+DJI Mini 3, SARPAS/DECEA. Emito nota fiscal pelo serviço de captação contratado. Site e trabalhos: [https://techdrone360.com.br/](https://techdrone360.com.br/) (redes na assinatura).
 
 **Responda SIM** — em até 2 dias úteis mando proposta fechada para 1 dia de captação na Dibasi.
 
@@ -597,7 +597,7 @@ Quem fecha evento não decide pela **rua do mapa**: quer ver salão, área exter
 
 Já realizei captações para **Auxiliadora Predial**, **Ápice Incorporadora** e **Clipes Imóveis** na região.
 
-DJI Mini 4 Pro, conformidade de voo. Emito nota fiscal pelo serviço de captação contratado. Site: [https://techdrone360.com.br/](https://techdrone360.com.br/) — @techdrone360 no Instagram e YouTube (assinatura).
+DJI Mini 3, conformidade de voo. Emito nota fiscal pelo serviço de captação contratado. Site: [https://techdrone360.com.br/](https://techdrone360.com.br/) — @techdrone360 no Instagram e YouTube (assinatura).
 
 **Responda SIM** com a melhor data para alinhar roteiro no local — proposta em até 2 dias úteis.
 
@@ -636,7 +636,7 @@ O turista não compra só o **endereço no mapa** — compra a **experiência**.
 
 Já realizei captações para **Auxiliadora Predial**, **Ápice Incorporadora** e **Clipes Imóveis** na região.
 
-DJI Mini 4 Pro. Emito nota fiscal pelo serviço de captação contratado.
+DJI Mini 3. Emito nota fiscal pelo serviço de captação contratado.
 
 Site e portfólio: [https://techdrone360.com.br/](https://techdrone360.com.br/) | [https://www.instagram.com/techdrone360](https://www.instagram.com/techdrone360) | [https://www.youtube.com/@techdrone360](https://www.youtube.com/@techdrone360)
 
