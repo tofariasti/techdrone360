@@ -125,24 +125,24 @@ Obrigado!`,
   youtubeUrl: 'https://www.youtube.com/@techdrone360',
 
   // Modelo do drone DJI utilizado
-  modeloDji: 'DJI Mini 4 Pro',
+  modeloDji: 'DJI Mini 3',
 
   // Seção #equipamento — características e benefícios para o cliente
   equipamento: {
     intro:
-      'Trabalho com o {{modelo}}: drone compacto da linha profissional DJI, pensado para imagem de alto nível em locais urbanos, condomínios, obras, eventos e destinos turísticos — sem abrir mão de segurança e estabilidade.',
+      'Trabalho com o {{modelo}}: drone compacto da linha DJI, leve e ágil para imagem profissional em locais urbanos, condomínios, obras, eventos e destinos turísticos — com estabilidade e planejamento de voo responsável.',
     caracteristicas: [
       {
-        titulo: 'Vídeo 4K HDR e fotos de alta resolução',
-        spec: 'Gravação em 4K HDR (até 60 fps) e fotos em até 48 MP',
+        titulo: 'Vídeo 4K e fotos nítidas',
+        spec: 'Gravação em 4K a 30 fps e fotos em 12 MP (sensor 1/1,3″)',
         beneficio:
-          'Anúncios, portais e redes com imagem nítida — o comprador ou hóspede enxerga detalhes do imóvel, do entorno e do empreendimento com clareza profissional.',
+          'Anúncios, portais e redes com imagem clara — o comprador ou hóspede enxerga o imóvel, o entorno e o empreendimento com qualidade profissional.',
       },
       {
-        titulo: 'Lente rápida e HDR',
-        spec: 'Abertura f/1.0 e gravação HDR / 10 bits (D-Log M)',
+        titulo: 'Lente luminosa',
+        spec: 'Abertura f/1.7',
         beneficio:
-          'Melhor desempenho no fim da tarde e em céu nublado: cores mais vivas e material que “chama clique” sem parecer amador.',
+          'Bom desempenho no fim da tarde e em céu nublado: cores vivas e material que valoriza o projeto sem parecer amador.',
       },
       {
         titulo: 'Gimbal de 3 eixos',
@@ -152,19 +152,19 @@ Obrigado!`,
       },
       {
         titulo: 'Modo vertical para redes',
-        spec: 'Captação nativa em formato vertical',
+        spec: 'Captação nativa em formato vertical (True Vertical Shooting)',
         beneficio:
           'Conteúdo pronto para Instagram, Reels, Stories e anúncios mobile, sem perder qualidade cortando vídeo horizontal.',
       },
       {
-        titulo: 'Sensores omnidirecionais',
-        spec: 'Detecção de obstáculos em várias direções',
+        titulo: 'Sensor de obstáculos inferior',
+        spec: 'Visão descendente para detecção de obstáculos',
         beneficio:
-          'Mais segurança perto de prédios, árvores e estruturas — essencial em condomínios, obras e eventos com público.',
+          'Mais segurança na descida e em voo baixo — aliado ao planejamento cuidadoso em condomínios, obras e áreas com prédios e árvores.',
       },
       {
         titulo: 'Autonomia de voo',
-        spec: 'Até cerca de 34 minutos por bateria (condições ideais)',
+        spec: 'Até cerca de 38 minutos por bateria padrão (condições ideais)',
         beneficio:
           'Mais ângulos e tomadas na mesma visita, com menos interrupção — você recebe variedade de imagens no pacote combinado.',
       },
@@ -193,7 +193,7 @@ Obrigado!`,
     texto:
       'Realizo fotos e vídeos aéreos profissionais com drone DJI para imobiliárias, construtoras, empresas e eventos. Cada projeto é planejado conforme o local, o objetivo e as condições de voo — com foco em imagens que vendem, informam e impressionam.',
     destaques: [
-      'Captações profissionais com DJI Mini 4 Pro',
+      'Captações profissionais com DJI Mini 3',
       'Portfólio com empreendimentos reais na região',
       'Atendimento direto pelo WhatsApp',
     ],
@@ -470,12 +470,12 @@ Obrigado!`,
 
   // Fotos do equipamento (galeria na seção #equipamento)
   fotosDrone: [
-    { imagem: 'assets/images/drone/dji-mini-4-pro-01.jpg', alt: 'DJI Mini 4 Pro — vista geral' },
-    { imagem: 'assets/images/drone/dji-mini-4-pro-03.jpg', alt: 'DJI Mini 4 Pro — detalhe do corpo' },
-    { imagem: 'assets/images/drone/dji-mini-4-pro-05.jpg', alt: 'DJI Mini 4 Pro — hélices e braços' },
-    { imagem: 'assets/images/drone/dji-mini-4-pro-07.jpg', alt: 'DJI Mini 4 Pro — câmera e gimbal' },
-    { imagem: 'assets/images/drone/dji-mini-4-pro-10.jpg', alt: 'DJI Mini 4 Pro — controle RC' },
-    { imagem: 'assets/images/drone/dji-mini-4-pro-15.jpg', alt: 'DJI Mini 4 Pro — conjunto completo' },
+    { imagem: 'assets/images/drone/dji-mini-4-pro-01.jpg', alt: 'DJI Mini 3 — vista geral' },
+    { imagem: 'assets/images/drone/dji-mini-4-pro-03.jpg', alt: 'DJI Mini 3 — detalhe do corpo' },
+    { imagem: 'assets/images/drone/dji-mini-4-pro-05.jpg', alt: 'DJI Mini 3 — hélices e braços' },
+    { imagem: 'assets/images/drone/dji-mini-4-pro-07.jpg', alt: 'DJI Mini 3 — câmera e gimbal' },
+    { imagem: 'assets/images/drone/dji-mini-4-pro-10.jpg', alt: 'DJI Mini 3 — controle RC' },
+    { imagem: 'assets/images/drone/dji-mini-4-pro-15.jpg', alt: 'DJI Mini 3 — conjunto completo' },
   ],
 
   // E-mail opcional (deixe vazio para ocultar)

@@ -754,7 +754,7 @@
     const data = config.equipamento;
     if (!data || (!introEl && !specsEl)) return;
 
-    const modelo = config.modeloDji || 'DJI Mini 4 Pro';
+    const modelo = config.modeloDji || 'DJI Mini 3';
     if (introEl) {
       const intro = (data.intro || '').replace(/\{\{modelo\}\}/g, modelo);
       introEl.innerHTML = intro
@@ -804,7 +804,7 @@
       .map((f) => {
         const src = f.imagem || f.src;
         const full = f.imagemFull || f.full || src;
-        const alt = escapeHtml(f.alt || f.titulo || 'DJI Mini 4 Pro');
+        const alt = escapeHtml(f.alt || f.titulo || 'DJI Mini 3');
         if (!src) return '';
 
         return `
