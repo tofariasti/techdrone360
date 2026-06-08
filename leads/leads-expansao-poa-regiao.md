@@ -12,13 +12,13 @@ E-mails publicados em site oficial. Validar antes de disparar.
 
 ## Imobiliárias — Porto Alegre
 
-| Empresa | E-mail | Fonte |
-|---------|--------|--------|
-| Gularte Imóveis | gularte@gularteimoveis.com.br | https://www.gularteimoveis.com.br/sobre |
-| Christini Imóveis | christiniimoveis@gmail.com | https://www.christini-imoveis.com.br/ |
-| Cadu Imóveis | caduimoveis@hotmail.com | https://www.caduimoveis.com.br/contato |
-| Real Imóveis | contato@realimoveis-rs.com.br | http://realimoveis-rs.com.br/empresa/trabalhe-conosco |
-| MCM Imobiliária | carlosmartinscim@gmail.com | https://www.mcmimobiliaria.com.br/contato |
+| Empresa | Cidade | E-mail | Fonte |
+|---------|--------|--------|--------|
+| Gularte Imóveis | Porto Alegre | gularte@gularteimoveis.com.br | https://www.gularteimoveis.com.br/sobre |
+| Christini Imóveis | Porto Alegre | christiniimoveis@gmail.com | https://www.christini-imoveis.com.br/ |
+| Cadu Imóveis | Porto Alegre | caduimoveis@hotmail.com | https://www.caduimoveis.com.br/contato |
+| Real Imóveis | Porto Alegre | contato@realimoveis-rs.com.br | http://realimoveis-rs.com.br/empresa/trabalhe-conosco |
+| MCM Imobiliária | Porto Alegre | carlosmartinscim@gmail.com | https://www.mcmimobiliaria.com.br/contato |
 
 **Sem e-mail público claro (só telefone/WhatsApp/formulário):** Imobiliária Somma — https://somma-rs.com.br/contato | Guarida — https://www.guarida.com.br/
 
@@ -38,13 +38,13 @@ E-mails publicados em site oficial. Validar antes de disparar.
 
 ## Construtoras / incorporadoras
 
-| Empresa | E-mail | Fonte |
-|---------|--------|--------|
-| Projeção Incorporadora | projecao@incorporadoraprojecao.com.br | https://incorporadoraprojecao.com.br/ |
-| Lotus Incorporadora | contato@lotusincorporadora.com.br | https://lotusincorporadora.com.br/ |
-| UMA Incorporadora | uma@umaincorporadora.com.br | https://umaincorporadora.com.br/ |
-| Volcon Construtora | volcon@volconstrutora.com.br | https://volconstrutora.com.br/ |
-| MMR Incorporadora | contato@mmrincorporadora.com.br | https://www.mmrincorporadora.com.br/ (Alvorada / RM) |
+| Empresa | Cidade | E-mail | Fonte |
+|---------|--------|--------|--------|
+| Projeção Incorporadora | Porto Alegre | projecao@incorporadoraprojecao.com.br | https://incorporadoraprojecao.com.br/ |
+| Lotus Incorporadora | Porto Alegre | contato@lotusincorporadora.com.br | https://lotusincorporadora.com.br/ |
+| UMA Incorporadora | Porto Alegre | uma@umaincorporadora.com.br | https://umaincorporadora.com.br/ |
+| Volcon Construtora | Porto Alegre | volcon@volconstrutora.com.br | https://volconstrutora.com.br/ |
+| MMR Incorporadora | Alvorada | contato@mmrincorporadora.com.br | https://www.mmrincorporadora.com.br/ |
 
 **Sem e-mail no site (só WhatsApp):** Reis Construtora — Esteio — https://www.reisconstrutora.com.br/contato
 
@@ -52,22 +52,22 @@ E-mails publicados em site oficial. Validar antes de disparar.
 
 ## Hotéis e hospedagem — Porto Alegre
 
-| Empresa | E-mail | Observação | Fonte |
-|---------|--------|------------|--------|
-| Pousada Agronomia | pousadaagronomia@hotmail.com | Pousada | https://pousadaagronomia.com.br/ |
-| Deville Prime Porto Alegre | recep.poa@deville.com.br | Hospedagem | https://www.deville.com.br/contatos |
-| Deville Prime — eventos | eventosgeral.poa@deville.com.br | Salões / corporativo | https://www.deville.com.br/hotel-deville-prime-porto-alegre/eventos-hotel-deville-prime-porto-alegre |
-| Blue Tree Towers Millenium | reservas.millenium@bluetree.com.br | Hotel | https://www.bluetree.com.br/contatos |
-| Intercity Premium POA | reservas.poa.prm@intercityhoteis.com.br | Rede — outra unidade | Listagem PUCRS / Intercity |
-| Ritter Hotéis | reservas@ritterhoteis.com.br | Centro | Listagem hoteleira POA |
-| Radisson Porto Alegre | reservas1.rpoa@atlanticahotels.com.br | Bela Vista | Listagem hoteleira POA |
-| Sheraton Porto Alegre | reservas.poa@sheraton.com | Moinhos | Listagem hoteleira POA |
-| Swan Tower / Generation | reservas@swanhoteis.com.br | Higienópolis / eventos | https://www.swangeneration.com.br/coworking-contato |
-| Laghetto Viverone Moinhos | reservas@laghettomoinhos.com.br | Moinhos | Listagem hoteleira POA |
-| Hotel Continental Business | comercial2@hotelcontinentalbusiness.com.br | Centro — conferir setor | Listagem hoteleira POA |
-| Everest Hotel | reservaspoa@everest.com.br | Centro — validar no site | Listagem hoteleira POA |
-| Novotel Porto Alegre | h3258-re@accor.com.br | Accor — formato padrão rede | Listagem hoteleira POA |
-| Ibis Moinhos de Vento | h6664-re@accor.com.br | Accor | Listagem hoteleira POA |
+| Empresa | Cidade | E-mail | Observação | Fonte |
+|---------|--------|--------|------------|--------|
+| Pousada Agronomia | Porto Alegre | pousadaagronomia@hotmail.com | Pousada | https://pousadaagronomia.com.br/ |
+| Deville Prime Porto Alegre | Porto Alegre | recep.poa@deville.com.br | Hospedagem | https://www.deville.com.br/contatos |
+| Deville Prime — eventos | Porto Alegre | eventosgeral.poa@deville.com.br | Salões / corporativo | https://www.deville.com.br/hotel-deville-prime-porto-alegre/eventos-hotel-deville-prime-porto-alegre |
+| Blue Tree Towers Millenium | Porto Alegre | reservas.millenium@bluetree.com.br | Hotel | https://www.bluetree.com.br/contatos |
+| Intercity Premium POA | Porto Alegre | reservas.poa.prm@intercityhoteis.com.br | Rede — outra unidade | Listagem PUCRS / Intercity |
+| Ritter Hotéis | Porto Alegre | reservas@ritterhoteis.com.br | Centro | Listagem hoteleira POA |
+| Radisson Porto Alegre | Porto Alegre | reservas1.rpoa@atlanticahotels.com.br | Bela Vista | Listagem hoteleira POA |
+| Sheraton Porto Alegre | Porto Alegre | reservas.poa@sheraton.com | Moinhos | Listagem hoteleira POA |
+| Swan Tower / Generation | Porto Alegre | reservas@swanhoteis.com.br | Higienópolis / eventos | https://www.swangeneration.com.br/coworking-contato |
+| Laghetto Viverone Moinhos | Porto Alegre | reservas@laghettomoinhos.com.br | Moinhos | Listagem hoteleira POA |
+| Hotel Continental Business | Porto Alegre | comercial2@hotelcontinentalbusiness.com.br | Centro — conferir setor | Listagem hoteleira POA |
+| Everest Hotel | Porto Alegre | reservaspoa@everest.com.br | Centro — validar no site | Listagem hoteleira POA |
+| Novotel Porto Alegre | Porto Alegre | h3258-re@accor.com.br | Accor — formato padrão rede | Listagem hoteleira POA |
+| Ibis Moinhos de Vento | Porto Alegre | h6664-re@accor.com.br | Accor | Listagem hoteleira POA |
 
 **Prioridade marketing:** redes (Accor, Blue Tree, Sheraton) — usar template **3c** (encaminhamento).
 
@@ -75,11 +75,11 @@ E-mails publicados em site oficial. Validar antes de disparar.
 
 ## Eventos e espaços
 
-| Empresa | E-mail | Fonte |
-|---------|--------|--------|
-| O Casarão Casa de Eventos | ocasarao2438@gmail.com | https://ocasaraofestas.com.br/ |
-| 50 Eventos (PUC) | intervalo50@intervalo50.com | https://50eventos.com.br/ |
-| Flowork — eventos corporativos | recepcao@flowork.com.br | https://www.flowork.com.br/eventos-corporativos (unidade Moinhos) |
+| Empresa | Cidade | E-mail | Fonte |
+|---------|--------|--------|--------|
+| O Casarão Casa de Eventos | Porto Alegre | ocasarao2438@gmail.com | https://ocasaraofestas.com.br/ |
+| 50 Eventos (PUC) | Porto Alegre | intervalo50@intervalo50.com | https://50eventos.com.br/ |
+| Flowork — eventos corporativos | Porto Alegre | recepcao@flowork.com.br | https://www.flowork.com.br/eventos-corporativos (unidade Moinhos) |
 
 ---
 

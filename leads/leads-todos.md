@@ -22,6 +22,7 @@ Números extraídos dos sites oficiais (coluna **Fonte**). Validar antes de disp
 
 | Campo | Significado |
 |-------|-------------|
+| **Cidade** | Município do lead (Porto Alegre, RM ou raio 150 km) |
 | **Prioridade** | Alta = imob/obras/eventos/pousada · Média = hotel independente · Baixa = rede hoteleira |
 | **Tipo** | WhatsApp confirmado · Celular (provável WA) · Fixo · Reservas · Não encontrado |
 | **Status** | Pendente · Contatado · Respondeu · Sem interesse · Arquivado |
@@ -47,21 +48,21 @@ Números extraídos dos sites oficiais (coluna **Fonte**). Validar antes de disp
 
 ## Imobiliárias — Porto Alegre
 
-| Empresa | E-mail | WhatsApp | Exibição | wa.me | Tipo | Prioridade | Fonte | Status |
-|---------|--------|----------|----------|-------|------|------------|-------|--------|
-| Barcellos Assessoria | contato@imobarcellos.imb.br | 555132125400 | (51) 3212-5400 | [wa.me/555132125400](https://wa.me/555132125400) | Fixo (wa.me no site) | Alta | [barcellos.com.br/fale-conosco](https://barcellos.com.br/fale-conosco.php) | Pendente |
-| Realize Imóveis | realize@realizeimoveis.net | 555132195584 | (51) 3219-5584 | [wa.me/555132195584](https://wa.me/555132195584) | WhatsApp confirmado | Alta | [realizeimoveis.net/contato](https://realizeimoveis.net/contato.php) | Pendente |
-| Imobiliária Florença | contato@imobiliariaflorenca.com.br | 5551999937292 | (51) 99993-7292 | [wa.me/5551999937292](https://wa.me/5551999937292) | WhatsApp (widget site) | Alta | [imobiliariaflorenca.com.br/contato](https://www.imobiliariaflorenca.com.br/contato) | Pendente |
-| Heimdall Imóveis | heimdallimob@gmail.com | 5551996547149 | (51) 99654-7149 | [wa.me/5551996547149](https://wa.me/5551996547149) | WhatsApp confirmado | Alta | [heimdallimoveis.com.br/contato](https://www.heimdallimoveis.com.br/contato) | Pendente |
-| Gularte Imóveis | gularte@gularteimoveis.com.br | 5551991824347 | (51) 99182-4347 | [wa.me/5551991824347](https://wa.me/5551991824347) | WhatsApp confirmado | Alta | [gularteimoveis.com.br/sobre](https://www.gularteimoveis.com.br/sobre) | Pendente |
-| Christini Imóveis | christiniimoveis@gmail.com | 5551999976050 | (51) 99997-6050 | [wa.me/5551999976050](https://wa.me/5551999976050) | WhatsApp (widget site) | Alta | [christini-imoveis.com.br](https://www.christini-imoveis.com.br/) | Pendente |
-| Cadu Imóveis | caduimoveis@hotmail.com | 5551986517653 | (51) 98651-7653 | [wa.me/5551986517653](https://wa.me/5551986517653) | WhatsApp confirmado | Alta | [caduimoveis.com.br/contato](https://www.caduimoveis.com.br/contato) | Pendente |
-| Real Imóveis | contato@realimoveis-rs.com.br | 5551998769295 | (51) 99876-9295 | [wa.me/5551998769295](https://wa.me/5551998769295) | WhatsApp confirmado | Alta | [realimoveis-rs.com.br](http://realimoveis-rs.com.br/empresa/trabalhe-conosco) | Pendente |
-| MCM Imobiliária | carlosmartinscim@gmail.com | 5551984515643 | (51) 98451-5643 | [wa.me/5551984515643](https://wa.me/5551984515643) | WhatsApp (widget site) | Alta | [mcmimobiliaria.com.br/contato](https://www.mcmimobiliaria.com.br/contato) | Pendente |
-| MCM Imobiliária (alt.) | — | 5551981412281 | (51) 98141-2281 | [wa.me/5551981412281](https://wa.me/5551981412281) | Celular (2º número site) | Alta | idem | Pendente |
-| Imobiliária Somma | — | 5551991014016 | (51) 99101-4016 | [wa.me/5551991014016](https://wa.me/5551991014016) | WhatsApp geral | Média | [somma-rs.com.br/contato](https://somma-rs.com.br/contato) | Pendente |
-| Imobiliária Somma (vendas) | — | 5551991015837 | (51) 99101-5837 | [wa.me/5551991015837](https://wa.me/5551991015837) | WhatsApp locação/vendas | Alta | idem | Pendente |
-| Guarida | — | 555133279001 | (51) 3327-9001 | [wa.me/555133279001](https://wa.me/555133279001) | Fixo (wa.me no site) | Baixa | [guarida.com.br](https://www.guarida.com.br/) | Pendente |
+| Empresa | Cidade | E-mail | WhatsApp | Exibição | wa.me | Tipo | Prioridade | Fonte | Status |
+|---------|--------|--------|----------|----------|-------|------|------------|-------|--------|
+| Barcellos Assessoria | Porto Alegre | contato@imobarcellos.imb.br | 555132125400 | (51) 3212-5400 | [wa.me/555132125400](https://wa.me/555132125400) | Fixo (wa.me no site) | Alta | [barcellos.com.br/fale-conosco](https://barcellos.com.br/fale-conosco.php) | Pendente |
+| Realize Imóveis | Porto Alegre | realize@realizeimoveis.net | 555132195584 | (51) 3219-5584 | [wa.me/555132195584](https://wa.me/555132195584) | WhatsApp confirmado | Alta | [realizeimoveis.net/contato](https://realizeimoveis.net/contato.php) | Pendente |
+| Imobiliária Florença | Porto Alegre | contato@imobiliariaflorenca.com.br | 5551999937292 | (51) 99993-7292 | [wa.me/5551999937292](https://wa.me/5551999937292) | WhatsApp (widget site) | Alta | [imobiliariaflorenca.com.br/contato](https://www.imobiliariaflorenca.com.br/contato) | Pendente |
+| Heimdall Imóveis | Porto Alegre | heimdallimob@gmail.com | 5551996547149 | (51) 99654-7149 | [wa.me/5551996547149](https://wa.me/5551996547149) | WhatsApp confirmado | Alta | [heimdallimoveis.com.br/contato](https://www.heimdallimoveis.com.br/contato) | Pendente |
+| Gularte Imóveis | Porto Alegre | gularte@gularteimoveis.com.br | 5551991824347 | (51) 99182-4347 | [wa.me/5551991824347](https://wa.me/5551991824347) | WhatsApp confirmado | Alta | [gularteimoveis.com.br/sobre](https://www.gularteimoveis.com.br/sobre) | Pendente |
+| Christini Imóveis | Porto Alegre | christiniimoveis@gmail.com | 5551999976050 | (51) 99997-6050 | [wa.me/5551999976050](https://wa.me/5551999976050) | WhatsApp (widget site) | Alta | [christini-imoveis.com.br](https://www.christini-imoveis.com.br/) | Pendente |
+| Cadu Imóveis | Porto Alegre | caduimoveis@hotmail.com | 5551986517653 | (51) 98651-7653 | [wa.me/5551986517653](https://wa.me/5551986517653) | WhatsApp confirmado | Alta | [caduimoveis.com.br/contato](https://www.caduimoveis.com.br/contato) | Pendente |
+| Real Imóveis | Porto Alegre | contato@realimoveis-rs.com.br | 5551998769295 | (51) 99876-9295 | [wa.me/5551998769295](https://wa.me/5551998769295) | WhatsApp confirmado | Alta | [realimoveis-rs.com.br](http://realimoveis-rs.com.br/empresa/trabalhe-conosco) | Pendente |
+| MCM Imobiliária | Porto Alegre | carlosmartinscim@gmail.com | 5551984515643 | (51) 98451-5643 | [wa.me/5551984515643](https://wa.me/5551984515643) | WhatsApp (widget site) | Alta | [mcmimobiliaria.com.br/contato](https://www.mcmimobiliaria.com.br/contato) | Pendente |
+| MCM Imobiliária (alt.) | Porto Alegre | — | 5551981412281 | (51) 98141-2281 | [wa.me/5551981412281](https://wa.me/5551981412281) | Celular (2º número site) | Alta | idem | Pendente |
+| Imobiliária Somma | Porto Alegre | — | 5551991014016 | (51) 99101-4016 | [wa.me/5551991014016](https://wa.me/5551991014016) | WhatsApp geral | Média | [somma-rs.com.br/contato](https://somma-rs.com.br/contato) | Pendente |
+| Imobiliária Somma (vendas) | Porto Alegre | — | 5551991015837 | (51) 99101-5837 | [wa.me/5551991015837](https://wa.me/5551991015837) | WhatsApp locação/vendas | Alta | idem | Pendente |
+| Guarida | Porto Alegre | — | 555133279001 | (51) 3327-9001 | [wa.me/555133279001](https://wa.me/555133279001) | Fixo (wa.me no site) | Baixa | [guarida.com.br](https://www.guarida.com.br/) | Pendente |
 
 **Christini — fixo alternativo:** (51) 3342-5022 (sem wa.me).
 
@@ -104,27 +105,27 @@ Números extraídos dos sites oficiais (coluna **Fonte**). Validar antes de disp
 
 ## Hotéis e hospedagem
 
-| Empresa | E-mail | WhatsApp | Exibição | wa.me | Tipo | Prioridade | Fonte | Status |
-|---------|--------|----------|----------|-------|------|------------|-------|--------|
-| Milão Hotel | atendimento@milaohotel.com.br | 5551991668887 | (51) 99166-8887 | [wa.me/5551991668887](https://wa.me/5551991668887) | WhatsApp (site) | Média | [milaohotel.com.br/contato](https://milaohotel.com.br/contato/) | Pendente |
-| Umbu Hotel | reservas@umbuhotel.com.br | 5551980105741 | (51) 98010-5741 | [wa.me/5551980105741](https://wa.me/5551980105741) | WhatsApp (site) | Média | [umbuhotelportoalegre.com.br/contato](https://umbuhotelportoalegre.com.br/contato) | Pendente |
-| Intercity Cidade Baixa | reservas.cidadebaixa@intercityhoteis.com.br | 555132017700 | (51) 3201-7700 | [wa.me/555132017700](https://wa.me/555132017700) | Reservas (central) | Baixa | [intercity Cidade Baixa](https://www.intercityhoteis.com.br/hotel-porto-alegre/hotel-intercity-cidade-baixa) | Pendente |
-| Hilton Porto Alegre | Portoalegre.reservations@hilton.com | — | — | — | Não encontrado | Baixa | [hiltonportoalegre.com.br](https://hiltonportoalegre.com.br/) | Pendente |
-| Pousada Agronomia | pousadaagronomia@hotmail.com | 5551985991831 | (51) 98599-1831 | [wa.me/5551985991831](https://wa.me/5551985991831) | Celular (site) | Alta | [pousadaagronomia.com.br](https://pousadaagronomia.com.br/) | Pendente |
-| Pousada Agronomia (alt.) | — | 5551999848112 | (51) 99984-8112 | [wa.me/5551999848112](https://wa.me/5551999848112) | Celular (site) | Alta | idem | Pendente |
-| Deville Prime POA | recep.poa@deville.com.br | 555133735000 | (51) 3373-5000 | — | Fixo POA (eventos: 3373-5013) | Média | [deville.com.br/contatos](https://www.deville.com.br/contatos) | Pendente |
-| Deville Prime — eventos | eventosgeral.poa@deville.com.br | 555133735013 | (51) 3373-5013 | — | Fixo eventos | Alta | [Deville eventos POA](https://www.deville.com.br/hotel-deville-prime-porto-alegre/eventos-hotel-deville-prime-porto-alegre) | Pendente |
-| Blue Tree Millenium | reservas.millenium@bluetree.com.br | 555130262200 | (51) 3026-2200 | — | Fixo reservas | Baixa | [Blue Tree Millenium POA](https://www.bluetree.com.br/hotel/blue-tree-towers-millenium-porto-alegre) | Pendente |
-| Intercity Premium POA | reservas.poa.prm@intercityhoteis.com.br | 555132017700 | (51) 3201-7700 | [wa.me/555132017700](https://wa.me/555132017700) | Reservas (central) | Baixa | [Intercity Premium](https://www.intercityhoteis.com.br/hotel-porto-alegre/hotel-intercity-premium) | Pendente |
-| Ritter Hotéis | reservas@ritterhoteis.com.br | 5551991964009 | (51) 99196-4009 | [wa.me/5551991964009](https://wa.me/5551991964009) | Celular (site) | Baixa | [ritterhoteis.com.br](https://www.ritterhoteis.com.br/) | Pendente |
-| Radisson POA | reservas1.rpoa@atlanticahotels.com.br | — | — | — | Não encontrado | Baixa | [Radisson POA](https://www.radissonhotels.com/pt-br/hoteis/radisson-porto-alegre) | Pendente |
-| Sheraton POA | reservas.poa@sheraton.com | — | — | — | Não encontrado | Baixa | [Sheraton POA](https://www.marriott.com/en-us/hotels/poasi-sheraton-porto-alegre-hotel/overview/) | Pendente |
-| Swan Tower / Generation | reservas@swanhoteis.com.br | 5551992284510 | (51) 99228-4510 | [wa.me/5551992284510](https://wa.me/5551992284510) | Celular (site) | Média | [swangeneration.com.br](https://www.swangeneration.com.br/coworking-contato) | Pendente |
-| Laghetto Viverone Moinhos | reservas@laghettomoinhos.com.br | 555121027272 | (51) 2102-7272 | — | Fixo | Baixa | [laghettomoinhos.com.br](https://www.laghettomoinhos.com.br/) | Pendente |
-| Hotel Continental Business | comercial2@hotelcontinentalbusiness.com.br | 555130271601 | (51) 3027-1601 | — | Fixo reservas | Média | [hotelcontinentalbusiness.com.br](https://www.hotelcontinentalbusiness.com.br/) | Pendente |
-| Everest Hotel | reservaspoa@everest.com.br | — | — | — | Não encontrado | Baixa | [everesthoteis.com.br POA](https://www.everesthoteis.com.br/hotel-everest-porto-alegre) | Pendente |
-| Novotel POA | h3258-re@accor.com.br | — | — | — | Não encontrado | Baixa | [novotelportoalegre.com.br](https://www.novotelportoalegre.com.br/) | Pendente |
-| Ibis Moinhos de Vento | h6664-re@accor.com.br | 555121122772 | (51) 2112-2772 | — | Fixo Accor | Baixa | [Accor 6664](https://all.accor.com/hotel/6664/index.pt.shtml) | Pendente |
+| Empresa | Cidade | E-mail | WhatsApp | Exibição | wa.me | Tipo | Prioridade | Fonte | Status |
+|---------|--------|--------|----------|----------|-------|------|------------|-------|--------|
+| Milão Hotel | Porto Alegre | atendimento@milaohotel.com.br | 5551991668887 | (51) 99166-8887 | [wa.me/5551991668887](https://wa.me/5551991668887) | WhatsApp (site) | Média | [milaohotel.com.br/contato](https://milaohotel.com.br/contato/) | Pendente |
+| Umbu Hotel | Porto Alegre | reservas@umbuhotel.com.br | 5551980105741 | (51) 98010-5741 | [wa.me/5551980105741](https://wa.me/5551980105741) | WhatsApp (site) | Média | [umbuhotelportoalegre.com.br/contato](https://umbuhotelportoalegre.com.br/contato) | Pendente |
+| Intercity Cidade Baixa | Porto Alegre | reservas.cidadebaixa@intercityhoteis.com.br | 555132017700 | (51) 3201-7700 | [wa.me/555132017700](https://wa.me/555132017700) | Reservas (central) | Baixa | [intercity Cidade Baixa](https://www.intercityhoteis.com.br/hotel-porto-alegre/hotel-intercity-cidade-baixa) | Pendente |
+| Hilton Porto Alegre | Porto Alegre | Portoalegre.reservations@hilton.com | — | — | — | Não encontrado | Baixa | [hiltonportoalegre.com.br](https://hiltonportoalegre.com.br/) | Pendente |
+| Pousada Agronomia | Porto Alegre | pousadaagronomia@hotmail.com | 5551985991831 | (51) 98599-1831 | [wa.me/5551985991831](https://wa.me/5551985991831) | Celular (site) | Alta | [pousadaagronomia.com.br](https://pousadaagronomia.com.br/) | Pendente |
+| Pousada Agronomia (alt.) | Porto Alegre | — | 5551999848112 | (51) 99984-8112 | [wa.me/5551999848112](https://wa.me/5551999848112) | Celular (site) | Alta | idem | Pendente |
+| Deville Prime POA | Porto Alegre | recep.poa@deville.com.br | 555133735000 | (51) 3373-5000 | — | Fixo POA (eventos: 3373-5013) | Média | [deville.com.br/contatos](https://www.deville.com.br/contatos) | Pendente |
+| Deville Prime — eventos | Porto Alegre | eventosgeral.poa@deville.com.br | 555133735013 | (51) 3373-5013 | — | Fixo eventos | Alta | [Deville eventos POA](https://www.deville.com.br/hotel-deville-prime-porto-alegre/eventos-hotel-deville-prime-porto-alegre) | Pendente |
+| Blue Tree Millenium | Porto Alegre | reservas.millenium@bluetree.com.br | 555130262200 | (51) 3026-2200 | — | Fixo reservas | Baixa | [Blue Tree Millenium POA](https://www.bluetree.com.br/hotel/blue-tree-towers-millenium-porto-alegre) | Pendente |
+| Intercity Premium POA | Porto Alegre | reservas.poa.prm@intercityhoteis.com.br | 555132017700 | (51) 3201-7700 | [wa.me/555132017700](https://wa.me/555132017700) | Reservas (central) | Baixa | [Intercity Premium](https://www.intercityhoteis.com.br/hotel-porto-alegre/hotel-intercity-premium) | Pendente |
+| Ritter Hotéis | Porto Alegre | reservas@ritterhoteis.com.br | 5551991964009 | (51) 99196-4009 | [wa.me/5551991964009](https://wa.me/5551991964009) | Celular (site) | Baixa | [ritterhoteis.com.br](https://www.ritterhoteis.com.br/) | Pendente |
+| Radisson POA | Porto Alegre | reservas1.rpoa@atlanticahotels.com.br | — | — | — | Não encontrado | Baixa | [Radisson POA](https://www.radissonhotels.com/pt-br/hoteis/radisson-porto-alegre) | Pendente |
+| Sheraton POA | Porto Alegre | reservas.poa@sheraton.com | — | — | — | Não encontrado | Baixa | [Sheraton POA](https://www.marriott.com/en-us/hotels/poasi-sheraton-porto-alegre-hotel/overview/) | Pendente |
+| Swan Tower / Generation | Porto Alegre | reservas@swanhoteis.com.br | 5551992284510 | (51) 99228-4510 | [wa.me/5551992284510](https://wa.me/5551992284510) | Celular (site) | Média | [swangeneration.com.br](https://www.swangeneration.com.br/coworking-contato) | Pendente |
+| Laghetto Viverone Moinhos | Porto Alegre | reservas@laghettomoinhos.com.br | 555121027272 | (51) 2102-7272 | — | Fixo | Baixa | [laghettomoinhos.com.br](https://www.laghettomoinhos.com.br/) | Pendente |
+| Hotel Continental Business | Porto Alegre | comercial2@hotelcontinentalbusiness.com.br | 555130271601 | (51) 3027-1601 | — | Fixo reservas | Média | [hotelcontinentalbusiness.com.br](https://www.hotelcontinentalbusiness.com.br/) | Pendente |
+| Everest Hotel | Porto Alegre | reservaspoa@everest.com.br | — | — | — | Não encontrado | Baixa | [everesthoteis.com.br POA](https://www.everesthoteis.com.br/hotel-everest-porto-alegre) | Pendente |
+| Novotel POA | Porto Alegre | h3258-re@accor.com.br | — | — | — | Não encontrado | Baixa | [novotelportoalegre.com.br](https://www.novotelportoalegre.com.br/) | Pendente |
+| Ibis Moinhos de Vento | Porto Alegre | h6664-re@accor.com.br | 555121122772 | (51) 2112-2772 | — | Fixo Accor | Baixa | [Accor 6664](https://all.accor.com/hotel/6664/index.pt.shtml) | Pendente |
 
 **Deville — WA matriz (Curitiba):** 554132194004 — não usar para POA. **Milão/Umbu fixos:** (51) 3076-3600 · (51) 3017-5800.
 
@@ -132,16 +133,16 @@ Números extraídos dos sites oficiais (coluna **Fonte**). Validar antes de disp
 
 ## Eventos e espaços
 
-| Empresa | E-mail | WhatsApp | Exibição | wa.me | Tipo | Prioridade | Fonte | Status |
-|---------|--------|----------|----------|-------|------|------------|-------|--------|
-| Casa Nossa Eventos | casanossaeventos@hotmail.com | 5551999816953 | (51) 99981-6953 | [wa.me/5551999816953](https://wa.me/5551999816953) | WhatsApp (site) | Alta | [casanossaeventos.com.br](https://casanossaeventos.com.br/) | Pendente |
-| Party House | party.house@terra.com.br | 5551999711153 | (51) 99971-1153 | [wa.me/5551999711153](https://wa.me/5551999711153) | WhatsApp confirmado | Alta | [partyhousecentrodeeventos.com.br](https://www.partyhousecentrodeeventos.com.br/) | Pendente |
-| Dibasi Casa de Eventos | contato@dibasi.com.br | 5551981864515 | (51) 98186-4515 | [wa.me/5551981864515](https://wa.me/5551981864515) | WhatsApp (site) | Alta | [dibasi.com.br](https://www.dibasi.com.br/) | Pendente |
-| Casa Vetro | comercial@groupvetro.com.br | 5551982990355 | (51) 98299-0355 | [wa.me/5551982990355](https://wa.me/5551982990355) | WhatsApp confirmado | Alta | [casavetro.com.br](https://www.casavetro.com.br/) | Pendente |
-| O Casarão Casa de Eventos | ocasarao2438@gmail.com | 5551981302290 | (51) 98130-2290 | [wa.me/5551981302290](https://wa.me/5551981302290) | WhatsApp confirmado | Alta | [ocasaraofestas.com.br](https://ocasaraofestas.com.br/) | Pendente |
-| 50 Eventos (PUC) | intervalo50@intervalo50.com | 5551981250189 | (51) 98125-0189 | [wa.me/5551981250189](https://wa.me/5551981250189) | WhatsApp (site) | Alta | [50eventos.com.br](https://50eventos.com.br/) | Pendente |
-| Flowork — eventos | recepcao@flowork.com.br | 555130171300 | (51) 3017-1300 | [wa.me/555130171300](https://wa.me/555130171300) | Fixo (listado como WA) | Alta | [flowork.com.br](https://www.flowork.com.br/) | Pendente |
-| Siga Porto Alegre Turismo | gestao@sigaturismo.com.br | 5551983489990 | (51) 98348-9990 | [wa.me/5551983489990](https://wa.me/5551983489990) | Celular (site) | Média | [sigaturismo.com.br](https://www.sigaturismo.com.br/) | Pendente |
+| Empresa | Cidade | E-mail | WhatsApp | Exibição | wa.me | Tipo | Prioridade | Fonte | Status |
+|---------|--------|--------|----------|----------|-------|------|------------|-------|--------|
+| Casa Nossa Eventos | Porto Alegre | casanossaeventos@hotmail.com | 5551999816953 | (51) 99981-6953 | [wa.me/5551999816953](https://wa.me/5551999816953) | WhatsApp (site) | Alta | [casanossaeventos.com.br](https://casanossaeventos.com.br/) | Pendente |
+| Party House | Porto Alegre | party.house@terra.com.br | 5551999711153 | (51) 99971-1153 | [wa.me/5551999711153](https://wa.me/5551999711153) | WhatsApp confirmado | Alta | [partyhousecentrodeeventos.com.br](https://www.partyhousecentrodeeventos.com.br/) | Pendente |
+| Dibasi Casa de Eventos | Porto Alegre | contato@dibasi.com.br | 5551981864515 | (51) 98186-4515 | [wa.me/5551981864515](https://wa.me/5551981864515) | WhatsApp (site) | Alta | [dibasi.com.br](https://www.dibasi.com.br/) | Pendente |
+| Casa Vetro | Porto Alegre | comercial@groupvetro.com.br | 5551982990355 | (51) 98299-0355 | [wa.me/5551982990355](https://wa.me/5551982990355) | WhatsApp confirmado | Alta | [casavetro.com.br](https://www.casavetro.com.br/) | Pendente |
+| O Casarão Casa de Eventos | Porto Alegre | ocasarao2438@gmail.com | 5551981302290 | (51) 98130-2290 | [wa.me/5551981302290](https://wa.me/5551981302290) | WhatsApp confirmado | Alta | [ocasaraofestas.com.br](https://ocasaraofestas.com.br/) | Pendente |
+| 50 Eventos (PUC) | Porto Alegre | intervalo50@intervalo50.com | 5551981250189 | (51) 98125-0189 | [wa.me/5551981250189](https://wa.me/5551981250189) | WhatsApp (site) | Alta | [50eventos.com.br](https://50eventos.com.br/) | Pendente |
+| Flowork — eventos | Porto Alegre | recepcao@flowork.com.br | 555130171300 | (51) 3017-1300 | [wa.me/555130171300](https://wa.me/555130171300) | Fixo (listado como WA) | Alta | [flowork.com.br](https://www.flowork.com.br/) | Pendente |
+| Siga Porto Alegre Turismo | Porto Alegre | gestao@sigaturismo.com.br | 5551983489990 | (51) 98348-9990 | [wa.me/5551983489990](https://wa.me/5551983489990) | Celular (site) | Média | [sigaturismo.com.br](https://www.sigaturismo.com.br/) | Pendente |
 
 **50 Eventos — alt.:** (51) 98118-8128 · **Casa Nossa fixo:** (51) 3333-2544.
 
@@ -219,19 +220,19 @@ Números extraídos dos sites oficiais (coluna **Fonte**). Validar antes de disp
 
 ## Santa Cruz do Sul (zona 4 · ~110 km)
 
-| Empresa | Nicho | E-mail | WhatsApp | Exibição | wa.me | Tipo | Prioridade | Fonte | Status |
-|---------|-------|--------|----------|----------|-------|------|------------|-------|--------|
-| Imobiliária Lenz | Imob | comercial@imobiliarialenz.com.br | 5551996810174 | (51) 99681-0174 | [wa.me/5551996810174](https://wa.me/5551996810174) | WhatsApp (site) | Alta | [imobiliarialenz.com.br](https://imobiliarialenz.com.br/) | Pendente |
-| Tayumi Imóveis | Imob | vendas@tayumi.com.br | 5551996731291 | (51) 99673-1291 | [wa.me/5551996731291](https://wa.me/5551996731291) | WhatsApp (site) | Alta | [tayumi.com.br](http://tayumi.com.br/) | Pendente |
-| Imobel | Imob | cpd@imobel.com.br | 5551996661413 | (51) 99666-1413 | [wa.me/5551996661413](https://wa.me/5551996661413) | WhatsApp (site) | Média | [imobel.com.br](https://www.imobel.com.br/) | Pendente |
+| Empresa | Cidade | Nicho | E-mail | WhatsApp | Exibição | wa.me | Tipo | Prioridade | Fonte | Status |
+|---------|--------|-------|--------|----------|----------|-------|------|------------|-------|--------|
+| Imobiliária Lenz | Santa Cruz do Sul | Imob | comercial@imobiliarialenz.com.br | 5551996810174 | (51) 99681-0174 | [wa.me/5551996810174](https://wa.me/5551996810174) | WhatsApp (site) | Alta | [imobiliarialenz.com.br](https://imobiliarialenz.com.br/) | Pendente |
+| Tayumi Imóveis | Santa Cruz do Sul | Imob | vendas@tayumi.com.br | 5551996731291 | (51) 99673-1291 | [wa.me/5551996731291](https://wa.me/5551996731291) | WhatsApp (site) | Alta | [tayumi.com.br](http://tayumi.com.br/) | Pendente |
+| Imobel | Santa Cruz do Sul | Imob | cpd@imobel.com.br | 5551996661413 | (51) 99666-1413 | [wa.me/5551996661413](https://wa.me/5551996661413) | WhatsApp (site) | Média | [imobel.com.br](https://www.imobel.com.br/) | Pendente |
 
 ---
 
 ## Bento Gonçalves (zona 4 · ~120 km)
 
-| Empresa | Nicho | E-mail | WhatsApp | Exibição | wa.me | Tipo | Prioridade | Fonte | Status |
-|---------|-------|--------|----------|----------|-------|------|------------|-------|--------|
-| Construtora Siega | Obra | — | 5554991147611 | (54) 99114-7611 | [wa.me/5554991147611](https://wa.me/5554991147611) | WhatsApp (site) | Média | [construtorasiega.com.br](https://construtorasiega.com.br/) | Pendente |
+| Empresa | Cidade | Nicho | E-mail | WhatsApp | Exibição | wa.me | Tipo | Prioridade | Fonte | Status |
+|---------|--------|-------|--------|----------|----------|-------|------|------------|-------|--------|
+| Construtora Siega | Bento Gonçalves | Obra | — | 5554991147611 | (54) 99114-7611 | [wa.me/5554991147611](https://wa.me/5554991147611) | WhatsApp (site) | Média | [construtorasiega.com.br](https://construtorasiega.com.br/) | Pendente |
 
 **Mais leads e cidades pendentes:** [leads-raio-150km-poa.md](leads-raio-150km-poa.md)
 
@@ -359,35 +360,45 @@ Use quando **não houver WhatsApp** ou o canal oficial for e-mail.
 
 #### Imobiliárias
 
-- Barcellos Assessoria Imobiliária — contato@imobarcellos.imb.br — https://barcellos.com.br/fale-conosco.php
-- Realize Imóveis — realize@realizeimoveis.net — https://realizeimoveis.net/contato.php
-- Imobiliária Florença — contato@imobiliariaflorenca.com.br — https://www.imobiliariaflorenca.com.br/contato
-- Heimdall Imóveis — heimdallimob@gmail.com — https://www.heimdallimoveis.com.br/contato
+| Empresa | Cidade | E-mail | Fonte |
+|---------|--------|--------|--------|
+| Barcellos Assessoria Imobiliária | Porto Alegre | contato@imobarcellos.imb.br | https://barcellos.com.br/fale-conosco.php |
+| Realize Imóveis | Porto Alegre | realize@realizeimoveis.net | https://realizeimoveis.net/contato.php |
+| Imobiliária Florença | Porto Alegre | contato@imobiliariaflorenca.com.br | https://www.imobiliariaflorenca.com.br/contato |
+| Heimdall Imóveis | Porto Alegre | heimdallimob@gmail.com | https://www.heimdallimoveis.com.br/contato |
 
 #### Construtoras
 
-- 4T Construtora — contato@4tconstrutora.com.br — https://4tconstrutora.com.br/contato/
-- Construtora Cidade — cidade@ccidade.com.br — https://www.ccidade.com.br/
-- Diâmetro Construções — atendimento@diametro-construtora.com.br — http://www.diametro-construtora.com.br/
+| Empresa | Cidade | E-mail | Fonte |
+|---------|--------|--------|--------|
+| 4T Construtora | Porto Alegre | contato@4tconstrutora.com.br | https://4tconstrutora.com.br/contato/ |
+| Construtora Cidade | Porto Alegre | cidade@ccidade.com.br | https://www.ccidade.com.br/ |
+| Diâmetro Construções | Porto Alegre | atendimento@diametro-construtora.com.br | http://www.diametro-construtora.com.br/ |
 
 #### Hotéis e hospitalidade
 
-- Milão Hotel — atendimento@milaohotel.com.br — https://milaohotel.com.br/contato/
-- Milão Hotel — reservas@milaohotel.com.br — https://milaohotel.com.br/contato/
-- Umbu Hotel Porto Alegre — reservas@umbuhotel.com.br — https://umbuhotelportoalegre.com.br/contato
-- Intercity Cidade Baixa — reservas.cidadebaixa@intercityhoteis.com.br — https://www.intercityhoteis.com.br/hotel-porto-alegre/hotel-intercity-cidade-baixa
-- Hilton Porto Alegre — Portoalegre.reservations@hilton.com — https://hiltonportoalegre.com.br/
+| Empresa | Cidade | E-mail | Fonte |
+|---------|--------|--------|--------|
+| Milão Hotel | Porto Alegre | atendimento@milaohotel.com.br | https://milaohotel.com.br/contato/ |
+| Milão Hotel (reservas) | Porto Alegre | reservas@milaohotel.com.br | https://milaohotel.com.br/contato/ |
+| Umbu Hotel Porto Alegre | Porto Alegre | reservas@umbuhotel.com.br | https://umbuhotelportoalegre.com.br/contato |
+| Intercity Cidade Baixa | Porto Alegre | reservas.cidadebaixa@intercityhoteis.com.br | https://www.intercityhoteis.com.br/hotel-porto-alegre/hotel-intercity-cidade-baixa |
+| Hilton Porto Alegre | Porto Alegre | Portoalegre.reservations@hilton.com | https://hiltonportoalegre.com.br/ |
 
 #### Eventos e espaços
 
-- Casa Nossa Eventos — casanossaeventos@hotmail.com — https://casanossaeventos.com.br/
-- Party House Centro de Eventos — party.house@terra.com.br — https://www.partyhousecentrodeeventos.com.br/
-- Dibasi Casa de Eventos — contato@dibasi.com.br — https://www.dibasi.com.br/
-- Casa Vetro — comercial@groupvetro.com.br — https://www.casavetro.com.br/
+| Empresa | Cidade | E-mail | Fonte |
+|---------|--------|--------|--------|
+| Casa Nossa Eventos | Porto Alegre | casanossaeventos@hotmail.com | https://casanossaeventos.com.br/ |
+| Party House Centro de Eventos | Porto Alegre | party.house@terra.com.br | https://www.partyhousecentrodeeventos.com.br/ |
+| Dibasi Casa de Eventos | Porto Alegre | contato@dibasi.com.br | https://www.dibasi.com.br/ |
+| Casa Vetro | Porto Alegre | comercial@groupvetro.com.br | https://www.casavetro.com.br/ |
 
 #### Turismo
 
-- Siga Porto Alegre Turismo — gestao@sigaturismo.com.br — https://www.sigaturismo.com.br/
+| Empresa | Cidade | E-mail | Fonte |
+|---------|--------|--------|--------|
+| Siga Porto Alegre Turismo | Porto Alegre | gestao@sigaturismo.com.br | https://www.sigaturismo.com.br/ |
 
 #### Observações
 
@@ -407,13 +418,13 @@ E-mails publicados em site oficial. Validar antes de disparar.
 
 #### Imobiliárias — Porto Alegre
 
-| Empresa | E-mail | Fonte |
-|---------|--------|--------|
-| Gularte Imóveis | gularte@gularteimoveis.com.br | https://www.gularteimoveis.com.br/sobre |
-| Christini Imóveis | christiniimoveis@gmail.com | https://www.christini-imoveis.com.br/ |
-| Cadu Imóveis | caduimoveis@hotmail.com | https://www.caduimoveis.com.br/contato |
-| Real Imóveis | contato@realimoveis-rs.com.br | http://realimoveis-rs.com.br/empresa/trabalhe-conosco |
-| MCM Imobiliária | carlosmartinscim@gmail.com | https://www.mcmimobiliaria.com.br/contato |
+| Empresa | Cidade | E-mail | Fonte |
+|---------|--------|--------|--------|
+| Gularte Imóveis | Porto Alegre | gularte@gularteimoveis.com.br | https://www.gularteimoveis.com.br/sobre |
+| Christini Imóveis | Porto Alegre | christiniimoveis@gmail.com | https://www.christini-imoveis.com.br/ |
+| Cadu Imóveis | Porto Alegre | caduimoveis@hotmail.com | https://www.caduimoveis.com.br/contato |
+| Real Imóveis | Porto Alegre | contato@realimoveis-rs.com.br | http://realimoveis-rs.com.br/empresa/trabalhe-conosco |
+| MCM Imobiliária | Porto Alegre | carlosmartinscim@gmail.com | https://www.mcmimobiliaria.com.br/contato |
 
 **Sem e-mail público claro (só telefone/WhatsApp/formulário):** Imobiliária Somma — https://somma-rs.com.br/contato | Guarida — https://www.guarida.com.br/
 
@@ -433,13 +444,13 @@ E-mails publicados em site oficial. Validar antes de disparar.
 
 #### Construtoras / incorporadoras
 
-| Empresa | E-mail | Fonte |
-|---------|--------|--------|
-| Projeção Incorporadora | projecao@incorporadoraprojecao.com.br | https://incorporadoraprojecao.com.br/ |
-| Lotus Incorporadora | contato@lotusincorporadora.com.br | https://lotusincorporadora.com.br/ |
-| UMA Incorporadora | uma@umaincorporadora.com.br | https://umaincorporadora.com.br/ |
-| Volcon Construtora | volcon@volconstrutora.com.br | https://volconstrutora.com.br/ |
-| MMR Incorporadora | contato@mmrincorporadora.com.br | https://www.mmrincorporadora.com.br/ (Alvorada / RM) |
+| Empresa | Cidade | E-mail | Fonte |
+|---------|--------|--------|--------|
+| Projeção Incorporadora | Porto Alegre | projecao@incorporadoraprojecao.com.br | https://incorporadoraprojecao.com.br/ |
+| Lotus Incorporadora | Porto Alegre | contato@lotusincorporadora.com.br | https://lotusincorporadora.com.br/ |
+| UMA Incorporadora | Porto Alegre | uma@umaincorporadora.com.br | https://umaincorporadora.com.br/ |
+| Volcon Construtora | Porto Alegre | volcon@volconstrutora.com.br | https://volconstrutora.com.br/ |
+| MMR Incorporadora | Alvorada | contato@mmrincorporadora.com.br | https://www.mmrincorporadora.com.br/ |
 
 **Sem e-mail no site (só WhatsApp):** Reis Construtora — Esteio — https://www.reisconstrutora.com.br/contato
 
@@ -447,22 +458,22 @@ E-mails publicados em site oficial. Validar antes de disparar.
 
 #### Hotéis e hospedagem — Porto Alegre
 
-| Empresa | E-mail | Observação | Fonte |
-|---------|--------|------------|--------|
-| Pousada Agronomia | pousadaagronomia@hotmail.com | Pousada | https://pousadaagronomia.com.br/ |
-| Deville Prime Porto Alegre | recep.poa@deville.com.br | Hospedagem | https://www.deville.com.br/contatos |
-| Deville Prime — eventos | eventosgeral.poa@deville.com.br | Salões / corporativo | https://www.deville.com.br/hotel-deville-prime-porto-alegre/eventos-hotel-deville-prime-porto-alegre |
-| Blue Tree Towers Millenium | reservas.millenium@bluetree.com.br | Hotel | https://www.bluetree.com.br/contatos |
-| Intercity Premium POA | reservas.poa.prm@intercityhoteis.com.br | Rede — outra unidade | Listagem PUCRS / Intercity |
-| Ritter Hotéis | reservas@ritterhoteis.com.br | Centro | Listagem hoteleira POA |
-| Radisson Porto Alegre | reservas1.rpoa@atlanticahotels.com.br | Bela Vista | Listagem hoteleira POA |
-| Sheraton Porto Alegre | reservas.poa@sheraton.com | Moinhos | Listagem hoteleira POA |
-| Swan Tower / Generation | reservas@swanhoteis.com.br | Higienópolis / eventos | https://www.swangeneration.com.br/coworking-contato |
-| Laghetto Viverone Moinhos | reservas@laghettomoinhos.com.br | Moinhos | Listagem hoteleira POA |
-| Hotel Continental Business | comercial2@hotelcontinentalbusiness.com.br | Centro — conferir setor | Listagem hoteleira POA |
-| Everest Hotel | reservaspoa@everest.com.br | Centro — validar no site | Listagem hoteleira POA |
-| Novotel Porto Alegre | h3258-re@accor.com.br | Accor — formato padrão rede | Listagem hoteleira POA |
-| Ibis Moinhos de Vento | h6664-re@accor.com.br | Accor | Listagem hoteleira POA |
+| Empresa | Cidade | E-mail | Observação | Fonte |
+|---------|--------|--------|------------|--------|
+| Pousada Agronomia | Porto Alegre | pousadaagronomia@hotmail.com | Pousada | https://pousadaagronomia.com.br/ |
+| Deville Prime Porto Alegre | Porto Alegre | recep.poa@deville.com.br | Hospedagem | https://www.deville.com.br/contatos |
+| Deville Prime — eventos | Porto Alegre | eventosgeral.poa@deville.com.br | Salões / corporativo | https://www.deville.com.br/hotel-deville-prime-porto-alegre/eventos-hotel-deville-prime-porto-alegre |
+| Blue Tree Towers Millenium | Porto Alegre | reservas.millenium@bluetree.com.br | Hotel | https://www.bluetree.com.br/contatos |
+| Intercity Premium POA | Porto Alegre | reservas.poa.prm@intercityhoteis.com.br | Rede — outra unidade | Listagem PUCRS / Intercity |
+| Ritter Hotéis | Porto Alegre | reservas@ritterhoteis.com.br | Centro | Listagem hoteleira POA |
+| Radisson Porto Alegre | Porto Alegre | reservas1.rpoa@atlanticahotels.com.br | Bela Vista | Listagem hoteleira POA |
+| Sheraton Porto Alegre | Porto Alegre | reservas.poa@sheraton.com | Moinhos | Listagem hoteleira POA |
+| Swan Tower / Generation | Porto Alegre | reservas@swanhoteis.com.br | Higienópolis / eventos | https://www.swangeneration.com.br/coworking-contato |
+| Laghetto Viverone Moinhos | Porto Alegre | reservas@laghettomoinhos.com.br | Moinhos | Listagem hoteleira POA |
+| Hotel Continental Business | Porto Alegre | comercial2@hotelcontinentalbusiness.com.br | Centro — conferir setor | Listagem hoteleira POA |
+| Everest Hotel | Porto Alegre | reservaspoa@everest.com.br | Centro — validar no site | Listagem hoteleira POA |
+| Novotel Porto Alegre | Porto Alegre | h3258-re@accor.com.br | Accor — formato padrão rede | Listagem hoteleira POA |
+| Ibis Moinhos de Vento | Porto Alegre | h6664-re@accor.com.br | Accor | Listagem hoteleira POA |
 
 **Prioridade marketing:** redes (Accor, Blue Tree, Sheraton) — usar template **3c** (encaminhamento).
 
@@ -470,11 +481,11 @@ E-mails publicados em site oficial. Validar antes de disparar.
 
 #### Eventos e espaços
 
-| Empresa | E-mail | Fonte |
-|---------|--------|--------|
-| O Casarão Casa de Eventos | ocasarao2438@gmail.com | https://ocasaraofestas.com.br/ |
-| 50 Eventos (PUC) | intervalo50@intervalo50.com | https://50eventos.com.br/ |
-| Flowork — eventos corporativos | recepcao@flowork.com.br | https://www.flowork.com.br/eventos-corporativos (unidade Moinhos) |
+| Empresa | Cidade | E-mail | Fonte |
+|---------|--------|--------|--------|
+| O Casarão Casa de Eventos | Porto Alegre | ocasarao2438@gmail.com | https://ocasaraofestas.com.br/ |
+| 50 Eventos (PUC) | Porto Alegre | intervalo50@intervalo50.com | https://50eventos.com.br/ |
+| Flowork — eventos corporativos | Porto Alegre | recepcao@flowork.com.br | https://www.flowork.com.br/eventos-corporativos (unidade Moinhos) |
 
 ---
 

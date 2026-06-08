@@ -116,11 +116,11 @@ Leads já existentes em POA/RM **não foram repetidos** aqui — consulte as lis
 
 ### Imobiliárias
 
-| Empresa | E-mail | WhatsApp | wa.me | Zona | Fonte |
-|---------|--------|----------|-------|------|--------|
-| Imobiliária Lenz | comercial@imobiliarialenz.com.br | 5551996810174 | [wa.me/5551996810174](https://wa.me/5551996810174) | 4 | [imobiliarialenz.com.br/contato](https://imobiliarialenz.com.br/contato/) |
-| Tayumi Imóveis | vendas@tayumi.com.br | 5551996731291 | [wa.me/5551996731291](https://wa.me/5551996731291) | 4 | [tayumi.com.br](http://tayumi.com.br/) |
-| Imobel | cpd@imobel.com.br | 5551996661413 | [wa.me/5551996661413](https://wa.me/5551996661413) | 4 | [imobel.com.br](https://www.imobel.com.br/) |
+| Empresa | Cidade | E-mail | WhatsApp | wa.me | Zona | Fonte |
+|---------|--------|--------|----------|-------|------|--------|
+| Imobiliária Lenz | Santa Cruz do Sul | comercial@imobiliarialenz.com.br | 5551996810174 | [wa.me/5551996810174](https://wa.me/5551996810174) | 4 | [imobiliarialenz.com.br/contato](https://imobiliarialenz.com.br/contato/) |
+| Tayumi Imóveis | Santa Cruz do Sul | vendas@tayumi.com.br | 5551996731291 | [wa.me/5551996731291](https://wa.me/5551996731291) | 4 | [tayumi.com.br](http://tayumi.com.br/) |
+| Imobel | Santa Cruz do Sul | cpd@imobel.com.br | 5551996661413 | [wa.me/5551996661413](https://wa.me/5551996661413) | 4 | [imobel.com.br](https://www.imobel.com.br/) |
 
 **Só telefone no site:** Lucas Imóveis — (51) 3713-1766 — [lucasimoveis.com.br](https://www.lucasimoveis.com.br/)
 
@@ -128,17 +128,17 @@ Leads já existentes em POA/RM **não foram repetidos** aqui — consulte as lis
 
 ## Bento Gonçalves (zona 4 · ~120 km)
 
-| Empresa | Nicho | E-mail | WhatsApp | Zona | Fonte |
-|---------|-------|--------|----------|------|--------|
-| Construtora Siega | Obra / incorporadora | — (formulário site) | 5554991147611 | 4 | [construtorasiega.com.br](https://construtorasiega.com.br/quem-somos/) |
+| Empresa | Cidade | Nicho | E-mail | WhatsApp | Zona | Fonte |
+|---------|--------|-------|--------|----------|------|--------|
+| Construtora Siega | Bento Gonçalves | Obra / incorporadora | — (formulário site) | 5554991147611 | 4 | [construtorasiega.com.br](https://construtorasiega.com.br/quem-somos/) |
 
 ---
 
 ## Novo Hamburgo — complemento (zona 2 · ~35 km)
 
-| Empresa | Nicho | E-mail | WhatsApp | wa.me | Fonte |
-|---------|-------|--------|----------|-------|--------|
-| IPA CTG Cirlei Eventos | Eventos | contato@ipactgcirleieventos.com.br | 555191464774 | [wa.me/555191464774](https://wa.me/555191464774) | [ipactgcirleieventos.com.br](https://ipactgcirleieventos.com.br/) |
+| Empresa | Cidade | Nicho | E-mail | WhatsApp | wa.me | Fonte |
+|---------|--------|-------|--------|----------|-------|--------|
+| IPA CTG Cirlei Eventos | Novo Hamburgo | Eventos | contato@ipactgcirleieventos.com.br | 555191464774 | [wa.me/555191464774](https://wa.me/555191464774) | [ipactgcirleieventos.com.br](https://ipactgcirleieventos.com.br/) |
 
 **Já na lista WhatsApp (RM):** Construsinos, Segura, Vital, Mariano (Gravataí), QG (Canoas), Reis (Esteio), MMR (Alvorada).
 
