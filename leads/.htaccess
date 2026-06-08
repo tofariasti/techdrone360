@@ -1,10 +1,4 @@
-# TechDrone360 — área comercial interna (senha HTTP)
-# Configure o AuthUserFile no servidor — ver SETUP-AUTH.md
-
-AuthType Basic
-AuthName "TechDrone360 — Comercial"
-AuthUserFile "/home/SEU_USUARIO/.htpasswd-techdrone360-leads"
-Require valid-user
+# TechDrone360 — área comercial interna (sem indexação — ver robots.txt e X-Robots-Tag abaixo)
 
 DirectoryIndex index.html
 Options -Indexes +FollowSymLinks
@@ -13,7 +7,7 @@ Options -Indexes +FollowSymLinks
   RewriteEngine On
   RewriteBase /leads/
 
-  # Garante index.html ao acessar /leads/ (ou após login na raiz do diretório)
+  # Garante index.html ao acessar /leads/
   RewriteRule ^$ index.html [L]
 </IfModule>
 
