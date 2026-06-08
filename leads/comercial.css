@@ -464,3 +464,49 @@ a:hover {
   margin-right: 0.35rem;
   accent-color: var(--brand-600);
 }
+
+.doc-prose--with-toc .doc-toc {
+  margin: 0 0 2rem;
+  padding: 1rem 1.15rem;
+  border-radius: var(--radius);
+  background: var(--brand-50);
+  border: 1px solid var(--brand-100);
+}
+
+.doc-toc__title {
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--brand-700);
+}
+
+.doc-toc__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  columns: 1;
+}
+
+@media (min-width: 640px) {
+  .doc-toc__list {
+    columns: 2;
+    column-gap: 1.5rem;
+  }
+}
+
+.doc-toc__list li {
+  margin-bottom: 0.35rem;
+  break-inside: avoid;
+}
+
+.doc-toc__list a {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.doc-toc__list a:hover {
+  text-decoration: underline;
+}

@@ -1,6 +1,14 @@
-# Leads WhatsApp — POA e raio de 150 km
+# Leads — lista completa
 
-> **Como usar esta lista:** [COMECE-AQUI.md](COMECE-AQUI.md) · **Catálogo 150 km:** [leads-raio-150km-poa.md](leads-raio-150km-poa.md) · Scripts: [cheat-sheet-vendas.md](cheat-sheet-vendas.md)
+> Gerado por `npm run build:leads`. Edite `leads-whatsapp-poa.md` (principal) e os anexos de e-mail; rode o build de novo.
+
+**Trabalho do dia:** Prioridade **Alta** + Status **Pendente** → site/Instagram → gancho → script no [cheat-sheet](cheat-sheet-vendas.md) → enviar → marcar **Contatado**.
+
+Scripts: [cheat-sheet-vendas.md](cheat-sheet-vendas.md) · FAQ do cliente: [faq-vendas.md](faq-vendas.md)
+
+---
+
+## Lista principal — WhatsApp (POA, RM e 150 km)
 
 Gerado em: 2026-06-08 (atualizado — +29 leads fora da RM · **86** no total)
 
@@ -229,134 +237,271 @@ Números extraídos dos sites oficiais (coluna **Fonte**). Validar antes de disp
 
 ---
 
-## Templates curtos — WhatsApp por nicho
+---
 
-Regras gerais:
-- **4–6 linhas** no 1º contato (sem bloco Street View).
-- Personalize `[Empresa]` e **1 gancho real** (bairro, tipo de imóvel, espaço).
-- **1 pergunta no final** — inclua **com quem falar** sobre marketing/divulgação (muitos números são recepção ou vendas gerais).
-- Se não for o decisor: pedir contato de **marketing, comercial** ou área mais próxima (ver [cheat-sheet § Achar o decisor](cheat-sheet-vendas.md)).
-- Mencione referências só em **1 linha**.
-- Site: `https://techdrone360.com.br/` · equipe comercial: `https://wa.me/5551989030405`
+## Planejamento — raio 150 km
+
+### Zonas de deslocamento
+
+| Zona | km (ida) | Regiões |
+|------|----------|---------|
+| **1** | até 30 | POA, Canoas, Gravataí, Viamão, Alvorada, Esteio, Cachoeirinha |
+| **2** | 31–60 | NH, Sapucaia, São Leopoldo, Guaíba, Parobé, Taquara |
+| **3** | 61–100 | Osório, Montenegro, São Francisco de Paula, Lajeado, Nova Petrópolis |
+| **4** | 101–150 | Gramado, Canela, Bento Gonçalves, Santa Cruz do Sul, Torres, Tramandaí, Capão da Canoa |
+
+**Validar antes de contatar:** site oficial, número/e-mail atuais, SARPAS se aplicável.
+
+## Resumo — novos leads (pesquisa 2026-06-08)
+
+| Região | Zona | Nicho | Novos |
+|--------|------|-------|-------|
+| Gramado / Canela | 4 | Imob + incorporadoras + hotéis + turismo | 14 |
+| Litoral (Osório, Torres, Tramandaí, Capão) | 3–4 | Imob + hotéis | 8 |
+| Santa Cruz do Sul | 4 | Imobiliárias | 3 |
+| Bento Gonçalves | 4 | Construtora | 1 |
+| Novo Hamburgo (complemento) | 2 | Eventos | 1 |
+| **Total novos** | | | **27** |
+
+Leads já existentes em POA/RM **não foram repetidos** aqui — consulte as listas acima.
+
+### Leads extras (catálogo 150 km — conferir no site)
+
+| Empresa | Cidade | Observação | Fonte |
+|---------|--------|------------|--------|
+| Gramado Prime Imóveis | Gramado | WhatsApp no site | [gramadoprimeimoveis.com.br/contato](https://www.gramadoprimeimoveis.com.br/contato) |
+| H Turismo Gramado | Gramado | WhatsApp no site | [hturismogramado.com.br](https://www.hturismogramado.com.br/) |
+| Gramado Concept Turismo | Gramado | Formulário / WhatsApp | [gramadoconcept.com.br](https://www.gramadoconcept.com.br/) |
+| Grande Hotel Torres | Torres | ghotelt@terra.com.br · fixo (51) 3626-1903 | [grandehoteltorres.com.br](https://www.grandehoteltorres.com.br/) |
+| Lucas Imóveis | Santa Cruz do Sul | Só telefone (51) 3713-1766 | [lucasimoveis.com.br](https://www.lucasimoveis.com.br/) |
+
+### Ordem sugerida de prospecção (150 km)
+
+| Lote | Região | Zona | Prioridade |
+|------|--------|------|------------|
+| 1–3 | POA + RM | 1–2 | Concluir listas atuais primeiro |
+| **4** | Osório + Tramandaí (imob litoral) | 3–4 | Alta — temporada, muitos anúncios |
+| **5** | Gramado + Canela (imob + incorporadoras) | 4 | Alta — alto ticket imóvel |
+| **6** | Santa Cruz do Sul (imob) | 4 | Média |
+| **7** | Hotéis/pousadas Serra + litoral | 4 | Média |
+| **8** | Turismo receptivo (Serra) | 4 | Média |
+| **9** | Bento Gonçalves (obra) | 4 | Baixa |
+
+**Deslocamento:** combinar 2–3 captações na mesma região no mesmo dia (ver pacote E e zonas no guia).
 
 ---
 
-### 1) Imobiliária
+### Cidades no raio — ainda sem leads mapeados
 
-```
-Olá, tudo bem? Sou o Tiago, da TechDrone360 — fotos e vídeo com drone para anúncios em POA e região.
+Pesquisar em rodada futura (Google Maps + “imobiliária [cidade]”, Instagram):
 
-Vi o portfólio da [Empresa] e achei que um piloto em 1 imóvel (fotos + Reels do entorno e fachada) poderia ajudar a acelerar visitas no WhatsApp.
-
-Já trabalhei com Auxiliadora Predial, Ápice Incorporadora e Clipes Imóveis.
-
-Com quem posso falar sobre divulgação dos imóveis — marketing ou comercial?
-```
-
-**Gancho opcional (1ª linha após apresentação):** *“Vi imóveis de vocês em [bairro] — localização pesa muito na decisão do comprador.”*
-
----
-
-### 2) Construtora / incorporadora
-
-```
-Olá, tudo bem? Sou o Tiago, da TechDrone360 — captação aérea para obras e empreendimentos em POA e região.
-
-Acompanhei o portfólio da [Empresa] e imagino que imagem aérea atual (escala, entorno, estágio do canteiro) ajude em vendas e apresentação para investidores.
-
-Já realizei captações para Auxiliadora Predial, Ápice Incorporadora e Clipes Imóveis. Emito nota fiscal pelo serviço.
-
-Com quem falo sobre divulgação do empreendimento — comercial, marketing ou engenharia?
-```
+| Cidade | km ida (aprox.) | Zona |
+|--------|------------------|------|
+| Montenegro | 75 | 3 |
+| Taquara | 65 | 3 |
+| Parobé | 55 | 2 |
+| São Leopoldo | 30 | 2 |
+| Lajeado | 100 | 3 |
+| Nova Petrópolis | 95 | 3 |
+| Garibaldi | 105 | 4 |
+| Imbé / Xangri-lá | 105–115 | 4 |
+| São Francisco de Paula | 85 | 3 |
 
 ---
 
-### 3) Hotel / pousada
+### Boas práticas (150 km)
 
-```
-Olá, tudo bem? Sou o Tiago, da TechDrone360 — fotos e vídeo com drone para hotéis e pousadas em POA.
-
-Quem reserva hoje compara no Booking/Instagram antes de ligar: fachada, entorno e acessos pesam na decisão. Material aéreo exclusivo ajuda nisso.
-
-Já trabalhei com Auxiliadora, Ápice e Clipes na região. Emito nota fiscal.
-
-Com quem posso falar sobre marketing ou divulgação do [Hotel/Pousada] — é com você?
-```
-
-**Para `reservas@` / fixo / não for decisor:** *“Sem problema! Pode me passar quem cuida de marketing ou comercial? Mando um resumo curto para encaminhar.”*
+1. **Confirmar zona** no Google Maps (POA → endereço) antes de citar faixa de preço.
+2. **SARPAS:** Serra e alguns litorais podem exigir planejamento extra — avisar o Tiago.
+3. **Agendar viagem:** preferir 2+ jobs na mesma região para diluir deslocamento.
+4. **Follow-up:** mesmas regras do [cheat-sheet](cheat-sheet-vendas.md) — máx. 2 toques.
+5. **Atualizar Status** em [leads-whatsapp-poa.md](leads-whatsapp-poa.md).
 
 ---
 
-### 4) Eventos / casa de festa
+### Cidades ainda sem leads mapeados
 
-```
-Olá, tudo bem? Sou o Tiago, da TechDrone360 — fotos e vídeo com drone para espaços de eventos em POA.
 
-Quem fecha festa ou corporativo compara várias casas online antes de visitar: salão, área externa, estacionamento e acesso. Um tour aéreo curto ajuda a fechar visita mais rápido.
 
-Já trabalhei com Auxiliadora, Ápice e Clipes Imóveis na região.
+Pesquisar em rodada futura (Google Maps + “imobiliária [cidade]”, Instagram):
 
-Com quem falo sobre divulgação do espaço — comercial ou marketing?
-```
+| Cidade | km ida (aprox.) | Zona |
+|--------|------------------|------|
+| Montenegro | 75 | 3 |
+| Taquara | 65 | 3 |
+| Parobé | 55 | 2 |
+| São Leopoldo | 30 | 2 |
+| Lajeado | 100 | 3 |
+| Nova Petrópolis | 95 | 3 |
+| Garibaldi | 105 | 4 |
+| Imbé / Xangri-lá | 105–115 | 4 |
+| São Francisco de Paula | 85 | 3 |
 
----
+### Boas práticas (150 km)
 
-### 5) Turismo
-
-```
-Olá, tudo bem? Sou o Tiago, da TechDrone360 — imagens aéreas para turismo e campanhas em POA e região.
-
-Vi os roteiros da [Empresa] e acho que vídeo aéreo ajuda a vender a experiência antes da reserva (escala, orla, atrativos com contexto).
-
-Já trabalhei com Auxiliadora, Ápice e Clipes Imóveis. Emito nota fiscal.
-
-Com quem falo sobre marketing ou campanhas — é com você?
-```
-
----
-
-### 6) Follow-up (3–4 dias depois)
-
-```
-Oi! Passando para ver se faz sentido aquele piloto com drone para a [Empresa] que comentei.
-
-Se for o momento, me avisa que mando escopo e investimento em até 2 dias — sem compromisso. Se não for prioridade agora, tudo bem também 🙂
-```
+1. **Confirmar zona** no Google Maps (POA → endereço) antes de citar faixa de preço.
+2. **SARPAS:** Serra e alguns litorais podem exigir planejamento extra — avisar o Tiago.
+3. **Agendar viagem:** preferir 2+ jobs na mesma região para diluir deslocamento.
+4. **Follow-up:** mesmas regras do [cheat-sheet](cheat-sheet-vendas.md) — máx. 2 toques.
+5. **Atualizar Status** em [leads-whatsapp-poa.md](leads-whatsapp-poa.md).
 
 ---
 
-### 7) Follow-up final (10 dias — último toque)
+## Anexo — referência só e-mail
 
-```
-Oi! Última mensagem sobre captação aérea para a [Empresa] — não quero incomodar.
+Quando não houver WhatsApp ou o canal oficial for e-mail. Modelos: [template-email-por-nicho.md](template-email-por-nicho.md).
 
-Se em algum momento precisarem de fotos/vídeo com drone (imóvel, obra ou espaço), é só chamar. Abraço! Tiago — TechDrone360
-```
+### Porto Alegre — núcleo inicial
+
+Gerado em: 2026-05-27
+
+Use quando **não houver WhatsApp** ou o canal oficial for e-mail.
+
+#### Imobiliárias
+
+- Barcellos Assessoria Imobiliária — contato@imobarcellos.imb.br — https://barcellos.com.br/fale-conosco.php
+- Realize Imóveis — realize@realizeimoveis.net — https://realizeimoveis.net/contato.php
+- Imobiliária Florença — contato@imobiliariaflorenca.com.br — https://www.imobiliariaflorenca.com.br/contato
+- Heimdall Imóveis — heimdallimob@gmail.com — https://www.heimdallimoveis.com.br/contato
+
+#### Construtoras
+
+- 4T Construtora — contato@4tconstrutora.com.br — https://4tconstrutora.com.br/contato/
+- Construtora Cidade — cidade@ccidade.com.br — https://www.ccidade.com.br/
+- Diâmetro Construções — atendimento@diametro-construtora.com.br — http://www.diametro-construtora.com.br/
+
+#### Hotéis e hospitalidade
+
+- Milão Hotel — atendimento@milaohotel.com.br — https://milaohotel.com.br/contato/
+- Milão Hotel — reservas@milaohotel.com.br — https://milaohotel.com.br/contato/
+- Umbu Hotel Porto Alegre — reservas@umbuhotel.com.br — https://umbuhotelportoalegre.com.br/contato
+- Intercity Cidade Baixa — reservas.cidadebaixa@intercityhoteis.com.br — https://www.intercityhoteis.com.br/hotel-porto-alegre/hotel-intercity-cidade-baixa
+- Hilton Porto Alegre — Portoalegre.reservations@hilton.com — https://hiltonportoalegre.com.br/
+
+#### Eventos e espaços
+
+- Casa Nossa Eventos — casanossaeventos@hotmail.com — https://casanossaeventos.com.br/
+- Party House Centro de Eventos — party.house@terra.com.br — https://www.partyhousecentrodeeventos.com.br/
+- Dibasi Casa de Eventos — contato@dibasi.com.br — https://www.dibasi.com.br/
+- Casa Vetro — comercial@groupvetro.com.br — https://www.casavetro.com.br/
+
+#### Turismo
+
+- Siga Porto Alegre Turismo — gestao@sigaturismo.com.br — https://www.sigaturismo.com.br/
+
+#### Observações
+
+- Priorizar abordagem por nicho (imobiliárias, construtoras, hotéis e eventos).
+- Enviar e-mail curto e personalizado por segmento.
+- Validar existência do contato antes de escalar disparos.
+
+### Expansão POA e região
+
+Gerado em: 2026-05-27
+
+E-mails publicados em site oficial. Validar antes de disparar.
+
+**Já na lista principal** (`leads-porto-alegre.md`): não repetir Barcellos, Realize, Florença, Heimdall, 4T, Cidade, Diâmetro, Milão, Umbu, Intercity Cidade Baixa, Hilton, Casa Nossa, Party House, Dibasi, Casa Vetro, Siga Turismo.
 
 ---
 
-## Boas práticas de envio (WhatsApp)
+#### Imobiliárias — Porto Alegre
 
-1. **Prioridade Alta primeiro** — imobiliárias, incorporadoras, eventos, pousada.
-2. **Achar o decisor** — perguntar por marketing/comercial; não desistir se responderem “não sou eu”.
-3. **5–10 mensagens/dia** — evita bloqueio e parece humano.
-4. **Horário:** 9h–11h ou 14h–17h, seg–sex.
-5. **Não anexar arquivos** no 1º contato; ofereça link do site/Instagram se pedirem.
-6. **Atualizar coluna Status** após cada contato.
-7. **Hotéis de rede** (Accor, Hilton, Sheraton): preferir e-mail para marketing ou LinkedIn; WhatsApp de reservas raramente encaminha.
-8. **Números “Não encontrado”:** buscar no Instagram da empresa ou Google Maps antes de desistir.
-9. **LGPD:** usar apenas números publicados para contato comercial; oferecer saída fácil na 1ª mensagem.
+| Empresa | E-mail | Fonte |
+|---------|--------|--------|
+| Gularte Imóveis | gularte@gularteimoveis.com.br | https://www.gularteimoveis.com.br/sobre |
+| Christini Imóveis | christiniimoveis@gmail.com | https://www.christini-imoveis.com.br/ |
+| Cadu Imóveis | caduimoveis@hotmail.com | https://www.caduimoveis.com.br/contato |
+| Real Imóveis | contato@realimoveis-rs.com.br | http://realimoveis-rs.com.br/empresa/trabalhe-conosco |
+| MCM Imobiliária | carlosmartinscim@gmail.com | https://www.mcmimobiliaria.com.br/contato |
+
+**Sem e-mail público claro (só telefone/WhatsApp/formulário):** Imobiliária Somma — https://somma-rs.com.br/contato | Guarida — https://www.guarida.com.br/
 
 ---
 
-## Próximo passo
+#### Imobiliárias — Região metropolitana
 
-1. Disparar **lote 1:** imobiliárias POA (Gularte, Realize, Heimdall, Christini, Cadu, Real, MCM).
-2. Disparar **lote 2:** incorporadoras + Reis + Diâmetro + UMA + Lotus.
-3. Disparar **lote 3:** eventos (Casarão, Casa Vetro, Party House, 50 Eventos, Dibasi).
-4. **Lote 4 (150 km):** imob litoral — BCM, Cardoso, MVM (Osório) + Elis, Fenix (Tramandaí).
-5. **Lote 5 (150 km):** Serra — Nobre, Viva na Serra, Mapa do Imóvel + incorporadoras Canela.
-6. **Lote 6:** Santa Cruz (Lenz, Tayumi) + hotéis Serra/litoral (prioridade Média).
-7. Follow-up dia 4 nos que não responderem.
+| Empresa | Cidade | E-mail | Fonte |
+|---------|--------|--------|--------|
+| Mariano Imóveis | Gravataí | marianoimoveisgravatai@gmail.com | https://marianoimoveisgravatai.com.br/ |
+| QG do Imóvel | Canoas | qgdoimovel@gmail.com | https://www.qgdoimovel.com.br/ |
+| Imobiliária Construsinos | Novo Hamburgo | contato@imobiliariaconstrusinos.com.br | https://imobiliariaconstrusinos.com.br/ |
 
-E-mails longos: `emails-personalizados-*.md` · e-mails por nicho: `template-email-por-nicho.md`.
+**Só formulário/WhatsApp:** Imobiliária Segura (Canoas) — https://www.segura.com.br/contato | Imobiliária Vital (Canoas) — https://imobiliariavital.com.br/ (telefone no site)
+
+---
+
+#### Construtoras / incorporadoras
+
+| Empresa | E-mail | Fonte |
+|---------|--------|--------|
+| Projeção Incorporadora | projecao@incorporadoraprojecao.com.br | https://incorporadoraprojecao.com.br/ |
+| Lotus Incorporadora | contato@lotusincorporadora.com.br | https://lotusincorporadora.com.br/ |
+| UMA Incorporadora | uma@umaincorporadora.com.br | https://umaincorporadora.com.br/ |
+| Volcon Construtora | volcon@volconstrutora.com.br | https://volconstrutora.com.br/ |
+| MMR Incorporadora | contato@mmrincorporadora.com.br | https://www.mmrincorporadora.com.br/ (Alvorada / RM) |
+
+**Sem e-mail no site (só WhatsApp):** Reis Construtora — Esteio — https://www.reisconstrutora.com.br/contato
+
+---
+
+#### Hotéis e hospedagem — Porto Alegre
+
+| Empresa | E-mail | Observação | Fonte |
+|---------|--------|------------|--------|
+| Pousada Agronomia | pousadaagronomia@hotmail.com | Pousada | https://pousadaagronomia.com.br/ |
+| Deville Prime Porto Alegre | recep.poa@deville.com.br | Hospedagem | https://www.deville.com.br/contatos |
+| Deville Prime — eventos | eventosgeral.poa@deville.com.br | Salões / corporativo | https://www.deville.com.br/hotel-deville-prime-porto-alegre/eventos-hotel-deville-prime-porto-alegre |
+| Blue Tree Towers Millenium | reservas.millenium@bluetree.com.br | Hotel | https://www.bluetree.com.br/contatos |
+| Intercity Premium POA | reservas.poa.prm@intercityhoteis.com.br | Rede — outra unidade | Listagem PUCRS / Intercity |
+| Ritter Hotéis | reservas@ritterhoteis.com.br | Centro | Listagem hoteleira POA |
+| Radisson Porto Alegre | reservas1.rpoa@atlanticahotels.com.br | Bela Vista | Listagem hoteleira POA |
+| Sheraton Porto Alegre | reservas.poa@sheraton.com | Moinhos | Listagem hoteleira POA |
+| Swan Tower / Generation | reservas@swanhoteis.com.br | Higienópolis / eventos | https://www.swangeneration.com.br/coworking-contato |
+| Laghetto Viverone Moinhos | reservas@laghettomoinhos.com.br | Moinhos | Listagem hoteleira POA |
+| Hotel Continental Business | comercial2@hotelcontinentalbusiness.com.br | Centro — conferir setor | Listagem hoteleira POA |
+| Everest Hotel | reservaspoa@everest.com.br | Centro — validar no site | Listagem hoteleira POA |
+| Novotel Porto Alegre | h3258-re@accor.com.br | Accor — formato padrão rede | Listagem hoteleira POA |
+| Ibis Moinhos de Vento | h6664-re@accor.com.br | Accor | Listagem hoteleira POA |
+
+**Prioridade marketing:** redes (Accor, Blue Tree, Sheraton) — usar template **3c** (encaminhamento).
+
+---
+
+#### Eventos e espaços
+
+| Empresa | E-mail | Fonte |
+|---------|--------|--------|
+| O Casarão Casa de Eventos | ocasarao2438@gmail.com | https://ocasaraofestas.com.br/ |
+| 50 Eventos (PUC) | intervalo50@intervalo50.com | https://50eventos.com.br/ |
+| Flowork — eventos corporativos | recepcao@flowork.com.br | https://www.flowork.com.br/eventos-corporativos (unidade Moinhos) |
+
+---
+
+#### Turismo
+
+Nenhum operador adicional com e-mail genérico encontrado além da **Siga Porto Alegre Turismo** (já na lista). Alternativas institucionais (CIT Prefeitura) não são leads comerciais ideais.
+
+---
+
+#### Resumo
+
+| Nicho | Novos com e-mail |
+|-------|------------------|
+| Imobiliárias POA | 5 |
+| Imobiliárias RM | 3 |
+| Construtoras / incorporadoras | 5 |
+| Hotéis / hospedagem | 14 |
+| Eventos | 3 |
+| **Total** | **~30** |
+
+---
+
+#### Boas práticas
+
+1. Abrir o link da coluna **Fonte** e confirmar que o e-mail ainda aparece no rodapé ou em “Fale conosco”.
+2. Não usar e-mails de diretórios antigos (PDF, listagens de eventos) sem checagem no site atual.
+3. Copiar modelo de `template-email-por-nicho.md` e personalizar gancho (bairro, tipo de imóvel/obra).
+4. Hotéis: preferir `recep.*` ou `eventos.*` conforme o objetivo (reservas vs. material promocional).
+
+---

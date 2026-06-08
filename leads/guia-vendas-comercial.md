@@ -319,9 +319,38 @@ Listas completas: `leads-whatsapp-poa.md`, `leads-raio-150km-poa.md`, `leads-por
    - *“Acompanhei o empreendimento X no portfólio de vocês…”*
 3. Confirmar que o **WhatsApp** ainda aparece no site (números mudam).
 4. Escolher o **script do nicho** certo (seção 9).
+5. Planejar **com quem falar** — o WhatsApp do site nem sempre é o decisor (ver seção 8.1).
 
 **Gancho ruim (evitar):** *“Trabalhamos com drone e achamos que vocês precisam.”*  
 **Gancho bom:** *“Vi o apartamento na Rua X no site — localização e entorno pesam muito na decisão do comprador.”*
+
+### 8.1 Achar o decisor — marketing ou área mais próxima
+
+Ao oferecer o serviço, **não assuma** que quem atende o WhatsApp decide contratação de foto/vídeo. Muitas vezes é recepção, corretor, reservas ou atendimento geral.
+
+**Sempre que possível**, no 1º contato ou na primeira resposta:
+
+1. Pergunte **com quem falar** sobre marketing, divulgação ou comercial.
+2. Se não for a pessoa certa, peça **nome, e-mail ou WhatsApp** de quem decide (ou encaminhamento interno).
+3. Envie **resumo curto** (2–3 linhas + link do site) para a pessoa certa — não desista no primeiro “não sou eu”.
+
+**Frase padrão:**
+
+> Com quem posso falar sobre **marketing** ou **divulgação** aí — é com você ou tem outro responsável?
+
+| Nicho | Área mais próxima (peça por…) |
+|-------|-------------------------------|
+| Imobiliária | Marketing, comercial, diretor comercial |
+| Construtora / incorporadora | Comercial do empreendimento, marketing, engenharia |
+| Hotel / pousada | Marketing, comercial, direção — **reservas** raramente contrata |
+| Eventos / casa de festa | Comercial, marketing, proprietário do espaço |
+| Turismo | Marketing, comercial, operações |
+
+**Se disserem que não é com eles:**
+
+> Entendi! Pode me indicar quem cuida de marketing ou comercial? Mando um resumo curto para encaminhar — sem compromisso.
+
+**E-mail para `reservas@` ou rede hoteleira:** use template de **encaminhamento** (`template-email-por-nicho.md` §3b/3c) — o objetivo é chegar ao marketing, não vender para reservas.
 
 ---
 
@@ -335,6 +364,7 @@ Listas completas: `leads-whatsapp-poa.md`, `leads-raio-150km-poa.md`, `leads-por
 6. **Personalize** — troque `[Empresa]` e inclua o gancho.
 7. **LGPD:** use só números/e-mails **públicos** no site. Se pedirem para parar, pare e marque `Sem interesse`.
 8. **Multicanal** — sempre que falar de fotos/vídeo, lembre que o material serve para **Instagram, Facebook, TikTok, YouTube**, WhatsApp, site e anúncios (ver seção 2).
+9. **Decisor** — no 1º contato, pergunte com quem falar sobre **marketing/divulgação**; se não for a pessoa certa, peça encaminhamento (seção 8.1).
 
 ---
 
@@ -353,7 +383,7 @@ Já trabalhamos com Auxiliadora Predial, Ápice Incorporadora e Clipes Imóveis.
 
 O material (fotos + vídeo) pode ser usado no Instagram, Facebook, TikTok, YouTube, portais e WhatsApp — um trabalho, vários canais.
 
-Posso pedir ao Tiago para te mandar uma proposta rápida para 1 imóvel, sem compromisso?
+Com quem posso falar sobre divulgação dos imóveis — marketing ou comercial?
 ```
 
 ### 10.2 Construtora / incorporadora — WhatsApp
@@ -365,7 +395,7 @@ Olá, tudo bem? Sou [Seu nome], da TechDrone360 — captação aérea para obras
 
 Já realizamos captações para Auxiliadora, Ápice e Clipes Imóveis. Emitimos nota fiscal.
 
-Faz sentido uma proposta para 1 obra em andamento — ou um pacote mensal com o mesmo ângulo?
+Com quem falo sobre divulgação do empreendimento — comercial, marketing ou engenharia?
 ```
 
 ### 10.3 Hotel / pousada — WhatsApp
@@ -377,13 +407,13 @@ Quem reserva hoje compara no Booking/Instagram antes de ligar: fachada, entorno 
 
 [gancho opcional — ex.: O [Hotel] tem boa localização — dá para mostrar isso melhor do que foto na altura do chão.]
 
-Posso pedir proposta para fotos + Reels do [Hotel/Pousada]?
+Com quem posso falar sobre marketing ou divulgação do [Hotel/Pousada] — é com você?
 ```
 
 **Se atender reservas / não for decisor:**
 
 ```
-Entendi! Se não for com vocês, pode indicar quem cuida de marketing ou comercial? Mando um resumo curto para encaminhar.
+Entendi! Pode me passar o contato de quem cuida de marketing ou comercial? Mando um resumo curto para encaminhar.
 ```
 
 ### 10.4 Eventos / casa de festa — WhatsApp
@@ -395,7 +425,7 @@ Quem fecha festa ou corporativo compara várias casas online antes de visitar: s
 
 [gancho — ex.: Vi o espaço externo da [Empresa] no site — dá para mostrar a capacidade visual de um jeito que foto no chão não mostra.]
 
-Posso mandar proposta para 1 captação piloto na [Empresa]?
+Com quem falo sobre divulgação do espaço — comercial ou marketing?
 ```
 
 ### 10.5 Turismo — WhatsApp
@@ -407,7 +437,7 @@ Olá, tudo bem? Sou [Seu nome], da TechDrone360 — imagens aéreas para turismo
 
 Já trabalhamos com Auxiliadora, Ápice e Clipes na região. Emitimos nota fiscal.
 
-Qual passeio ou campanha vocês priorizariam para um piloto?
+Com quem falo sobre marketing ou campanhas — é com você?
 ```
 
 ### 10.6 E-mail (quando não houver WhatsApp)
@@ -576,6 +606,7 @@ Você **não precisa** explicar SARPAS em detalhe — basta: *“O Tiago verific
 - [ ] Identifiquei o **nicho** certo?
 - [ ] Usei **gancho personalizado** (algo do site deles)?
 - [ ] Mensagem **curta** com **uma pergunta** no final?
+- [ ] Perguntei **com quem falar** sobre marketing/divulgação (ou pedi encaminhamento)?
 - [ ] Mencionei **referências** (Auxiliadora, Ápice, Clipes) se couber?
 - [ ] Se falei de preço, deixei claro que é **sugestão** (faixa seção 4) e pedi **endereço** — sem valor fechado?
 - [ ] Mencionei que o material vale para **várias redes** (IG, Facebook, TikTok, YouTube, etc.)?

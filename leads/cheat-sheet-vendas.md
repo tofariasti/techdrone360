@@ -1,6 +1,6 @@
 # Cheat sheet — TechDrone360
 
-**Mapa geral:** [COMECE-AQUI.md](COMECE-AQUI.md) · **FAQ cliente:** [faq-vendas.md](faq-vendas.md) · **Detalhes:** [guia-vendas-comercial.md](guia-vendas-comercial.md) · **Leads:** [leads-whatsapp-poa.md](leads-whatsapp-poa.md)
+**Mapa geral:** [COMECE-AQUI.md](COMECE-AQUI.md) · **FAQ cliente:** [faq-vendas.md](faq-vendas.md) · **Detalhes:** [guia-vendas-comercial.md](guia-vendas-comercial.md) · **Leads:** [leads-todos.md](leads-todos.md)
 
 ---
 
@@ -8,7 +8,7 @@
 
 **Manhã**
 - [ ] 5–10 contatos novos (Prioridade **Alta**, Status **Pendente**)
-- [ ] Para cada um: site/IG → **gancho** → script → enviar → Status **Contatado**
+- [ ] Para cada um: site/IG → **gancho** → script → **quem cuida de marketing/comercial** → enviar → Status **Contatado**
 - [ ] Horário: **9–11h**
 
 **Tarde**
@@ -62,6 +62,31 @@ Material serve em **Instagram · Facebook · TikTok · YouTube · WhatsApp · si
 
 ---
 
+## Achar o decisor (sempre)
+
+O número do site muitas vezes é **recepção, vendas gerais ou reservas** — quem decide foto/vídeo costuma ser **marketing, comercial ou direção**.
+
+| Quando | O que fazer |
+|--------|-------------|
+| **No 1º contato** | Feche com pergunta sobre **quem cuida de divulgação** (ver frases abaixo) |
+| **Responderam “não sou eu”** | Agradecer + pedir **nome/contato** de marketing ou comercial |
+| **Silêncio / evasiva** | Follow-up curto só pedindo encaminhamento |
+
+**Frase padrão (qualquer nicho):**  
+*Com quem posso falar sobre **marketing** ou **divulgação** aí — é com você ou tem outro responsável?*
+
+| Nicho | Peça por… |
+|-------|-----------|
+| **Imob** | marketing, comercial ou diretor comercial |
+| **Obra** | comercial do empreendimento, marketing ou engenharia |
+| **Hotel** | marketing, comercial ou dono — *reservas* quase nunca decide |
+| **Eventos** | comercial, marketing ou dono do espaço |
+| **Turismo** | marketing, comercial ou operações |
+
+**Se não for o decisor:** *Sem problema! Pode me passar o contato de quem cuida de marketing/comercial? Mando um resumo curto para encaminhar.*
+
+---
+
 ## Nicho → benefício (1 frase)
 
 | Nicho | Vender assim |
@@ -100,7 +125,7 @@ Olá! Sou [nome], TechDrone360 — drone p/ anúncios em POA.
 [gancho]
 Trabalhamos c/ Auxiliadora, Ápice e Clipes. NF.
 Material p/ Instagram, Facebook, TikTok, YouTube, portais e WhatsApp.
-Proposta p/ 1 imóvel, sem compromisso?
+Com quem falo sobre divulgação dos imóveis — marketing ou comercial?
 ```
 
 ### Obra
@@ -108,29 +133,28 @@ Proposta p/ 1 imóvel, sem compromisso?
 Olá! Sou [nome], TechDrone360 — captação aérea p/ obras em POA.
 [gancho]
 Auxiliadora, Ápice, Clipes. NF.
-Proposta p/ 1 obra pontual ou pacote mensal (mesmo ângulo)?
+Com quem falo sobre divulgação — marketing, comercial ou engenharia?
 ```
 
 ### Hotel / pousada
 ```
 Olá! Sou [nome], TechDrone360 — drone p/ hotéis e pousadas em POA.
 Reserva compara no Booking/IG: fachada e entorno pesam. [gancho]
-Proposta p/ fotos + vídeo do [Hotel]?
+Com quem falo sobre marketing ou divulgação do hotel — é com você?
 ```
-*Reservas:* *Quem cuida de marketing?*
 
 ### Eventos
 ```
 Olá! Sou [nome], TechDrone360 — drone p/ espaços de eventos em POA.
 Cliente compara casas online — tour aéreo ajuda. [gancho]
-Proposta p/ 1 piloto na [Empresa]?
+Com quem falo sobre divulgação do espaço — comercial ou marketing?
 ```
 
 ### Turismo
 ```
 Olá! Sou [nome], TechDrone360 — imagens aéreas p/ turismo em POA.
 [gancho]
-Qual passeio priorizariam p/ um piloto?
+Com quem falo sobre marketing ou campanhas — é com você?
 ```
 
 ---
@@ -148,6 +172,8 @@ Qual passeio priorizariam p/ um piloto?
 | Manda portfólio | techdrone360.com.br · @techdrone360 |
 | Já tenho orçamento | Compare escopo: fotos, vídeo, NF, prazo. Proposta piloto. |
 | Mais barato | Ver o que inclui — edição + NF + planejamento de voo. |
+| Não sou eu / fala com outro | *Sem problema! Quem cuida de marketing ou comercial aí? Pode passar o contato ou encaminhar?* |
+| Só repasso / vou encaminhar | *Obrigada! Pode mandar meu WhatsApp ou este resumo para quem decide divulgação?* |
 
 **Mais perguntas** (preço, prazo, legalidade, entregas, por nicho): [faq-vendas.md](faq-vendas.md)
 

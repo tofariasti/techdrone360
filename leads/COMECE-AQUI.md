@@ -7,9 +7,10 @@
 ## O que você faz (em 10 segundos)
 
 1. **Contacta** empresas da lista (WhatsApp ou e-mail)  
-2. **Personaliza** a mensagem com algo real do site delas  
-3. **Qualifica** quem demonstrar interesse (pede endereço ou link)  
-4. **Passa para o Tiago** — ele manda proposta e faz a captação com drone  
+2. **Pergunta com quem falar** — marketing, comercial ou área mais próxima (quem atende nem sempre decide)  
+3. **Personaliza** a mensagem com algo real do site delas  
+4. **Qualifica** quem demonstrar interesse (pede endereço ou link)  
+5. **Passa para o Tiago** — ele manda proposta e faz a captação com drone  
 
 Você **não pilota** drone nem fecha preço sozinha.
 
@@ -20,8 +21,8 @@ Você **não pilota** drone nem fecha preço sozinha.
 | Quando | O que ler | Tempo |
 |--------|-----------|-------|
 | **Dia 1** | Este arquivo + seções 1–2 do [guia de vendas](guia-vendas-comercial.md) | ~30 min |
-| **Dia 2** | [Cheat sheet](cheat-sheet-vendas.md) inteiro + abrir [lista WhatsApp](leads-whatsapp-poa.md) | ~20 min |
-| **Dia 3 em diante** | Só o **cheat sheet** no celular + a lista de leads | 5 min/dia |
+| **Dia 2** | [Cheat sheet](cheat-sheet-vendas.md) inteiro + abrir [lista completa de leads](leads-todos.md) | ~20 min |
+| **Dia 3 em diante** | Só o **cheat sheet** no celular + [lista de leads](leads-todos.md) | 5 min/dia |
 | **1x por semana** | [Concorrentes](concorrentes-captacao-poa.md) — estudar 2 empresas | ~30 min |
 | **Quando travar** | [FAQ](faq-vendas.md) ou [guia completo](guia-vendas-comercial.md) — perguntas do cliente, objeções, pacotes | Consulta |
 
@@ -31,9 +32,9 @@ Você **não pilota** drone nem fecha preço sozinha.
 
 ```
 MANHÃ (9h–11h)
-  □ Abrir cheat-sheet-vendas + leads-whatsapp-poa
+  □ Abrir cheat-sheet-vendas + leads-todos
   □ Escolher 5–10 leads Prioridade Alta com Status "Pendente"
-  □ Para cada lead: site/Instagram → gancho → script do nicho → enviar
+  □ Para cada lead: site/Instagram → gancho → script → perguntar quem cuida de marketing/comercial → enviar
   □ Marcar Status "Contatado"
 
 TARDE (14h–17h)
@@ -55,7 +56,7 @@ SEMANA
 |---------|----------|
 | **[cheat-sheet-vendas.md](cheat-sheet-vendas.md)** | Cola no celular: rotina, scripts, preços, objeções |
 | **[faq-vendas.md](faq-vendas.md)** | Perguntas que o **cliente** faz — respostas prontas (preço, prazo, legal, entregas) |
-| **[leads-whatsapp-poa.md](leads-whatsapp-poa.md)** | ~86 leads com WhatsApp (POA + 150 km), prioridade e status |
+| **[leads-todos.md](leads-todos.md)** | **Lista única** — WhatsApp, 150 km, zonas e anexo e-mail (~86+) |
 
 ### Leia no início
 
@@ -72,9 +73,7 @@ SEMANA
 | **[template-email-por-nicho.md](template-email-por-nicho.md)** | E-mail longo por segmento (quando não há WhatsApp) |
 | **[emails-personalizados-porto-alegre.md](emails-personalizados-porto-alegre.md)** | Exemplos prontos — copiar e adaptar |
 | **[emails-personalizados-expansao-poa-regiao.md](emails-personalizados-expansao-poa-regiao.md)** | Idem para lista de expansão |
-| **[leads-porto-alegre.md](leads-porto-alegre.md)** | 17 leads só e-mail |
-| **[leads-expansao-poa-regiao.md](leads-expansao-poa-regiao.md)** | ~30 leads extras com e-mail |
-| **[leads-raio-150km-poa.md](leads-raio-150km-poa.md)** | Catálogo completo 150 km — Serra, litoral, interior |
+| `leads-whatsapp-poa.md` / `leads-raio-150km-poa.md` / etc. | Fontes editáveis — consolidados em **leads-todos** (rode `npm run build:leads`) |
 
 ### Só o Tiago
 
