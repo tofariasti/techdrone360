@@ -1,5 +1,7 @@
 # E-mails personalizados por lead (Porto Alegre e região)
 
+> **Lista:** [leads-porto-alegre.md](leads-porto-alegre.md) · **Modelos genéricos:** [template-email-por-nicho.md](template-email-por-nicho.md) · Troque “Sou o Tiago” por equipe comercial · **Mapa:** [COMECE-AQUI.md](COMECE-AQUI.md)
+
 Baseado na lista de `leads-porto-alegre.md`.
 
 **Padrão desta versão:** gancho por empresa, resposta à objeção **drone x Google Street View** (dúvida que clientes já fizeram), **referências** (Auxiliadora Predial, Ápice Incorporadora, Clipes Imóveis), entregáveis e prazo no 1º contato, link do site no corpo (`https://techdrone360.com.br/`), portfólio (Instagram/YouTube), WhatsApp, conformidade ANAC/DECEA (SARPAS quando necessário), **emissão de nota fiscal pelo serviço de captação contratado** e CTA único (“responda SIM”).

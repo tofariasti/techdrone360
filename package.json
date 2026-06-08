@@ -5,10 +5,12 @@
   "scripts": {
     "build:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --minify",
     "build:seo": "node scripts/build-seo.mjs",
-    "build": "npm run build:css && npm run build:seo",
+    "build:leads": "node scripts/build-leads-html.mjs",
+    "build": "npm run build:css && npm run build:seo && npm run build:leads",
     "watch:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch"
   },
   "devDependencies": {
+    "marked": "^18.0.5",
     "tailwindcss": "^3.4.17"
   }
 }

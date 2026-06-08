@@ -1,0 +1,466 @@
+/* TechDrone360 — hub comercial (leads/) */
+:root {
+  --brand-50: #fdf6f1;
+  --brand-100: #fae8dc;
+  --brand-500: #e8956a;
+  --brand-600: #d97b4a;
+  --brand-700: #b85f32;
+  --dark-900: #0a0f14;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-500: #6b7280;
+  --gray-700: #374151;
+  --gray-900: #111827;
+  --green-600: #16a34a;
+  --radius: 12px;
+  --shadow: 0 4px 24px rgba(10, 15, 20, 0.08);
+  --font: Inter, system-ui, -apple-system, sans-serif;
+  --font-display: 'Plus Jakarta Sans', var(--font);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--gray-900);
+  background: var(--gray-50);
+}
+
+a {
+  color: var(--brand-700);
+}
+
+a:hover {
+  color: var(--brand-600);
+}
+
+.wrap {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+@media (min-width: 640px) {
+  .wrap {
+    padding: 2.5rem 1.5rem 4rem;
+  }
+}
+
+.header {
+  background: linear-gradient(135deg, var(--brand-600), var(--brand-700));
+  color: #fff;
+  padding: 2rem 0 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.header .wrap {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.header__eyebrow {
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.header h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+@media (min-width: 640px) {
+  .header h1 {
+    font-size: 2.25rem;
+  }
+}
+
+.header__sub {
+  margin: 0.75rem 0 0;
+  font-size: 1.05rem;
+  opacity: 0.95;
+  max-width: 36rem;
+}
+
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.quick-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.quick-links a:hover {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.section > p {
+  margin: 0 0 1rem;
+  color: var(--gray-500);
+  font-size: 0.9375rem;
+}
+
+.card-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .card-grid--2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card {
+  display: block;
+  padding: 1rem 1.15rem;
+  background: #fff;
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.card:hover {
+  border-color: var(--brand-100);
+  transform: translateY(-1px);
+}
+
+.card--primary {
+  border-color: var(--brand-100);
+  background: var(--brand-50);
+}
+
+.card__tag {
+  display: inline-block;
+  margin-bottom: 0.35rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  background: var(--brand-100);
+  color: var(--brand-700);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.card__tag--green {
+  background: #dcfce7;
+  color: var(--green-600);
+}
+
+.card h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--gray-500);
+  line-height: 1.45;
+}
+
+.rules {
+  background: #fff;
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius);
+  padding: 1rem 1.15rem;
+  box-shadow: var(--shadow);
+}
+
+.rules ul,
+.rules ol {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.rules li {
+  margin-bottom: 0.35rem;
+  font-size: 0.9375rem;
+}
+
+.rules li:last-child {
+  margin-bottom: 0;
+}
+
+.rules strong {
+  color: var(--brand-700);
+}
+
+.footer-note {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--gray-100);
+  font-size: 0.8125rem;
+  color: var(--gray-500);
+  text-align: center;
+}
+
+/* —— Páginas de documento (Markdown → HTML) —— */
+.doc-page {
+  background: #fff;
+}
+
+.doc-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--gray-900);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.doc-bar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 0.65rem 1.25rem;
+}
+
+.doc-bar__back,
+.doc-bar__site {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.doc-bar__back {
+  color: var(--brand-400, #e8a078);
+}
+
+.doc-bar__back:hover {
+  color: #fff;
+}
+
+.doc-bar__site {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.doc-bar__site:hover {
+  color: #fff;
+}
+
+.doc-prose {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  max-width: 52rem;
+}
+
+.doc-prose h2[id],
+.doc-prose h3[id],
+.doc-prose h4[id] {
+  scroll-margin-top: 3.5rem;
+}
+
+.doc-prose > :first-child {
+  margin-top: 0;
+}
+
+.doc-prose h1 {
+  margin: 0 0 1rem;
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1.25;
+  color: var(--gray-900);
+}
+
+.doc-prose h2 {
+  margin: 2.25rem 0 0.75rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid var(--brand-100);
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.doc-prose h3 {
+  margin: 1.75rem 0 0.5rem;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--gray-700);
+}
+
+.doc-prose h4 {
+  margin: 1.25rem 0 0.35rem;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--gray-700);
+}
+
+.doc-prose p,
+.doc-prose li {
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: var(--gray-700);
+}
+
+.doc-prose p {
+  margin: 0 0 1rem;
+}
+
+.doc-prose a {
+  color: var(--brand-700);
+  font-weight: 500;
+}
+
+.doc-prose a:hover {
+  color: var(--brand-600);
+}
+
+.doc-prose strong {
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.doc-prose em {
+  font-style: italic;
+}
+
+.doc-prose hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid var(--gray-100);
+}
+
+.doc-prose ul,
+.doc-prose ol {
+  margin: 0 0 1rem;
+  padding-left: 1.35rem;
+}
+
+.doc-prose li {
+  margin-bottom: 0.35rem;
+}
+
+.doc-prose li > ul,
+.doc-prose li > ol {
+  margin-top: 0.35rem;
+  margin-bottom: 0;
+}
+
+.doc-prose blockquote {
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid var(--brand-500);
+  background: var(--brand-50);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.doc-prose blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.doc-prose code {
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  background: var(--gray-100);
+  font-size: 0.85em;
+  font-family: ui-monospace, 'Cascadia Code', monospace;
+  color: var(--gray-900);
+}
+
+.doc-prose pre {
+  margin: 1rem 0 1.25rem;
+  padding: 1rem 1.1rem;
+  overflow-x: auto;
+  border-radius: var(--radius);
+  background: var(--gray-900);
+  border: 1px solid var(--dark-900);
+  -webkit-overflow-scrolling: touch;
+}
+
+.doc-prose pre code {
+  padding: 0;
+  background: none;
+  color: #e5e7eb;
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.doc-prose table {
+  display: block;
+  width: 100%;
+  margin: 1rem 0 1.5rem;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  -webkit-overflow-scrolling: touch;
+}
+
+.doc-prose thead {
+  background: var(--brand-50);
+}
+
+.doc-prose th,
+.doc-prose td {
+  padding: 0.5rem 0.65rem;
+  border: 1px solid var(--gray-100);
+  text-align: left;
+  vertical-align: top;
+}
+
+.doc-prose th {
+  font-weight: 700;
+  color: var(--gray-900);
+  white-space: nowrap;
+}
+
+.doc-prose td a {
+  word-break: break-all;
+}
+
+.doc-prose input[type='checkbox'] {
+  margin-right: 0.35rem;
+  accent-color: var(--brand-600);
+}

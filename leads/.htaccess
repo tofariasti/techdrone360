@@ -1,8 +1,44 @@
-# Prospecção interna — não acessível via HTTP (mesmo se a pasta for enviada ao servidor)
-<IfModule mod_authz_core.c>
-  Require all denied
+# TechDrone360 — área comercial interna (senha HTTP)
+# Configure o AuthUserFile no servidor — ver SETUP-AUTH.md
+
+AuthType Basic
+AuthName "TechDrone360 — Comercial"
+AuthUserFile "/home/SEU_USUARIO/.htpasswd-techdrone360-leads"
+Require valid-user
+
+DirectoryIndex index.html
+Options -Indexes +FollowSymLinks
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /leads/
+
+  # Garante index.html ao acessar /leads/ (ou após login na raiz do diretório)
+  RewriteRule ^$ index.html [L]
 </IfModule>
-<IfModule !mod_authz_core.c>
-  Order deny,allow
-  Deny from all
+
+# Fonte Markdown — leitura via HTML gerado (npm run build:leads)
+<FilesMatch "\.md$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order deny,allow
+    Deny from all
+  </IfModule>
+</FilesMatch>
+
+# Impede acesso direto ao arquivo de senhas (se estiver nesta pasta)
+<Files ".htpasswd">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order deny,allow
+    Deny from all
+  </IfModule>
+</Files>
+
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow"
 </IfModule>

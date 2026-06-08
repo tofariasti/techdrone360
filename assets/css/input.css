@@ -38,7 +38,7 @@
   }
 
   .social-card {
-    @apply group flex items-center gap-4 rounded-2xl p-6 text-white shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2;
+    @apply flex items-center gap-4 rounded-2xl p-6 text-white shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2;
   }
 
   .social-card--instagram {
@@ -62,7 +62,11 @@
   }
 
   .social-card__cta {
-    @apply ml-auto shrink-0 rounded-full bg-white/20 px-4 py-2 text-sm font-semibold transition group-hover:bg-white/30;
+    @apply ml-auto shrink-0 rounded-full bg-white/20 px-4 py-2 text-sm font-semibold transition;
+  }
+
+  .social-card:hover .social-card__cta {
+    @apply bg-white/30;
   }
 
   .social-btn-icon {

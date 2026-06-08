@@ -1,5 +1,10 @@
 # Templates de e-mail por nicho (TechDrone360)
 
+> **Quando usar:** lead **sem WhatsApp** ou canal preferencial é e-mail.  
+> **Antes:** tente WhatsApp pela [lista principal](leads-whatsapp-poa.md).  
+> **Apresentação:** troque “Sou o Tiago” por “Sou [nome], equipe comercial da TechDrone360”.  
+> **Mapa:** [COMECE-AQUI.md](COMECE-AQUI.md)
+
 Use estes modelos como base e personalize com: **nome da empresa**, **gancho real** (site, Instagram, tipo de imóvel/obra/espaço), **bairro/cidade** e **objetivo comercial**.
 
 **Padrão (alinhado a `emails-personalizados-porto-alegre.md`):**

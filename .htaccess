@@ -12,7 +12,9 @@
   RewriteCond %{HTTPS} off
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
-  RewriteRule ^leads(/.*)?$ - [F,L]
+  # /leads → /leads/ (abre index.html via DirectoryIndex em leads/.htaccess)
+  RewriteRule ^leads$ /leads/ [R=301,L]
+
   RewriteRule ^scripts(/.*)?$ - [F,L]
   RewriteRule ^node_modules(/.*)?$ - [F,L]
 </IfModule>

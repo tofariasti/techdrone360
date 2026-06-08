@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Leads — TechDrone360 Comercial</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="comercial.css" />
+</head>
+<body class="doc-page">
+  <nav class="doc-bar" aria-label="Navegação do documento">
+    <div class="doc-bar__inner">
+      <a class="doc-bar__back" href="index.html">← Índice comercial</a>
+      <a class="doc-bar__site" href="https://techdrone360.com.br/" target="_blank" rel="noopener noreferrer">Site</a>
+    </div>
+  </nav>
+  <article class="wrap doc-prose">
+<h1 id="leads-área-comercial-interna">Leads — área comercial interna</h1>
+<p>Material de prospecção para a equipe comercial. <strong>Não indexado</strong> no site público.</p>
+<p><strong>Em produção:</strong> <code>https://techdrone360.com.br/leads/</code> (senha HTTP) · <strong>Hub:</strong> <a href="index.html">index.html</a></p>
+<hr>
+<h2 id="para-a-vendedora-por-onde-começar">Para a vendedora — por onde começar</h2>
+<table>
+<thead>
+<tr>
+<th>Ordem</th>
+<th>Arquivo</th>
+<th>Função</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>1</strong></td>
+<td><a href="COMECE-AQUI.html">COMECE-AQUI.md</a></td>
+<td>Mapa: o que fazer, ordem de leitura, fluxo do dia</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td><a href="cheat-sheet-vendas.html">cheat-sheet-vendas.md</a></td>
+<td>Uso <strong>diário</strong> no celular</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td><a href="leads-whatsapp-poa.html">leads-whatsapp-poa.md</a></td>
+<td>Lista de trabalho (~86 leads, POA + 150 km)</td>
+</tr>
+<tr>
+<td>Expansão</td>
+<td><a href="leads-raio-150km-poa.html">leads-raio-150km-poa.md</a></td>
+<td>Catálogo por cidade/zona (Serra, litoral, interior)</td>
+</tr>
+<tr>
+<td>Consulta</td>
+<td><a href="faq-vendas.html">faq-vendas.md</a></td>
+<td>Perguntas do cliente + respostas</td>
+</tr>
+<tr>
+<td>Consulta</td>
+<td><a href="guia-vendas-comercial.html">guia-vendas-comercial.md</a></td>
+<td>Manual completo (4 partes)</td>
+</tr>
+<tr>
+<td>1x/semana</td>
+<td><a href="concorrentes-captacao-poa.html">concorrentes-captacao-poa.md</a></td>
+<td>Pesquisa de mercado</td>
+</tr>
+<tr>
+<td><strong>Só Tiago</strong></td>
+<td><a href="precificacao-servicos.html">precificacao-servicos.md</a></td>
+<td>Como precificar: custos, RETA, mercado, piso</td>
+</tr>
+<tr>
+<td>E-mail</td>
+<td><a href="template-email-por-nicho.html">template-email-por-nicho.md</a> + <code>emails-personalizados-*.md</code></td>
+<td>Quando não houver WhatsApp</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="estrutura-dos-documentos">Estrutura dos documentos</h2>
+<pre><code>index.html ..................... Hub visual (abrir no navegador)
+COMECE-AQUI.md ................. Porta de entrada (ler 1º)
+cheat-sheet-vendas.md .......... Cola do dia a dia
+faq-vendas.md .................. FAQ — perguntas do cliente
+guia-vendas-comercial.md ....... Manual (Partes I–IV + referência)
+concorrentes-captacao-poa.md ... Mercado e concorrentes
+precificacao-servicos.md ....... Precificação interna (Tiago)
+leads-whatsapp-poa.md .......... Lista principal de prospecção (~86)
+leads-raio-150km-poa.md ........ Catálogo 150 km (zonas + novos leads)
+leads-porto-alegre.md .......... Leads e-mail (17)
+leads-expansao-poa-regiao.md ... Leads e-mail expansão (~30)
+template-email-por-nicho.md .... Modelos de e-mail
+emails-personalizados-*.md ..... Exemplos prontos
+SETUP-AUTH.md .................. Senha do servidor (só Tiago)
+</code></pre>
+<hr>
+<h2 id="manutenção-tiago">Manutenção (Tiago)</h2>
+<table>
+<thead>
+<tr>
+<th>Ação</th>
+<th>Comando</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Regenerar HTML após editar <code>.md</code></td>
+<td><code>npm run build:leads</code></td>
+</tr>
+<tr>
+<td>Deploy</td>
+<td>Ver <a href="../DEPLOY-HOSTINGER.md">DEPLOY-HOSTINGER.md</a></td>
+</tr>
+<tr>
+<td>Senha da área</td>
+<td><a href="SETUP-AUTH.html">SETUP-AUTH.md</a></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th><code>.md</code></th>
+<th><code>.html</code></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="COMECE-AQUI.html"><code>COMECE-AQUI.html</code></a></td>
+<td><code>COMECE-AQUI.html</code></td>
+</tr>
+<tr>
+<td><a href="cheat-sheet-vendas.html"><code>cheat-sheet-vendas.html</code></a></td>
+<td><code>cheat-sheet-vendas.html</code></td>
+</tr>
+<tr>
+<td><a href="guia-vendas-comercial.html"><code>guia-vendas-comercial.html</code></a></td>
+<td><code>guia-vendas-comercial.html</code></td>
+</tr>
+<tr>
+<td><a href="concorrentes-captacao-poa.html"><code>concorrentes-captacao-poa.html</code></a></td>
+<td><code>concorrentes-captacao-poa.html</code></td>
+</tr>
+<tr>
+<td><a href="precificacao-servicos.html"><code>precificacao-servicos.html</code></a></td>
+<td><code>precificacao-servicos.html</code></td>
+</tr>
+<tr>
+<td><code>leads-*.md</code></td>
+<td><code>leads-*.html</code></td>
+</tr>
+<tr>
+<td><a href="template-email-por-nicho.html"><code>template-email-por-nicho.html</code></a></td>
+<td><code>template-email-por-nicho.html</code></td>
+</tr>
+<tr>
+<td><code>emails-personalizados-*.md</code></td>
+<td><code>.html</code> correspondente</td>
+</tr>
+</tbody></table>
+<p>A pasta <code>scripts/</code> do projeto <strong>não</strong> vai para o servidor (403).</p>
+
+  </article>
+</body>
+</html>

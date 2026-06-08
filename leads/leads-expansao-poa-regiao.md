@@ -1,8 +1,10 @@
 # Leads adicionais — Porto Alegre e região metropolitana
 
+> **WhatsApp:** muitos destes estão em [leads-whatsapp-poa.md](leads-whatsapp-poa.md) · **150 km (Serra/litoral):** [leads-raio-150km-poa.md](leads-raio-150km-poa.md) · **E-mails prontos:** [emails-personalizados-expansao-poa-regiao.md](emails-personalizados-expansao-poa-regiao.md) · **Mapa:** [COMECE-AQUI.md](COMECE-AQUI.md)
+
 Gerado em: 2026-05-27
 
-Objetivo: ampliar prospecção com **e-mails publicados em site oficial** (ou página de contato indexada). Validar antes de disparar em massa.
+E-mails publicados em site oficial. Validar antes de disparar.
 
 **Já na lista principal** (`leads-porto-alegre.md`): não repetir Barcellos, Realize, Florença, Heimdall, 4T, Cidade, Diâmetro, Milão, Umbu, Intercity Cidade Baixa, Hilton, Casa Nossa, Party House, Dibasi, Casa Vetro, Siga Turismo.
 

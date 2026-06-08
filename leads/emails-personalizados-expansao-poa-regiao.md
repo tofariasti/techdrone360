@@ -1,6 +1,8 @@
 # E-mails personalizados — expansão POA e região
 
-Baseado na lista de `leads-expansao-poa-regiao.md`.
+> **Lista:** [leads-expansao-poa-regiao.md](leads-expansao-poa-regiao.md) · **Modelos:** [template-email-por-nicho.md](template-email-por-nicho.md) · **Mapa:** [COMECE-AQUI.md](COMECE-AQUI.md)
+
+Baseado na lista de expansão.
 
 **Padrão:** gancho por empresa, objeção **drone x Google Street View**, referências (Auxiliadora Predial, Ápice Incorporadora, Clipes Imóveis), entregáveis e prazo no 1º contato, site no corpo, portfólio, WhatsApp, ANAC/DECEA (SARPAS quando necessário), **emissão de nota fiscal pelo serviço de captação contratado** e CTA **Responda SIM**.
 

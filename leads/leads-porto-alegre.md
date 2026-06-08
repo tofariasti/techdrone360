@@ -1,8 +1,10 @@
 # Leads para prospecção por e-mail (Porto Alegre e região)
 
+> **Preferir WhatsApp:** [leads-whatsapp-poa.md](leads-whatsapp-poa.md) · **E-mails prontos:** [emails-personalizados-porto-alegre.md](emails-personalizados-porto-alegre.md) · **Mapa:** [COMECE-AQUI.md](COMECE-AQUI.md)
+
 Gerado em: 2026-05-27
 
-Objetivo: primeiro contato comercial para serviços de captação de imagens aéreas (foto e vídeo com drone).
+Use quando **não houver WhatsApp** ou o canal oficial for e-mail.
 
 ## Imobiliárias
 

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Configurar senha HTTP — TechDrone360 Comercial</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="comercial.css" />
+</head>
+<body class="doc-page">
+  <nav class="doc-bar" aria-label="Navegação do documento">
+    <div class="doc-bar__inner">
+      <a class="doc-bar__back" href="index.html">← Índice comercial</a>
+      <a class="doc-bar__site" href="https://techdrone360.com.br/" target="_blank" rel="noopener noreferrer">Site</a>
+    </div>
+  </nav>
+  <article class="wrap doc-prose">
+<h1 id="configurar-senha-http-pasta-leads">Configurar senha HTTP — pasta <code>leads/</code></h1>
+<p>A área comercial fica em <code>https://techdrone360.com.br/leads/</code> e exige <strong>usuário + senha</strong> (HTTP Basic Auth).</p>
+<p>Execute estes passos <strong>uma vez</strong> após subir a pasta <code>leads/</code> para o servidor.</p>
+<hr>
+<h2 id="opção-a-hpanel-mais-simples-na-hostinger">Opção A — hPanel (mais simples na Hostinger)</h2>
+<ol>
+<li><strong>Websites</strong> → <strong>Manage</strong> → <strong>File Manager</strong> → confirme que existe <code>public_html/leads/</code>.</li>
+<li>No hPanel, procure <strong>Password Protect Directories</strong> / <strong>Proteger diretório</strong> (às vezes em <strong>Advanced</strong> ou <strong>Segurança</strong>).</li>
+<li>Selecione a pasta <code>leads</code> (ou <code>public_html/leads</code>).</li>
+<li>Crie um usuário e senha para a equipe comercial.</li>
+<li>O hPanel gera o <code>.htaccess</code> e o <code>.htpasswd</code> automaticamente.</li>
+</ol>
+<p>Se o hPanel <strong>substituir</strong> o <code>.htaccess</code> da pasta <code>leads/</code>, abra o arquivo no File Manager e confira que existem estas linhas (senão <code>/leads/</code> não abre o hub):</p>
+<pre><code class="language-apache">DirectoryIndex index.html
+Options -Indexes
+
+&lt;IfModule mod_rewrite.c&gt;
+  RewriteEngine On
+  RewriteBase /leads/
+  RewriteRule ^$ index.html [L]
+&lt;/IfModule&gt;
+</code></pre>
+<p>Cole <strong>abaixo</strong> do bloco de autenticação que o hPanel criou (<code>AuthType</code>, <code>AuthUserFile</code>, etc.).</p>
+<hr>
+<h2 id="opção-b-manual-htpasswd-editar-htaccess">Opção B — Manual (<code>.htpasswd</code> + editar <code>.htaccess</code>)</h2>
+<h3 id="1-gerar-o-arquivo-de-senhas-no-mac">1. Gerar o arquivo de senhas (no Mac)</h3>
+<pre><code class="language-bash">./scripts/generate-leads-htpasswd.sh comercial
+</code></pre>
+<p>O script pede a senha e grava em <code>.htpasswd-techdrone360-leads</code> na raiz do projeto (arquivo ignorado pelo Git).</p>
+<h3 id="2-enviar-htpasswd-para-fora-de-public_html">2. Enviar <code>.htpasswd</code> para <strong>fora</strong> de <code>public_html</code></h3>
+<p>No File Manager ou FTP:</p>
+<ul>
+<li>Caminho recomendado: <code>/home/SEU_USUARIO/.htpasswd-techdrone360-leads</code></li>
+<li><strong>Não</strong> deixe o arquivo acessível por URL pública.</li>
+</ul>
+<p>Para descobrir <code>SEU_USUARIO</code>: no File Manager, o caminho costuma aparecer como <code>/home/u123456789/domains/techdrone360.com.br/public_html</code> — o usuário é o <code>u123456789</code>.</p>
+<h3 id="3-editar-leads-htaccess-no-servidor">3. Editar <code>leads/.htaccess</code> no servidor</h3>
+<p>Substitua a linha <code>AuthUserFile</code> pelo caminho <strong>absoluto</strong> real:</p>
+<pre><code class="language-apache">AuthUserFile &quot;/home/u123456789/.htpasswd-techdrone360-leads&quot;
+</code></pre>
+<h3 id="4-testar">4. Testar</h3>
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Resultado esperado</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>https://techdrone360.com.br/leads/</code> sem login</td>
+<td>Janela de usuário/senha (401)</td>
+</tr>
+<tr>
+<td>Com credenciais corretas</td>
+<td>Abre o hub <code>index.html</code></td>
+</tr>
+<tr>
+<td><code>https://techdrone360.com.br/scripts/</code></td>
+<td><strong>403</strong> (continua bloqueado)</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="adicionar-ou-trocar-usuário">Adicionar ou trocar usuário</h2>
+<pre><code class="language-bash"># Novo usuário (cria arquivo)
+./scripts/generate-leads-htpasswd.sh nome_usuario
+
+# Segundo usuário (append — use htpasswd -b no servidor ou rode o script com APPEND=1)
+htpasswd -b /caminho/.htpasswd-techdrone360-leads outro_usuario &#39;senha_forte&#39;
+</code></pre>
+<p>Envie o <code>.htpasswd</code> atualizado para o servidor.</p>
+<hr>
+<h2 id="segurança">Segurança</h2>
+<ul>
+<li>Use senha forte (12+ caracteres).</li>
+<li>Compartilhe credenciais só com quem precisa (equipe comercial).</li>
+<li>Troque a senha se alguém sair da equipe.</li>
+<li>O <code>robots.txt</code> já bloqueia <code>/leads/</code> para buscadores; a senha é camada extra.</li>
+</ul>
+
+  </article>
+</body>
+</html>

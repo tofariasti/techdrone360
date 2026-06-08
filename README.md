@@ -170,7 +170,7 @@ Plano **Single** ou **Premium** — guia completo: **[DEPLOY-HOSTINGER.md](DEPLO
 
 Após publicar, teste os botões de WhatsApp no celular.
 
-A pasta **`leads/`** é só para uso local (prospecção por e-mail). **Não publique** em produção; o `.htaccess` na raiz bloqueia `/leads/` no Apache caso a pasta seja enviada por engano.
+A pasta **`leads/`** é a **área comercial interna** (prospecção, guias, listas). Em produção fica em `/leads/` com **senha HTTP** — configure com [leads/SETUP-AUTH.md](leads/SETUP-AUTH.md). O `robots.txt` impede indexação; `scripts/` continua bloqueado (403).
 
 ## Checklist antes do ar
 
@@ -184,7 +184,8 @@ A pasta **`leads/`** é só para uso local (prospecção por e-mail). **Não pub
 - [ ] Personalizar `sobre`, `depoimentos` e `faq` em `config.js`
 - [ ] `npm run build:seo` após alterar FAQ em `config.js` (gera HTML + `og-social.jpg`)
 - [ ] Imagem `assets/images/hero-poster.jpg` (hero) e `og-social.jpg` (compartilhamento 1200×630)
-- [ ] `.htaccess` na raiz do servidor; pasta `leads/` fora de `public_html` (ou teste 403 em `/leads/`)
+- [ ] Pasta `leads/` em `public_html` com senha HTTP configurada ([SETUP-AUTH.md](leads/SETUP-AUTH.md))
+- [ ] Teste: `/leads/` pede login; `/scripts/` retorna 403
 
 ## Licença
 
