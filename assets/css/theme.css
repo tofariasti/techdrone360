@@ -3,6 +3,19 @@
 :root {
   --font-display: 'Plus Jakarta Sans', Inter, system-ui, sans-serif;
   --hero-glow: rgba(232, 149, 106, 0.35);
+
+  --brand-50: #fdf6f1;
+  --brand-100: #fae8dc;
+  --brand-200: #f5d5c4;
+  --brand-300: #f0c4a8;
+  --brand-400: #e8a078;
+  --brand-500: #e8956a;
+  --brand-600: #d97b4a;
+  --brand-700: #b85f32;
+
+  --dark-900: #0a0f14;
+  --dark-800: #111827;
+  --dark-700: #1f2937;
 }
 
 body {
@@ -103,12 +116,12 @@ video.hero__media,
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--brand-400);
+  color: var(--brand-100);
   line-height: 1.4;
 }
 
 .hero-eyebrow__sep {
-  opacity: 0.65;
+  opacity: 0.85;
 }
 
 .hero-eyebrow::before {
