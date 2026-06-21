@@ -33,9 +33,42 @@
   },
   "hero": {
     "eyebrow": "Professional drone",
-    "titleMain": "Aerial drone <span class=\"hero-title__highlight\">photos & video</span>",
+    "titleMain": "Aerial <span class=\"hero-title__highlight\">photos & video</span> with drone",
     "titleAccent": "in <span data-cidade-hero>Porto Alegre and region</span>",
     "lead": "Real estate, Airbnb, parks, hotels, construction and events — aerial capture that shows the place authentically and strengthens your marketing.",
-    "tagline": "See the result before you decide."
-  }
+    "tagline": "See the result before you decide.",
+    "ctaPrimary": "I want a quote now",
+    "ctaSecondary": "Watch aerial videos",
+    "statPro": "Pro",
+    "statQuality": "High quality",
+    "statEquipment": "Equipment",
+    "statDrone": "DJI drone",
+    "statAerial": "Aerial view",
+    "whatsappFast": "Fast reply on WhatsApp",
+    "checkBefore": "Check before hiring:",
+    "explore": "Explore",
+    "scrollAria": "Scroll to services"
+  },
+  "body": {
+    "proofVideos": "Aerial videos",
+    "proofVideosSub": "Cinematic impact",
+    "proofPhotos": "Aerial photos",
+    "proofPhotosSub": "Exclusive angles",
+    "proofInvoice": "Official invoice",
+    "proofInvoiceSub": "Formal business",
+    "proofRegion": "POA region",
+    "proofRegionSub": "Local service",
+    "servicesEyebrow": "What I can do for you",
+    "servicesTitle": "Services that transform how your project is perceived",
+    "servicesLead": "Each service is designed to spark curiosity, highlight differentiators and make buying or hiring easier.",
+    "servicePhotosTitle": "Aerial photos",
+    "servicePhotosText": "Highlight land, facades and surroundings like your client has never seen.",
+    "serviceVideoTitle": "Aerial videos",
+    "serviceVideoText": "Cinematic shots that grab attention in the first seconds.",
+    "serviceRealEstateTitle": "Properties and developments",
+    "serviceRealEstateText": "Sell faster by showing location, size and area potential.",
+    "requestQuote": "Request a quote →",
+    "viewPortfolio": "View portfolio →"
+  },
+  "configOverlayFile": "config-overlay-en.json"
 }

@@ -36,6 +36,39 @@
     "titleMain": "Fotos y videos <span class=\"hero-title__highlight\">aéreos</span> con dron",
     "titleAccent": "en <span data-cidade-hero>Porto Alegre y región</span>",
     "lead": "Inmuebles, Airbnb, parques, hoteles, obras y eventos — captación aérea que muestra el lugar con autenticidad y refuerza su difusión.",
-    "tagline": "Vea el resultado antes de decidir."
-  }
+    "tagline": "Vea el resultado antes de decidir.",
+    "ctaPrimary": "Quiero un presupuesto ahora",
+    "ctaSecondary": "Ver videos aéreos",
+    "statPro": "Pro",
+    "statQuality": "Alta calidad",
+    "statEquipment": "Equipamiento",
+    "statDrone": "Dron DJI",
+    "statAerial": "Vista aérea",
+    "whatsappFast": "Respuesta rápida por WhatsApp",
+    "checkBefore": "Confira antes de contratar:",
+    "explore": "Explorar",
+    "scrollAria": "Desplazar a servicios"
+  },
+  "body": {
+    "proofVideos": "Videos aéreos",
+    "proofVideosSub": "Impacto cinematográfico",
+    "proofPhotos": "Fotos aéreas",
+    "proofPhotosSub": "Ángulos exclusivos",
+    "proofInvoice": "Factura oficial",
+    "proofInvoiceSub": "Empresa formal",
+    "proofRegion": "Región POA",
+    "proofRegionSub": "Atención local",
+    "servicesEyebrow": "Qué puedo hacer por usted",
+    "servicesTitle": "Servicios que transforman la percepción de su proyecto",
+    "servicesLead": "Cada servicio fue pensado para generar curiosidad, destacar diferenciales y facilitar la decisión de compra o contratación.",
+    "servicePhotosTitle": "Fotos aéreas",
+    "servicePhotosText": "Destaque terrenos, fachadas y entorno como el cliente nunca vio.",
+    "serviceVideoTitle": "Videos aéreos",
+    "serviceVideoText": "Tomas cinematográficas que captan la atención en los primeros segundos.",
+    "serviceRealEstateTitle": "Inmuebles y loteos",
+    "serviceRealEstateText": "Venda más rápido mostrando ubicación, metraje y potencial del área.",
+    "requestQuote": "Solicitar presupuesto →",
+    "viewPortfolio": "Ver portafolio →"
+  },
+  "configOverlayFile": "config-overlay-es.json"
 }

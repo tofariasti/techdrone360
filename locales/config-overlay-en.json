@@ -1,0 +1,124 @@
+{
+  "whatsappMensagem": "Hi! I saw TechDrone360 and would like a quote.\n\nTo speed things up:\n1. Service type: (property / Airbnb / park / hotel / construction / event / business / inspection / other)\n2. Needed: (photos / video / photos + video)\n3. Capture location (city and address or reference):\n4. Desired date or period:\n5. Notes or references (optional):\n\nThank you!",
+  "cidadeRegiao": "Porto Alegre and the entire metropolitan area",
+  "cidadeHero": "Porto Alegre and region",
+  "notaFiscalTitulo": "Official invoice",
+  "notaFiscalCurto": "Official invoice",
+  "notaFiscalDetalhe": "Formal service for companies, real estate agencies and clients who need fiscal documentation for payment.",
+  "sobre": {
+    "titulo": "Who does the captures",
+    "subtitulo": "Aerial imagery specialist in the Porto Alegre metropolitan area",
+    "texto": "I capture professional aerial photos and videos with DJI drone for real estate, construction companies, businesses and events. Each project is planned per location, goal and flight conditions — focused on images that sell, inform and impress.",
+    "destaques": [
+      "Professional captures with DJI Mini 3",
+      "Portfolio with real developments in the region",
+      "Direct contact via WhatsApp"
+    ]
+  },
+  "comoFunciona": {
+    "titulo": "How it works",
+    "subtitulo": "Simple process, from first contact to material delivery",
+    "passos": [
+      {
+        "tipo": "contato",
+        "titulo": "You get in touch",
+        "texto": "Message me on WhatsApp and tell me what you need"
+      },
+      {
+        "tipo": "alinhamento",
+        "titulo": "We align the goal",
+        "texto": "We define location, capture type, duration and format"
+      },
+      {
+        "tipo": "decea",
+        "titulo": "Flight authorization (SARPAS / DECEA)",
+        "texto": "Every outdoor capture is reviewed on the map and, when required by law, I request SARPAS authorization. In some locations this takes days — date is only confirmed after approval.",
+        "destaque": true,
+        "link": {
+          "label": "SARPAS — DECEA",
+          "url": "https://servicos.decea.mil.br/sarpas"
+        }
+      },
+      {
+        "tipo": "captura",
+        "titulo": "I capture the images",
+        "texto": "Aerial photos and videos with safety and planning"
+      },
+      {
+        "tipo": "edicao",
+        "titulo": "Editing",
+        "texto": "As agreed: edited material or raw files"
+      },
+      {
+        "tipo": "entrega",
+        "titulo": "Material delivery",
+        "texto": "You receive files in the agreed format"
+      }
+    ]
+  },
+  "destaqueStreetView": {
+    "eyebrow": "Frequent question",
+    "titulo": "Why hire drone capture instead of Google Street View?",
+    "intro": "Street View helps locate an address on the street. Anyone booking, buying or visiting wants to feel the place — for property, Airbnb, park, hotel, event or tourist destination.",
+    "ctaTexto": "I want a capture quote"
+  },
+  "restricoesVoo": {
+    "eyebrow": "Safety and regulations",
+    "titulo": "Where is drone flight prohibited or restricted?",
+    "intro": "Not every address allows aerial capture. Before scheduling, I verify the location on the map, ANAC and DECEA rules (including SARPAS authorization when needed). This avoids surprises on filming day."
+  },
+  "faq": [
+    {
+      "pergunta": "How much does a drone capture cost?",
+      "resposta": "Price depends on location, material type (photos, video or package), complexity and delivery timeline. Send details via WhatsApp for a personalized quote, no commitment."
+    },
+    {
+      "pergunta": "What do you consider when preparing a quote?",
+      "resposta": "I review the address and service type (property, construction, event or business), number of photos and/or videos, editing needs, area size, travel, SARPAS/DECEA authorization requirements, delivery timeline and invoice needs. With that I send a clear proposal via WhatsApp."
+    },
+    {
+      "pergunta": "How long until I receive photos and videos?",
+      "resposta": "High-resolution photos are usually delivered within a few business days after capture. Edited videos follow the timeline agreed in the quote — typically 3 to 10 business days depending on editing complexity."
+    },
+    {
+      "pergunta": "Do you only serve Porto Alegre?",
+      "resposta": "Focus is Porto Alegre and the entire metropolitan area (Canoas, Gravataí, Viamão, Novo Hamburgo, among others). For other cities in RS, check availability via WhatsApp."
+    },
+    {
+      "pergunta": "Is drone flight legal? Where can you not fly?",
+      "resposta": "Yes, when planned per regulations. Some locations are prohibited or restricted (airports, military areas, over crowds, bad weather, etc.). See the \"Where flying is restricted\" section on this page and include the exact address in your quote request so I can validate the location beforehand."
+    },
+    {
+      "pergunta": "Who is responsible for complying with drone regulations?",
+      "resposta": "Client and operator share responsibility. You provide accurate location info, property/event authorizations and cooperate with rescheduling when needed; I plan and execute flights per ANAC, DECEA (SARPAS when applicable) and airspace rules, respecting altitude limits, distance from people and approved flight areas. Both parties must comply."
+    },
+    {
+      "pergunta": "Can I request capture for tomorrow or same day?",
+      "resposta": "Often not. When the address requires SARPAS authorization, the process can take days. The sooner you send the address and service type, the better the chance of confirming date and time without surprises."
+    },
+    {
+      "pergunta": "What if DECEA does not authorize flight at my address?",
+      "resposta": "Capture is not performed without authorization when it is required. I seek alternatives: another day, a permitted angle, or an honest indication that the location does not allow flight at that time. Financial terms follow what was agreed in the quote."
+    },
+    {
+      "pergunta": "What if it rains or is very windy on the scheduled day?",
+      "resposta": "Operation safety comes first. If weather does not allow flight, we reschedule at no extra cost, by mutual agreement."
+    },
+    {
+      "pergunta": "Why hire drone footage if I can use Google Street View images?",
+      "resposta": "Street View helps locate an address on the street — not sell an experience. With a drone you show property, Airbnb, park, hotel or event as they are today: surroundings, scale, feel of the place, photos and video for ads and social media."
+    },
+    {
+      "pergunta": "Does it work for Airbnb, Booking or park/destination promotion?",
+      "resposta": "Yes. For lodging, guests want to see the property and surroundings — street, view, access and neighborhood feel — not just interior photos. For parks, resorts and attractions, aerial video shows scale, leisure areas and differentiators a ground photo cannot convey."
+    },
+    {
+      "pergunta": "Can I use the images on real estate portals and ads?",
+      "resposta": "Yes. Use for promoting your property, Airbnb, hotel, park, construction or business is agreed in the quote. For broad campaigns or extended licensing, we detail it in the proposal."
+    },
+    {
+      "pergunta": "Do you issue official invoices?",
+      "resposta": "Yes. Formal service for companies, real estate agencies and clients who need an official invoice for payment."
+    }
+  ]
+}
