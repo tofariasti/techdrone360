@@ -21,6 +21,10 @@
     return `${base}/${path.replace(/^\//, '')}`;
   }
 
+  function isI18nBuilt() {
+    return document.documentElement.dataset.i18nBuilt === 'true';
+  }
+
   function applyConfig() {
     const cidade = config.cidadeRegiao || '';
     const modelo = config.modeloDji || '';
@@ -77,12 +81,12 @@
     });
 
     const titleEl = document.querySelector('title');
-    if (titleEl && cidade) {
+    if (!isI18nBuilt() && titleEl && cidade) {
       titleEl.textContent = `TechDrone360 | Fotos e vídeos aéreos com drone em ${cidade}`;
     }
 
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc && cidade) {
+    if (!isI18nBuilt() && metaDesc && cidade) {
       metaDesc.setAttribute(
         'content',
         `Captação aérea profissional com drone DJI para imóveis, obras, eventos e empresas em ${cidade}. Solicite orçamento pelo WhatsApp.`
@@ -90,7 +94,7 @@
     }
 
     const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) {
+    if (!isI18nBuilt() && ogTitle) {
       ogTitle.setAttribute('content', `TechDrone360 | Fotos e vídeos aéreos em ${cidade}`);
     }
 
@@ -120,7 +124,7 @@
     if (ogHeightEl) ogHeightEl.setAttribute('content', String(ogH));
 
     const ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc && cidade) {
+    if (!isI18nBuilt() && ogDesc && cidade) {
       ogDesc.setAttribute(
         'content',
         `Captação aérea profissional com drone DJI para imóveis, obras, eventos e empresas em ${cidade}.`
@@ -128,7 +132,7 @@
     }
 
     const twitterTitle = document.querySelector('meta[name="twitter:title"]');
-    if (twitterTitle && cidade) {
+    if (!isI18nBuilt() && twitterTitle && cidade) {
       twitterTitle.setAttribute('content', `TechDrone360 | Drone em ${cidade}`);
     }
   }

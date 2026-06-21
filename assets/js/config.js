@@ -505,6 +505,21 @@ Obrigado!`,
   youtubeVideosJson: 'assets/data/videos-youtube.json',
 };
 
+function deepMerge(target, source) {
+  if (!source || typeof source !== 'object') return target;
+  for (const [key, value] of Object.entries(source)) {
+    if (value && typeof value === 'object' && !Array.isArray(value) && typeof target[key] === 'object' && target[key] && !Array.isArray(target[key])) {
+      deepMerge(target[key], value);
+    } else {
+      target[key] = value;
+    }
+  }
+  return target;
+}
+
 if (typeof window !== 'undefined') {
+  if (window.TechDroneLocaleOverlay) {
+    deepMerge(TechDroneConfig, window.TechDroneLocaleOverlay);
+  }
   window.TechDroneConfig = TechDroneConfig;
 }

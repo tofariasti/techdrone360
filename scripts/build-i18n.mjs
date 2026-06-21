@@ -150,6 +150,62 @@ function applyNavAndHero(html, pt, locale) {
   return out;
 }
 
+function applyBodyCopy(html, pt, locale) {
+  if (!locale.body) return html;
+  const b = locale.body;
+  const pairs = [
+    ['Quero um orçamento agora', locale.hero?.ctaPrimary ?? 'Quero um orçamento agora'],
+    ['Ver vídeos aéreos', locale.hero?.ctaSecondary ?? 'Ver vídeos aéreos'],
+    ['>Alta qualidade<', `>${locale.hero?.statQuality ?? 'Alta qualidade'}<`],
+    ['>Equipamento<', `>${locale.hero?.statEquipment ?? 'Equipamento'}<`],
+    ['>Drone DJI<', `>${locale.hero?.statDrone ?? 'Drone DJI'}<`],
+    ['>Visão aérea<', `>${locale.hero?.statAerial ?? 'Visão aérea'}<`],
+    ['Resposta rápida no WhatsApp', locale.hero?.whatsappFast ?? 'Resposta rápida no WhatsApp'],
+    ['Confira antes de contratar:', locale.hero?.checkBefore ?? 'Confira antes de contratar:'],
+    ['>Explorar<', `>${locale.hero?.explore ?? 'Explorar'}<`],
+    ['aria-label="Rolar para serviços"', `aria-label="${locale.hero?.scrollAria ?? 'Rolar para serviços'}"`],
+    ['>Vídeos aéreos<', `>${b.proofVideos}<`],
+    ['>Impacto cinematográfico<', `>${b.proofVideosSub}<`],
+    ['>Fotos aéreas<', `>${b.proofPhotos}<`],
+    ['>Ângulos exclusivos<', `>${b.proofPhotosSub}<`],
+    ['>Nota fiscal<', `>${b.proofInvoice}<`],
+    ['>Empresa formal<', `>${b.proofInvoiceSub}<`],
+    ['>Região POA<', `>${b.proofRegion}<`],
+    ['>Atendimento local<', `>${b.proofRegionSub}<`],
+    ['O que posso fazer por você', b.servicesEyebrow],
+    ['Serviços que transformam a percepção do seu projeto', b.servicesTitle],
+    ['Cada serviço foi pensado para gerar curiosidade, destacar diferenciais e facilitar a decisão de compra ou contratação.', b.servicesLead],
+    ['Destaque terrenos, fachadas e entorno como o cliente nunca viu.', b.servicePhotosText],
+    ['Tomadas cinematográficas que prendem atenção nos primeiros segundos.', b.serviceVideoText],
+    ['Venda mais rápido mostrando localização, metragem e potencial da área.', b.serviceRealEstateText],
+    ['Solicitar orçamento →', b.requestQuote],
+    ['Ver portfólio →', b.viewPortfolio],
+  ];
+
+  let out = html;
+  for (const [from, to] of pairs) {
+    if (to) out = out.split(from).join(to);
+  }
+
+  // Service card titles (order matters — after longer strings)
+  out = out.replace('>Fotos aéreas</h3>', `>${b.servicePhotosTitle}</h3>`);
+  out = out.replace('>Vídeos aéreos</h3>', `>${b.serviceVideoTitle}</h3>`);
+  out = out.replace('>Imóveis e loteamentos</h3>', `>${b.serviceRealEstateTitle}</h3>`);
+
+  return out;
+}
+
+function injectConfigOverlay(html, locale) {
+  if (!locale.configOverlayFile || locale.id === 'pt') {
+    return html.replace(/\s*<script>window\.TechDroneLocaleOverlay[\s\S]*?<\/script>\n?/g, '');
+  }
+  const overlayPath = join(root, 'locales', locale.configOverlayFile);
+  const overlay = readFileSync(overlayPath, 'utf8');
+  const script = `<script>window.TechDroneLocaleOverlay = ${overlay};</script>`;
+  html = html.replace(/\s*<script>window\.TechDroneLocaleOverlay[\s\S]*?<\/script>\n?/g, '');
+  return html.replace('<script src="assets/js/config.js"></script>', `${script}\n  <script src="assets/js/config.js"></script>`);
+}
+
 function absolutizeAssetPaths(html) {
   return html
     .replace(/href="assets\//g, 'href="/assets/')
@@ -195,7 +251,9 @@ let baseHtml = readFileSync(sourcePath, 'utf8');
 for (const locale of locales) {
   let html = baseHtml;
   html = applyNavAndHero(html, ptStrings, locale);
+  html = applyBodyCopy(html, ptStrings, locale);
   html = replaceMeta(html, locale);
+  html = injectConfigOverlay(html, locale);
   html = injectHreflang(html, locales);
   html = injectLangSwitcher(html, locale.id, locales);
   html = html.replace(/\s*<meta property="og:locale:alternate" content="[^"]*" \/>/g, '');
