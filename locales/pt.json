@@ -1,0 +1,41 @@
+{
+  "lang": "pt-BR",
+  "hreflang": "pt-BR",
+  "pathPrefix": "",
+  "meta": {
+    "title": "TechDrone360 | Fotos e vídeos aéreos com drone em Porto Alegre e região",
+    "description": "Captação aérea profissional com drone DJI para imóveis, obras, eventos e empresas em Porto Alegre e toda a região metropolitana. Solicite orçamento pelo WhatsApp.",
+    "ogTitle": "TechDrone360 | Fotos e vídeos aéreos com drone em Porto Alegre",
+    "ogDescription": "Captação aérea profissional com drone DJI para imóveis, obras, eventos e empresas em Porto Alegre e região metropolitana.",
+    "twitterTitle": "TechDrone360 | Fotos e vídeos aéreos com drone",
+    "twitterDescription": "Drone profissional para imóveis, obras e empresas em Porto Alegre e região. Orçamento pelo WhatsApp.",
+    "ogImageAlt": "Captação aérea profissional com drone — TechDrone360",
+    "heroImageAlt": "Captação aérea profissional com drone DJI — TechDrone360 em Porto Alegre"
+  },
+  "nav": {
+    "ariaMain": "Menu principal",
+    "ariaHome": "TechDrone360 — Início",
+    "inicio": "Início",
+    "servicos": "Serviços",
+    "portfolio": "Portfólio",
+    "videos": "Vídeos",
+    "equipamento": "Equipamento",
+    "ondeVoar": "Onde voar",
+    "sobre": "Sobre",
+    "clientes": "Clientes",
+    "faq": "FAQ",
+    "orcamento": "Orçamento",
+    "solicitarOrcamento": "Solicitar orçamento",
+    "redesSociais": "Redes sociais",
+    "comoFunciona": "Como funciona",
+    "abrirMenu": "Abrir menu",
+    "langGroup": "Idioma"
+  },
+  "hero": {
+    "eyebrow": "Drone profissional",
+    "titleMain": "Fotos e vídeos <span class=\"hero-title__highlight\">aéreos</span> com drone",
+    "titleAccent": "em <span data-cidade-hero>Porto Alegre e região</span>",
+    "lead": "Imóveis, Airbnb, parques, hotéis, obras e eventos — captação aérea que mostra o lugar de verdade e fortalece sua divulgação.",
+    "tagline": "Veja o resultado antes de decidir."
+  }
+}
