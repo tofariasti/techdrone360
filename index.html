@@ -193,6 +193,10 @@
     <link rel="alternate" hreflang="en" href="https://techdrone360.com.br/en/" data-i18n="true" />
     <link rel="alternate" hreflang="es" href="https://techdrone360.com.br/es/" data-i18n="true" />
     <link rel="alternate" hreflang="x-default" href="https://techdrone360.com.br/" data-i18n="true" />
+    <link rel="alternate" hreflang="pt-BR" href="https://techdrone360.com.br/" data-i18n="true" />
+    <link rel="alternate" hreflang="en" href="https://techdrone360.com.br/en/" data-i18n="true" />
+    <link rel="alternate" hreflang="es" href="https://techdrone360.com.br/es/" data-i18n="true" />
+    <link rel="alternate" hreflang="x-default" href="https://techdrone360.com.br/" data-i18n="true" />
     <meta property="og:locale:alternate" content="en_US" />
     <meta property="og:locale:alternate" content="es_ES" />
 </head>
@@ -219,16 +223,6 @@
           <li><a href="#faq" class="site-nav__link">FAQ</a></li>
         </ul>
         <div class="site-nav__actions">
-          <div class="lang-switch" role="group" aria-label="Idioma">
-            <a href="/" hreflang="pt-BR" class="lang-switch__link lang-switch__link--active" aria-current="page">PT</a>
-            <a href="/en/" hreflang="en" class="lang-switch__link">EN</a>
-            <a href="/es/" hreflang="es" class="lang-switch__link">ES</a>
-          </div>
-          <div class="lang-switch" role="group" aria-label="Idioma">
-            <a href="/" hreflang="pt-BR" class="lang-switch__link lang-switch__link--active" aria-current="page">PT</a>
-            <a href="/en/" hreflang="en" class="lang-switch__link">EN</a>
-            <a href="/es/" hreflang="es" class="lang-switch__link">ES</a>
-          </div>
           <div class="site-nav__social" aria-label="Redes sociais">
             <a href="#" data-instagram class="site-nav__social-btn site-nav__social-btn--ig" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
@@ -241,10 +235,19 @@
         </div>
       </div>
 
+      <div class="site-nav__header-actions">
+        <!-- build:lang-switch -->
+          <div class="lang-switch" role="group" aria-label="Idioma">
+            <a href="/" hreflang="pt-BR" class="lang-switch__link lang-switch__link--active" aria-current="page">PT</a>
+            <a href="/en/" hreflang="en" class="lang-switch__link">EN</a>
+            <a href="/es/" hreflang="es" class="lang-switch__link">ES</a>
+          </div>
+          <!-- /build:lang-switch -->
       <button id="menu-toggle" type="button" class="site-nav__toggle lg:hidden" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
         <svg id="icon-menu-open" class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
         <svg id="icon-menu-close" class="hidden h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
       </button>
+      </div>
     </nav>
 
     <div id="mobile-menu" class="site-nav__mobile hidden lg:hidden">
@@ -307,8 +310,9 @@
           <span class="hero-title__line hero-title__line--main">
             Fotos e vídeos <span class="hero-title__highlight">aéreos</span> com drone
           </span> com drone
+          </span> com drone
           </span>
-          <span class="hero-title__line hero-title__line--accent">em <span data-cidade-hero>Porto Alegre e região</span></span></span>
+          <span class="hero-title__line hero-title__line--accent">em <span data-cidade-hero>Porto Alegre e região</span></span></span></span>
         </h1>
         <p class="hero-lead animate-in delay-2">
           Imóveis, Airbnb, parques, hotéis, obras e eventos — captação aérea que mostra o lugar de verdade e fortalece sua divulgação.

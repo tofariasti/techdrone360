@@ -98,12 +98,16 @@ function buildLangSwitcher(activeId, locales) {
 
 function injectLangSwitcher(html, activeId, locales) {
   const switcher = buildLangSwitcher(activeId, locales);
+  html = html.replace(/\s*<div class="lang-switch"[\s\S]*?<\/div>\n/g, '');
   if (html.includes('<!-- build:lang-switch -->')) {
-    return html.replace(/<!-- build:lang-switch -->[\s\S]*?<!-- \/build:lang-switch -->/, `<!-- build:lang-switch -->\n          ${switcher}\n          <!-- /build:lang-switch -->`);
+    return html.replace(
+      /<!-- build:lang-switch -->[\s\S]*?<!-- \/build:lang-switch -->/,
+      `<!-- build:lang-switch -->\n          ${switcher}\n          <!-- /build:lang-switch -->`,
+    );
   }
   return html.replace(
-    '<div class="site-nav__social" aria-label="Redes sociais">',
-    `${switcher}\n          <div class="site-nav__social" aria-label="Redes sociais">`,
+    '<div class="site-nav__social"',
+    `${switcher}\n          <div class="site-nav__social"`,
   );
 }
 
