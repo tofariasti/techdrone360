@@ -139,12 +139,13 @@ function applyNavAndHero(html, pt, locale) {
   }
 
   out = out.replace(
-    /<span class="hero-title__line hero-title__line--main">[\s\S]*?<\/span>/,
-    `<span class="hero-title__line hero-title__line--main">\n            ${locale.hero.titleMain}\n          </span>`,
-  );
-  out = out.replace(
-    /<span class="hero-title__line hero-title__line--accent">[\s\S]*?<\/span>/,
-    `<span class="hero-title__line hero-title__line--accent">${locale.hero.titleAccent}</span>`,
+    /<h1 class="hero-title[^"]*">[\s\S]*?<\/h1>/,
+    `<h1 class="hero-title animate-in delay-1">
+          <span class="hero-title__line hero-title__line--main">
+            ${locale.hero.titleMain}
+          </span>
+          <span class="hero-title__line hero-title__line--accent">${locale.hero.titleAccent}</span>
+        </h1>`,
   );
   out = out.replace(
     /<p class="hero-lead animate-in delay-2">[\s\S]*?<\/p>/,
