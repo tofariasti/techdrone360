@@ -1048,6 +1048,8 @@ video.hero__media,
 }
 
 .site-nav {
+  container-type: inline-size;
+  container-name: site-nav;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1085,7 +1087,6 @@ video.hero__media,
 
 .site-nav__desktop {
   display: none;
-  flex: 1;
   align-items: center;
   justify-content: flex-end;
   gap: 0.75rem;
@@ -1366,9 +1367,10 @@ video.hero__media,
 @media (min-width: 1536px) {
   .site-nav {
     display: grid;
-    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-columns: auto minmax(0, 1fr) auto auto;
     align-items: center;
-    gap: 0.75rem 1.25rem;
+    gap: 0.75rem 1rem;
+    max-width: 80rem;
   }
 
   .site-nav__brand {
@@ -1376,23 +1378,37 @@ video.hero__media,
     margin-right: 0;
   }
 
+  /* Flatten desktop wrapper so links/actions get their own grid columns */
   .site-nav__desktop {
-    display: flex !important;
+    display: contents;
+  }
+
+  .site-nav__links {
     grid-column: 2;
+    justify-self: end;
+    max-width: 100%;
     min-width: 0;
   }
 
-  .site-nav__header-actions {
+  .site-nav__actions {
     grid-column: 3;
+    padding-left: 0.75rem;
+    border-left: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .site-header.header--scrolled .site-nav__actions {
+    border-left-color: rgba(0, 0, 0, 0.08);
+  }
+
+  .site-nav__header-actions {
+    grid-column: 4;
     margin-left: 0;
   }
 
   .site-nav__toggle {
     display: none !important;
   }
-}
 
-@media (min-width: 1536px) and (max-width: 1679px) {
   .site-nav__link {
     padding: 0.4rem 0.55rem;
     font-size: 0.75rem;
@@ -1405,6 +1421,30 @@ video.hero__media,
   .site-nav__cta {
     padding: 0.45rem 0.75rem;
     font-size: 0.8125rem;
+  }
+}
+
+/* Roomier link spacing when the nav container is wide enough */
+@container site-nav (min-width: 68rem) {
+  .site-nav__link {
+    padding: 0.45rem 0.65rem;
+    font-size: 0.8125rem;
+  }
+
+  .site-nav__links {
+    gap: 0.0625rem;
+  }
+}
+
+/* Fallback: keep hamburger if inline nav would still crowd the logo (zoom / narrow container) */
+@container site-nav (max-width: 62rem) {
+  .site-nav__links,
+  .site-nav__actions {
+    display: none !important;
+  }
+
+  .site-nav__toggle {
+    display: flex !important;
   }
 }
 
